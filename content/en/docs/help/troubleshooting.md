@@ -9,22 +9,22 @@ images: []
 menu: 
   docs:
     parent: "help"
-weight: 620
+weight: 220
 toc: true
 ---
 
-## Problems updating npm packages
+## Login
 
-Delete the `./node_modules` folder, and run again:
+If you cannot login, follow these steps:
 
-```bash
-npm install
-```
+1. Check the information is correct
+2. Check the registration has been completed (see sec. 4.1).
 
-## Problems with cache
+## The comorbidity tabs are disabled
 
-Delete the temporary directories:
+The comorbidity specific tabs can be activated by ticking the comorbidities in Medical History (see sec. 4.5.1).
 
-```bash
-npm run clean
-```
+Also a shortcut is featured to select the conditions:
+
+1. Click on the orange button at the lower right corner of the tab (see Figure 275)
+2. A tab appears. Tick the conditions and click on ACCEPT (see Figure 276).
