@@ -1,1 +1,2 @@
-canonifyURLs = false
+canonifyURLs = true
+baseurl = https://smartbear-unimi.github.io/sb-ui-doc/
