@@ -32,16 +32,23 @@ The Recruitment process is particularly stressed in this guide, because it inclu
 3. General Assessment, including: medical history, physical examinations, life habits, medications and
 diet supplements
 4. Assessment of specific comorbidities
-5. Device allocation [FAQ]({{< ref "/docs/help/faq.md" >}} "FAQ")
+5. Device allocation
 
 The Dashboard also provides functionalities to monitor the patients conditions, based on clinical data from
 SMART BEAR, and also from the HOLOBalance and Smart4Health training.
+
+## Esempio di come mettere link
+
+- In questo modo puoi mettere un riferimento a un'altra pagina all'interno del sito: [FAQ]({{< ref "/docs/help/faq.md" >}} "FAQ")
+- Questo invece è un esempio di link esterno dove c'è la doc di HUGO [LINK ESTERNO](https://gohugo.io/content-management/cross-references/)
+
+<!-- Devo vedere come mettere dei riferimenti alle immagini, ma ci si può lavorare successivamente -->
 
 ## Esempio di come mettere immagini
 
 ### Inserimento tramite shortcodes
 
-{{< figure class="responsive-figure" title="Figure 1: Differences between markdown figures and figure shortcode" src="images/red-panda.jpg" alt="Screenshot of a web page with an aqua theme" caption="For a figure caption can be different than alt text" >}}
+{{< figure class="responsive-figure" src="images/red-panda.jpg" alt="Screenshot of a web page with an aqua theme" caption="Figure 1: For a figure caption can be different than alt text" >}}
 
 ### Inserimento tramite Markdown
 
