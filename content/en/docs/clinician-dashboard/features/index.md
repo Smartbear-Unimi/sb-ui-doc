@@ -14,6 +14,10 @@ weight: 110
 The Home page is shown in Figure 1 and is the first element showing up to the user. The Home page displays
 an overview of the statistics related to the managed patients (see Figure 2)
 
+{{< figure class="responsive-figure" src="Pictures/Pic_1.png" alt="Screenshot of a web page with an aqua theme" caption="Figure 1: The Home page >}}
+
+![Image](Pictures/Pic_2.png "Diagrams on the dashboard")
+
 A sidebar is visible on the left, It contains the following buttons:
 
 - Home. It redirects to the Home page (see Sec. 3.2.1)
