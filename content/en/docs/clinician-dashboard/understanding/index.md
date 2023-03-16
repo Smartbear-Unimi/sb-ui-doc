@@ -21,13 +21,11 @@ from the daily activities of the patients participating to the project. The Dash
 different sources including: the Baseline Assessment, the physiological parameters and activity-related data
 transmitted from the devices, the responses to and scores of questionnaires.
 
-1. An overview of the Dashboard pages is provided in Sec. 3.2
-2. An overview of the aggregated clinical data, including physiological parameters, responses to
-questionnaires, is shown in the Home page (see Sec. 3.2.1)
-3. A clinician can manage his/her patients during all the phases of the monitoring from the Baseline
-Assessment, through the data collection phase to the 6-months check-up visits (see Sec. 4.3, 4.4, 4.5,
-4.6)
-4. Rule-based interventions for Cardiovascular diseases can be created (see Sec. 4.7)
-5. Analytics can be created and run (see Sec. 4.8)
-6. Clinicians can receive notifications about the managed patients patients (see Sec. 4.9)
-7. The users can create and manage GDPR-related requests, for their patients (see Sec. 4.10).
+1. An overview of the Dashboard pages is provided in [Features]({{< ref "/docs/clinician-dashboard/features/index.md" >}} "Features")
+2. An overview of the aggregated clinical data, including physiological parameters, responses to questionnaires, is shown in the Home page (see [Features]({{< ref "/docs/clinician-dashboard/features/index.md" >}} "Features"))
+3. A clinician can manage his/her patients during all the phases of the monitoring from the Baseline Assessment, through the data collection phase to the 6-months check-up visits (see [Patient Registration]({{< ref "/docs/operating/patient-registration/index.md" >}} "Patient Registration"), [Exclusion Criteria]({{< ref "/docs/operating/exclusion-criteria/index.md" >}} "Exclusion Criteria"), [Baseline Assessment]({{< ref "/docs/operating/baseline-assessment/index.md" >}} "Baseline Assessment"),
+[Patient Management]({{< ref "/docs/operating/patient-management/index.md" >}} "Patient management"))
+4. Rule-based interventions for Cardiovascular diseases can be created (see [Interventions]({{< ref "/docs/operating/interventions/index.md" >}} "Interventions"))
+5. Analytics can be created and run (see [Analytics]({{< ref "/docs/operating/analytics/index.md" >}} "Analytics"))
+6. Clinicians can receive notifications about the managed patients patients (see [Inbox]({{< ref "/docs/operating/inbox/index.md" >}} "Inbox"))
+7. The users can create and manage GDPR-related requests, for their patients (see [GDPR]({{< ref "/docs/operating/gdpr/index.md" >}} "GDPR")).

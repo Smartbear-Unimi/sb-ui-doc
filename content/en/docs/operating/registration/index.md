@@ -20,7 +20,7 @@ Click on the Create Account button in the Login form (see [Figure 1]({{< ref "#P
 
 <figure id="Pic_1" class="centered-figure">
 <img src="images/Pic_1.png" alt="login">
-<figcaption style="text-align:center">Figure 1. The form for logging and registering.</figcaption>
+<figcaption style="text-align:center">Figure 1. The form for logging and registering</figcaption>
 </figure>
 
 <figure id="Pic_1a" class="centered-figure">
