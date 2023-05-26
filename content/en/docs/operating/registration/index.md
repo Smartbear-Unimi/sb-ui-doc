@@ -61,7 +61,7 @@ that appears (see [Figure 6]({{< ref "#Pic_5" >}} "Figure 6")):
 After inserting the requested information click on the reCAPTCHA button then click on Privacy Policy . After completing the previous step click on the Register button.
 
 <figure id="Pic_30" class="centered-figure">
-<img src="images/Pic_30.png" alt="login">
+<img src="npimages/Pic_30.png" alt="login">
 <figcaption style="text-align:center">Figure 6.  Read the privacy policy</figcaption>
 </figure>
 
