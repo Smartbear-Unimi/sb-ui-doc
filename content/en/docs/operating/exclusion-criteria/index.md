@@ -14,100 +14,108 @@ weight: 150
 toc: true
 ---
 
-## General
+## Intro
 
-After a patient is accepted click on the __+ASSESSMENT__ button  and a new Assessment is
-generated.
+In order to the include or exclude a patient from SMART BEAR, start the clinical assessment by administering the MoCA and the Dexterity (from the Health Utilities Index 3). The steps to begin the clinical assessment are the following:
+
+1.	Click on +ASSESSMENT (see figure ) and a new Assessment is generated. 
+2.	Click on SHOW (see Figure ) and the Exclusion Criteria tab appears (see Figure ), otherwise click on DELETE to cancel the Assessment.
+
 
 <figure id="Pic_56" >
-<img src="images/Pic_56a.png" alt="Patient">
-<figcaption style="text-align:center">Figure 1. </figcaption>
-</figure>
-
-Click on the __SHOW__ button and the Medical History tab appears, where data from the General
-Assessment can be inserted, saved and modified. This tab is divided into the following tabs:
-
-- __General Info__. It can be filled with data on comorbities
-- __Life Habits__. It can be filled with data on Life Habits
-- __Physical Examinations__. It can be filled with data from the physical examinations
-- __Medications__. It can be used to create, save, edit and delete the medications
-- __Diet supplements__. It can be used to create, save, edit and delete the diet supplements
-- __Questionnaires__. It contains the questionnaires to be administered in the General Assessment, i.e in all
-cases.
-
-<figure id="Pic_57" >
-<img src="images/Pic_57.png" alt="Patient">
+<img src="images/Pic_56.png" alt="Patient">
 <figcaption style="text-align:center">Figure  </figcaption>
 </figure>
 
-In order to assess the assess the exclusion criteria and deem a patient eligible, open the MoCA and the
-Dexterity questionnaire in the Questionnaires tab, according to the steps in the following steps.
+
+<figure id="Pic_57" >
+<img src="images/Pic_56.png" alt="Patient">
+<figcaption style="text-align:center">Figure  </figcaption>
+</figure>
 
 ### Dexterity
 
+
 Follow the steps below to fill the Dexterity question:
+1.	Click on +ADD (see figure ). The questionnaire description appears (see figure )
+2.	Click on NEXT (see figure ) to open the questionnaire, where the question and the response options are provided (see Figure )
+3.	Click on the responses given by the user then click on SAVE to complete the procedure and save the data.
+After saving the response, the Dexterity score appears in the Assessment tab (see Figure ).
 
-1. Click on the +ADD button. The questionnaire description appears
-
-<figure id="Pic_58" >
-<img src="images/Pic_58.png" alt="Patient">
-<figcaption style="text-align:center">Figure  </figcaption>
-</figure>
-
-2. Click on the NEXT button. The questionnaire tab appears 
 
 <figure id="Pic_59" >
 <img src="images/Pic_59.png" alt="Patient">
-<figcaption style="text-align:center">Figure 1. </figcaption>
+<figcaption style="text-align:center">Figure  </figcaption>
 </figure>
 
-3. Click on the responses given by the user then click on the SAVE button to complete the procedure and
-save the data .
+
 
 <figure id="Pic_60" >
 <img src="images/Pic_60.png" alt="Patient">
 <figcaption style="text-align:center">Figure 1. </figcaption>
 </figure>
 
-After saving the response, the Dexterity score appears in the Assessment tab.
+
+
+<figure id="Pic_60a" >
+<img src="images/Pic_60a.png" alt="Patient">
+<figcaption style="text-align:center">Figure  </figcaption>
+</figure>
 
 ### Montreal Cognitive Assessment (MoCA)
 
 Follow the steps below to fill the MoCA questionnaire:
 
-1. Click on the +ADD button and the questionnaire description appears 
+1.	Click on ADD button (see Figure )  to open questionnaire description (see Figure )
+2.	Click on NEXT to open the questionnaire (see Figure ), to open the questionnaire, where the questions and the response options are provided 
+3.	Click on the responses given by the user to each question. The score is calculated automatically at the bottom of the tab as it is shown in and the threshold value for diagnosing a Cognitive Disorder is reported (see Figure )
+4.	Click on SAVE button (see Figure ). 
+
+After saving the responses, the MoCA score appears in the Assessment tab (see Figure  ).
+
 
 <figure id="Pic_61" >
 <img src="images/Pic_61.png" alt="Patient">
 <figcaption style="text-align:center">Figure  </figcaption>
 </figure>
 
-2. Click on the NEXT button to proceed. The questionnaire tab appears 
-
-<figure id="Pic_62" >
-<img src="images/Pic_62.png" alt="Patient">
-<figcaption style="text-align:center">Figure </figcaption>
-</figure>
-
-
-3. Click on the responses given by the user to each question. The score is calculated automatically at the
-bottom of the tab as it is shown in and the threshold value for diagnosing a Cognitive Disorder is reported
 
 <figure id="Pic_63" >
 <img src="images/Pic_63.png" alt="Patient">
 <figcaption style="text-align:center">Figure </figcaption>
 </figure>
 
-4. Click on the SAVE button.
 
 <figure id="Pic_64" >
 <img src="images/Pic_64.png" alt="Patient">
 <figcaption style="text-align:center">Figure </figcaption>
 </figure>
 
-After saving the responses, the MoCA score appears in the Assessment tab.
 
 <figure id="Pic_65" >
 <img src="images/Pic_65.png" alt="Patient">
+<figcaption style="text-align:center">Figure </figcaption>
+</figure>
+
+
+
+### Acceptation
+
+After completing the Dexterity and the MoCA, the following cases can happen:
+1.	If the patient matches the exclusion criteria, a green popup appears (see Figure ), click on ACCEPT to accept the patient, otherwise click on CANCEL (see Figure ). If the patient is NOT accepted, all data related to him/her must be deleted according to GDPR. 
+2.	If the patient does NOT match the exclusion criteria, an orange popup appears (see Figure ), which shows a warning message. In this case click on DON’T EXCLUDE to accept the patient anyway, otherwise click on EXCLUDE. If the patient is NOT accepted, all data related to him/her must be deleted according to GDPR.
+
+
+An alternative mechanism to accept a patient is to go back to the Patients page and click on EDIT and change the patient’s status to ACTIVE (see Section ). 
+
+<figure id="Pic_66" >
+<img src="images/Pic_66.png" alt="Patient">
+<figcaption style="text-align:center">Figure </figcaption>
+</figure>
+
+
+
+<figure id="Pic_67" >
+<img src="images/Pic_67.png" alt="Patient">
 <figcaption style="text-align:center">Figure </figcaption>
 </figure>

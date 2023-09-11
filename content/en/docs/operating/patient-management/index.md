@@ -16,127 +16,98 @@ toc: true
 
 ## Search
 
-The user can search a patient in the Patient page either by:
-
-1. Clicking on the < (left) and > (right) buttons that are displayed on the lower right corner in the tab.
-(see Figure 209)
-2. Typing the patient id in the search bar on top of the tab. (see Figure 210).
+To search a patient in the Patient page the user can:
+1.	Click on the < (left) and > (right) buttons in the lower right corner in the tab. (see Figure )
+2.	Type the patient id in the search bar on top of the tab. (see Figure ).
 
 {{< alert icon="👉" context="info" text="Typing the id in the search box is much faster !" />}}
 
-In each row of the Patients tab the user can click on the following buttons that are shown in Figure 211, each
-redirecting to an element:
+In each row of the Patients tab the user can click on the following buttons (see Figure ):
 
-- __SHOW__. It redirects to the Patient tab (see sec. 4.5) where the following buttons appear on the left:
-  - __OVERVIEW__. It redirects to the Overview page (see sec. 4.3.2)
-  - __DEMOGRAPHICS__. It redirects to the Demographics page (see sec. 4.3.3)
-  - __DEVICES MANAGEMENT__. It redirects to the Demographics page (see sec. 4.6.2)
-  - __ID MANAGEMENT__. It redirects to the ID Management page (see sec. 4.6.3)
-- __EDIT__. In order to modify a patient, the user must click on the EDIT button and the Modify Patient
-form will appear (see Figure 212). (see sec. 4.6.1). In addition, it is possible to modify the status of
-recruitment, e.g ACTIVE or WITHDRAWN.
+•	SHOW. It opens the Patient tab (see sec. ) where the following buttons appear on the left:
+o	OVERVIEW which opens Overview page (see sec. )
+o	DEMOGRAPHICS which opens the Demographics page (see sec. )
+o	DEVICES MANAGEMENT which opens the Devices page (see sec. )
+o	ID MANAGEMENT which opens the ID Management page, where the patient IDs are recorded that are assigned in the HOLOBalance and Smart4Health projects (see sec. ).
+•	EDIT. It opens the Modify Patient form (see Figure ), where the user can modify the status of a patient in a project. For example, the status: ACTIVE means the patient has been accepted, the status: WITHDRAWN means the patient has chosen to leave the SMART BEAR. (see sec. )
 
-Click on the __SHOW__ button and the patient file appears. Here with the following activities can be carried out:
 
-- Assign and manage the devices (see sec. 4.6.2)
-- ID Management (see sec.4.6.3)
-- Manage the Clinical data from: SMART BEAR, Smart4Health and HOLOBalance (see sec. 4.6.4)
-- Create and manage the Interventions (see sec. 4.6.5).
+## Patient editing
 
-## Editing
+To change the status of a patient after a dropout, follow the steps below:
 
-If a patient withdraws, or the Recruitment status is to update, follow the steps below:
+1.	Click on EDIT in the Patient’s page, (see Figure ) to open the Modify patient tab (see Figure )
+2.	Click on Recruitment status (see Figure ), select a value from the menu (in this case WITHDRAWN) (see Figure ).
+3.	Click on withdraw date (see Figure ), select a date from the calendar (see Figure ). 
 
-1. Click on the Recruitment status label (see Figure 213). A dropdown menu appears, select a value (in
-this case WITHDRAWN) (see Figure 214 and Figure 215)
-2. Click on withdraw date, select a date from the calendar (see Figure 216)
+When the edit is done, click on MODIFY PATIENT (see Figure ) to save the data, otherwise click on CANCEL to discard them.
 
-When the modification is done, click on __MODIFY PATIENT__ to save the data, otherwise click on CANCEL to
-discard them (see Figure 217).
+The other available options for status are the following:
+•	PENDING. In this case the patient has not concluded the Baseline Assessment or has not been accepted yet
+•	ACCEPTED
+•	RISK OF EXCLUSION. In this case the exclusion is recommended, generally because the Medical History or the questionnaire scores highlight some issue. 
+
 
 ## Device Management
 
-Click on the DEVICE MANAGEMENT button and the Device tab appears (see Figure 218 and Figure 219).
-The Device Management tab allows the user to view, insert and modify the devices associated to a patient.
-Each device is visualized as record in the tab having the following attributes: Unique Identifier (a unique
-number identifying a device), Category (e.g. Smartphone, Smartwatch etc.) and Status (Active, Inactive or
-Suspended).
+Click on DEVICE MANAGEMENT (see Figure ) to open the Devices tab (see Figure ). Data concerning the devices and their status are saved here. A record can be generated for all the devices, and data include the following attributes: Unique Identifier (a unique number that is assigned to a device), Category (for example Smartphone, Smartwatch etc.) and Status (Active, Inactive or Suspended). 
 
-The tab also features the following buttons that are shown in Figure 220:
+The tab also features the following buttons (see ):
 
-- __+DEVICE__. It opens the Assign Device form that is meant for assigning a device to a patient
-- __EDIT__. It opens the Modify Device form that is meant for the user to modify a device
-- __DELETE__. It deletes a device
+•	+DEVICE. It opens the Assign Device form that is meant for assigning a device to a patient
+•	EDIT. It opens the Modify Device form that is meant for the user to modify a device 
+•	DELETE. It deletes a device
+
 
 Follow the steps below to assign a device:
 
-1. Click on +DEVICE. The Assign Device form will appear (see Figure 221). The form labels are shown in
-Figure 222
-2. Click on the Unique ID label and type the device ID (see Figure 223)
-3. Click on the Status label and select a value (Active, Inactive, Suspended) from the dropdown menu that
-appears (see Figure 224)
-4. Click on the Category type label and select a value from the dropdown menu that appears (see Figure
-225)
-5. Click on the Number label and type the number (see Figure 226)
-6. Click on CREATE DEVICE to save the data, otherwise click on the CANCEL button to discard them (see
-Figure 227).
+1.	Click on +DEVICE to open Assign Device form (see Figure ). 
+2.	Click the Unique ID and type the device ID 
+3.	Click on the Status (see Figure ), and select a value from the menu (see Figure 189)
+4.	Click on Category type (select Figure ), and select a value from the menu (see Figure )
+5.	Click on the Number and type the number 
+6.	Click on CREATE DEVICE to save the data, otherwise click on the CANCEL button to discard them (see Figure ).
 
-In order to modify a device, the user must click on the EDIT button that is shown in and the Modify Device
-form will appear that is shown. Click on the MODIFY DEVICE button to save the changes or on the
-CANCEL button to discard the modifications as it is shown in.
+
+To modify a device, click on EDIT (see Figure ) to open the Modify Device form. Click on MODIFY DEVICE to save the changes (see Figure ), otherwise click on CANCEL to discard the modifications.
 
 ## External Id Management
 
-Click on the ID MANAGEMENT button that is shown in Figure 229 and the ID Management tab appears that
-is shown in Figure 230 and allows the user to view, insert and modify the IDs that are assigned to a patient in
-the context of the synergies with other projects, e.g. HOLOBalance and (only for the PoP) Smart4Health. Each
-record of the External ID tab has the following attributes: Unique Identifier, i.e. the ID, the Scope
-(HOLOBalance), Smart4Health and HA vendor) and the status (Active, Inactive, Suspended).
+Click on ID MANAGEMENT (see Figure 195) to open the ID Management tab (see Figure ). The IDs are saved here that are assigned to a patient in the context of the synergies with other projects, e.g. HOLOBalance and (only for the PoP) Smart4Health. Each record of the External ID tab has the following attributes: Unique Identifier, i.e. the ID, the Scope (HOLOBalance, Smart4Health and HA vendor) and the status (Active, Inactive, Suspended).
 
-The following buttons are featured (see Figure 231):
+The following buttons are featured (see Figure ):
 
-- __+EXTERNAL ID__. It opens the Create External ID form that allows the user to assign an External ID
-- __EDIT__. It opens the Modify External ID form that allows the user to modify an External ID
-- __DELETE__. It deletes an External ID
+•	+EXTERNAL ID. It opens the Create External ID form that allows the user to assign an External ID
+•	EDIT. It opens the Modify External ID form that allows the user to modify an External ID
+•	DELETE. It deletes an External ID
+
 
 In order to create an External ID, follow the steps below:
 
-1. Click on the +EXTERNAL ID button. The form Create External ID appears (see Figure 232 and
-Figure 233). The form labels are shown in Figure 234
-2. Click on the Unique External ID field and type the Unique External ID (see Figure 235)
-3. Click on the Status field. A dropdown menu appears. Select a value (Active, Inactive, Suspended)
-(see Figure 236)
-4. Click on the Project field. A dropdown menu appears. Select a value (Holobalance, Smart4health, HA
-vendor) (see Figure 237)
-5. Click on the CREATE IDENTITY button to save the data, otherwise click on the CANCEL button to
-discard them (see Figure 238).
+1.	Click on +EXTERNAL ID (see Figure ) to open the Create External ID (see Figure ). 
+2.	Click on Unique External ID field and type the Unique External ID 
+3.	Click on Status and select a value from the menu (Active, Inactive, Suspended) (see Figure )
+4.	Click on Project and select a value from the menu (Holobalance, Smart4health, HA vendor) (see Figure )
+5.	Click on CREATE IDENTITY to save the data, otherwise click on CANCEL button to discard them (see Figure ).
 
-In order to modify an ID, click on the EDIT button and the Modify External ID form appears that is shown in
-Figure 239. Click on the UPDATE IDENTITY button to save the modification or on the CANCEL button to
-discard the modification as it is shown in Figure 240.
+
+To modify an ID, click on EDIT and the Modify External ID form appears that is shown in Figure . Click on UPDATE IDENTITY to save the edit or on the CANCEL button to discard it.
 
 ## Clinical Data
 
-Click on the CLINICAL DATA button in a patient’s tab and 3 tabs appear (see Figure 241):
-
-- __GENERAL__. The data are from the SMART BEAR cloud are shown here (see Figure 242)
-- __SMART4HEALTH__. Click on the SMART4HEALTH button. The data from the Smart4Health cloud
-are shown here if the patient is participating to the synergy with Smart4Health (see Figure 243)
-- __HOLOBALANCE__. Click on the HOLOBALANCE button. The data from the HOLOBalance cloud
-are shown here if the patient is participating to the synergy with HOLOBalance (see Figure 244).
+Click on the CLINICAL DATA button in a patient’s record and 3 tabs appear (see Figure ):
+•	GENERAL, which shows data from the SMART BEAR cloud (see Figure )
+•	SMART4HEALTH. Click on SMART4HEALTH to open the Smart4Health which shows data from Smart4Health (see Figure )
+•	HOLOBALANCE. Click on HOLOBALANCE to open the HOLOBalance tab, which shows data from HOLOBalance (see Figure ).
 
 ## Interventions Management
 
-Click on the INTERVENTIONS button in a patient’s tab and the Intervention tab appears (see Figure 245
-and Figure 246). All the interventions are shown as a record in the tab, and can be deleted. Rule-based
-Interventions can be created and managed for a patient in the case of CVDs. The parameters of an Intervention
-for CVDs are the following.:
+The Interventions are personalized messages that are delivered to a patient, according to the recorded value of his/her clinical data, and target specific comorbidities. The interventions are triggered based on thresholds, which are set by hand. The work is ongoing on Machine Learning algorithms that will suggest values to adjust the thresholds, based on the pattern a data time series has been following during the monitoring.
+Click on INTERVENTIONS (see Figure ) to open the Intervention tab (see Figure ). All the interventions are shown as a record in the tab, and can be deleted. Rule-based Interventions can be created and managed for a patient in the case of CVDs. The parameters of an Intervention for CVDs are the following:
 
-- Systolic BP Optimal Range
-- Systolic BP Extreme Range
-- Systolic BP Threshold
-- Diastolic BP Optimal Range
-- Diastolic BP Extreme Range
-- Diastolic BP Threshold
-
-Click on +INTERVENTION for creating a new Intervention (see sec. 4.7).
+•	Systolic BP Optimal Range
+•	Systolic BP Extreme Range
+•	Systolic BP Threshold
+•	Diastolic BP Optimal Range
+•	Diastolic BP Extreme Range
+•	Diastolic BP Threshold

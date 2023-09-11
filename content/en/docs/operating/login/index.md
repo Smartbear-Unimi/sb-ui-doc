@@ -14,8 +14,8 @@ weight: 130
 toc: true
 ---
 
-After completing the registration successfully, log in to the Dashboard by inserting your username and
-password in the Login form. After confirming you are not a robot by clicking on the reCaptha tab, click on Continue.
+After completing the registration successfully, log in to the Dashboard by inserting your username and password in the Login form (see Figure ). 
+Tick the reCaptha tab, click on Continue (see Figure ) to open the Home page (see sec. ).
 
 
 <figure id="Pic_31" class="centered-figure">
