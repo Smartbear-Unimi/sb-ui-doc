@@ -135,23 +135,31 @@ To fill the tab, click on EDIT. If you have completed the form correctly click o
 
 ### Medications
 
-The Medications tab is shown in Figure . The data concerning the medications are saved here, including the daily dose and intake frequency. Follow the steps below to fill it: 
+The Medications tab is shown in Figure 109. The data concerning the medications are saved here, including the daily dose and intake frequency. Follow the steps below to fill it:  
 
-1.	Click on +MEDICATION (see Figure ) to open the Medication tab (see Figure ).
-2.	Click on Medication. (see Figure ) Select a value from the menu (see Figure ). 
-3.	Click on Dose and type a value, or click on + or -  to increase or decrease the value. The dose amount must be complemented with the Unit of Measure
-4.	Click on Unit of Measure. (see Figure ).  Select a value from the menu. (see Figure )
-5.	If the medication is psychoactive, tick Psychoactive Medicine 
-6.	Click on Frequency. Type a value (see Figure). The amount must be complemented with the Period unit
-7.	Click on Period unit. (see Figure ).  Select a value from the menu (see Figure )
-8.	Click on Period. Type a value (see Figure )
-9.	Click on When. (see Figure ). Select if the medication is taken with meals or with bedtime (Figure )
-10.	Click on Dosage Direction. (see Figure ). Select a value from the menu (see Figure )
-11.	Select a date range, which is the duration of the prescription on the calendar. (see Figure )
-12.	Click on REGISTER to save the data, otherwise click on CANCEL to discard them (see Figure ).
+
+1. Click on the +MEDICATION button (see Figure 110). The Register medication tab appears (see Figure ). 
+2. Click on Medication. (see Figure 112) Type the medication name (see Figure ).  
+3. If the medication is psychoactive, tick Psychoactive Medicine 
+4. Click on Substance. Select the name of the active substance form the menu, or type it  
+5. Click on Dosage form. Select a value from the menu 
+6. Click on Dosage Direction. Select a value from the menu 
+7. Click on Dose and type a value, or click on the buttons to increase or decrease the value. The dose amount must be complemented with the Unit of Measure, and can have decimal digits 
+8. Click on Unit of Measure. (see Figure ).  Select a value from the menu. (see Figure ) 
+9. Click on Frequency. Type a value (see Errore. L'origine riferimento non è stata trovata.). The amount must be complemented with the Period unit 
+10. Click on Period unit. (see Figure ).  Select a value from the menu (see Figure ) 
+11. Click on Period. Type a value (see Figure ) 
+12. Click on When. (see Figure ). Select one or more values from the menu (Figure ) 
+13. Click on Days of the week.  (see Figure ). Select one or more values from the menu (see Figure ) 
+14. If you want to set more dosages, click on + and follow the steps from 6 to 10 again 
+15. Select a date range, which is the duration of the prescription on the calendar. (see Figure ) 
+16. Click on the REGISTER button to save the data, otherwise click on the CANCEL button to discard them (see Figure ). 
+
 
 
 After registering a medication, it appears as a new record in the Medications tab. Also two new buttons appear, EDIT and DELETE, which allow respectively to modify and delete the data in a record (see Figure ).
+
+
 
 ### Diet Supplements 
 
