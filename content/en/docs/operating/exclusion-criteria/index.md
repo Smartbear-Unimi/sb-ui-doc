@@ -22,15 +22,15 @@ In order to the include or exclude a patient from SMART BEAR, start the clinical
 2.	Click on SHOW and the Exclusion Criteria tab appears, otherwise click on DELETE to cancel the Assessment.
 
 
-<figure id="Pic_56" >
-<img src="images/Pic_56.png" alt="Patient">
-<figcaption style="text-align:center">Figure  </figcaption>
+<figure id="Pic_1a" >
+<img src="images/Pic_1a.PNG" alt="Patient">
+<figcaption style="text-align:center">Step 1</figcaption>
 </figure>
 
 
 <figure id="Pic_1" >
-<img src="content/en/docs/operating/exclusion-criteria/images/Pic_1.PNG" alt="Patient">
-<figcaption style="text-align:center">Figure 2.</figcaption>
+<img src="images/Pic_1.PNG" alt="Patient">
+<figcaption style="text-align:center">Step 2.</figcaption>
 </figure>
 
 ### Dexterity
@@ -38,28 +38,28 @@ In order to the include or exclude a patient from SMART BEAR, start the clinical
 
 Follow the steps below to fill the Dexterity question:
 1.	Click on +ADD. The questionnaire description appears 
-2.	Click on NEXT to open the questionnaire, where the question and the response options are provided 
-3.	Click on the responses given by the user then click on SAVE to complete the procedure and save the data.
+2.	Click on NEXT to open the questionnaire, where the question and the response options are visualized 
+3.	Click on the responses, then click on SAVE to complete the procedure and save the data.
 After saving the response, the Dexterity score appears in the Assessment tab.
+
+
+<figure id="Pic_57" >
+<img src="images/Pic_57.png" alt="Patient">
+<figcaption style="text-align:center">Step 1 </figcaption>
+</figure>
+
 
 
 <figure id="Pic_59" >
 <img src="images/Pic_59.png" alt="Patient">
-<figcaption style="text-align:center">Figure  </figcaption>
+<figcaption style="text-align:center"> Step 2 </figcaption>
 </figure>
 
 
 
 <figure id="Pic_60" >
 <img src="images/Pic_60.png" alt="Patient">
-<figcaption style="text-align:center">Figure 1. </figcaption>
-</figure>
-
-
-
-<figure id="Pic_60a" >
-<img src="images/Pic_60a.png" alt="Patient">
-<figcaption style="text-align:center">Figure  </figcaption>
+<figcaption style="text-align:center"> Step 3 </figcaption>
 </figure>
 
 ### Montreal Cognitive Assessment (MoCA)
@@ -74,27 +74,27 @@ Follow the steps below to fill the MoCA questionnaire:
 After saving the responses, the MoCA score appears in the Assessment tab.
 
 
+<figure id="Pic_60a" >
+<img src="images/Pic_60a.png" alt="Patient">
+<figcaption style="text-align:center">Step 1</figcaption>
+</figure>
+
+
 <figure id="Pic_61" >
-<img src="images/Pic_61.png" alt="Patient">
-<figcaption style="text-align:center">Figure  </figcaption>
+<img src="images/Pic_63.png" alt="Patient">
+<figcaption style="text-align:center"> Step 2 </figcaption>
 </figure>
 
 
 <figure id="Pic_63" >
 <img src="images/Pic_63.png" alt="Patient">
-<figcaption style="text-align:center">Figure </figcaption>
+<figcaption style="text-align:center">Step 3</figcaption>
 </figure>
 
 
 <figure id="Pic_64" >
 <img src="images/Pic_64.png" alt="Patient">
-<figcaption style="text-align:center">Figure </figcaption>
-</figure>
-
-
-<figure id="Pic_65" >
-<img src="images/Pic_65.png" alt="Patient">
-<figcaption style="text-align:center">Figure </figcaption>
+<figcaption style="text-align:center"> Step 4 </figcaption>
 </figure>
 
 
@@ -110,12 +110,12 @@ An alternative mechanism to accept a patient is to go back to the Patients page 
 
 <figure id="Pic_66" >
 <img src="images/Pic_66.png" alt="Patient">
-<figcaption style="text-align:center">Figure </figcaption>
+<figcaption style="text-align:center"> Step 1 </figcaption>
 </figure>
 
 
 
 <figure id="Pic_67" >
 <img src="images/Pic_67.png" alt="Patient">
-<figcaption style="text-align:center">Figure </figcaption>
+<figcaption style="text-align:center"> Step 2</figcaption>
 </figure>
