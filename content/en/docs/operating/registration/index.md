@@ -53,7 +53,7 @@ To require access plese insert the following details under the respective fields
 </figure>
 
 
-After inserting the requested information click on the reCAPTCHA button then click on Privacy Policy. After completing the previous step click on Register.
+After inserting the requested information click on the reCAPTCHA button then click on Privacy Policy and tick the checkbox. After completing the previous step click on Register.
 
 <figure id="image032" class="centered-figure">
 <img src="images/image032.png" alt="login">
