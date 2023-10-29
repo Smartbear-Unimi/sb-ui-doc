@@ -14,8 +14,7 @@ weight: 130
 toc: true
 ---
 
-After completing the registration successfully, log in to the Dashboard by inserting your username and password in the Login form (see Figure ). 
-Tick the reCaptha tab, click on Continue (see Figure ) to open the Home page (see sec. ).
+After completing the registration successfully, insert your username and password in the Login form then click on Sign in.
 
 
 <figure id="Pic_31" class="centered-figure">
