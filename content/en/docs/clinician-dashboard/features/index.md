@@ -18,14 +18,14 @@ an overview of the statistics related to the managed patients see [Figure 2]({{<
 
 <figure id="Pic_1" >
 <img src="images/Pic_1.png" alt="Home">
-<figcaption style="text-align:center">Figure 1. The Home page of the Dashboard</figcaption>
+<figcaption style="text-align:center">Figure 1. </figcaption>
 </figure>
 
 
 
 <figure id="Pic_2">
 <img src="images/Pic_2.png" alt="Home">
-<figcaption style="text-align:center">Figure 2. Diagrams in the Home page of the Dashboard</figcaption>
+<figcaption style="text-align:center">Figure 2. </figcaption>
 </figure>
 
 
@@ -46,14 +46,14 @@ from the dropdown menu (see [Figure 3]({{< ref "#Pic_3" >}} "Figure 3") and [Fig
 
 <figure id="Pic_3">
 <img src="images/Pic_3.png" alt="Home">
-<figcaption style="text-align:center">Figure 3. Click here to open the language menu</figcaption>
+<figcaption style="text-align:center">Figure 3. </figcaption>
 </figure>
 
 
 
 <figure id="Pic_4" class="centered-figure">
 <img src="images/Pic_4.png" alt="Home">
-<figcaption style="text-align:center">Figure 4. Select a language from the dropdown menu</figcaption>
+<figcaption style="text-align:center">Figure 4. </figcaption>
 </figure>
 
 
@@ -73,41 +73,40 @@ Each patients has a tab including his/her data that is shown in [Figure 7]({{< r
 
 <figure id="Pic_5">
 <img src="images/Pic_5.png" alt="Patient">
-<figcaption style="text-align:center">Figure 5. Click on the patients button</figcaption>
+<figcaption style="text-align:center">Figure 5. </figcaption>
 </figure>
 
 <figure id="Pic_6">
 <img src="images/Pic_6.png" alt="Patient">
-<figcaption style="text-align:center">Figure 6. The patients page</figcaption>
+<figcaption style="text-align:center">Figure 6. </figcaption>
 </figure>
 
 <figure id="Pic_7">
 <img src="images/Pic_7.png" alt="Patient">
-<figcaption style="text-align:center">Figure 7. A patient's record</figcaption>
+<figcaption style="text-align:center">Figure 7. </figcaption>
 </figure>
 
 ## Notebooks Page {#notebooks}
 
 Click on the Notebooks button. The Notebooks page appears (see [Figure 8]({{< ref "#Pic_8" >}} "Figure 8") and [Figure 9]({{< ref "#Pic_9" >}} "Figure 9")). The Notebooks page
 allows the user to create analytics by data from all the patients or a defined group of them and the data can be
-updated at any time (see [Figure 10]({{< ref "#Pic_10" >}} "Figure 10")). The creation of a notebook and Analytics is described in more detail in
-[Analytics]({{< ref "/docs/operating/analytics/index.md" >}} "Analytics").
+updated at any time (see [Figure 10]({{< ref "#Pic_10" >}} "Figure 10")). The creation of a notebook and Analytics is described in more detail in [Analytics]({{< ref "/docs/operating/analytics/index.md" >}} "Analytics").
 
 <figure id="Pic_8">
 <img src="images/Pic_8.png" alt="notebook">
-<figcaption style="text-align:center">Figure 8. Click on the Notebooks button</figcaption>
+<figcaption style="text-align:center">Figure 8. </figcaption>
 </figure>
 
 
 <figure id="Pic_9">
 <img src="images/Pic_9.png" alt="notebook">
-<figcaption style="text-align:center">Figure 9. The Notebooks page</figcaption>
+<figcaption style="text-align:center">Figure 9. </figcaption>
 </figure>
 
 
 <figure id="Pic_10">
 <img src="images/Pic_10.png" alt="notebook">
-<figcaption style="text-align:center">Figure 10. Analytics in a Notebook</figcaption>
+<figcaption style="text-align:center">Figure 10. </figcaption>
 </figure>
 
 ## Inbox Page {#inbox}
@@ -122,19 +121,19 @@ to the assisted patients if the user is an external CCM. More details on the Inb
 
 <figure id="Pic_11">
 <img src="images/Pic_11.png" alt="notebook">
-<figcaption style="text-align:center">Figure 11. Click on the Inbox button</figcaption>
+<figcaption style="text-align:center">Figure 11. </figcaption>
 </figure>
 
 
 <figure id="Pic_12">
 <img src="images/Pic_12.png" alt="notebook">
-<figcaption style="text-align:center">Figure 12. The Notifications tab</figcaption>
+<figcaption style="text-align:center">Figure 12. </figcaption>
 </figure>
 
 
 <figure id="Pic_13">
 <img src="images/Pic_13.png" alt="notebook">
-<figcaption style="text-align:center">Figure 13. The Subscriptions tab</figcaption>
+<figcaption style="text-align:center">Figure 13. </figcaption>
 </figure>
 
 
@@ -145,13 +144,13 @@ page allows the user to create requests regarding GDPR rights and visualize them
 
 <figure id="Pic_14">
 <img src="images/Pic_14.png" alt="gdpr">
-<figcaption style="text-align:center">Figure 14. Click on the GDPR button</figcaption>
+<figcaption style="text-align:center">Figure 14.</figcaption>
 </figure>
 
 
 <figure id="Pic_15">
 <img src="images/Pic_15.png" alt="gdpr">
-<figcaption style="text-align:center">Figure 15. The GDPR Requests page</figcaption>
+<figcaption style="text-align:center">Figure 15. </figcaption>
 </figure>
 
 
@@ -163,45 +162,45 @@ the overview interface for a patient (see [Figure 17]({{< ref "#Pic_17" >}} "Fig
 
 <figure id="Pic_16">
 <img src="images/Pic_16.png" alt="Tech">
-<figcaption style="text-align:center">Figure 16. Click on the Tech support button</figcaption>
+<figcaption style="text-align:center">Figure 16. </figcaption>
 </figure>
 
 <figure id="Pic_17">
 <img src="images/Pic_17.png" alt="Tech">
-<figcaption style="text-align:center">Figure 17. The tech support page</figcaption>
+<figcaption style="text-align:center">Figure 17. </figcaption>
 </figure>
 
 <figure id="Pic_18">
 <img src="images/Pic_18.png" alt="Tech">
-<figcaption style="text-align:center">Figure 18. Tech support. Click on the SHOW button </figcaption>
+<figcaption style="text-align:center">Figure 18. </figcaption>
 </figure>
 
 <figure id="Pic_19">
 <img src="images/Pic_19.png" alt="Tech">
-<figcaption style="text-align:center">Figure 19. Tech support. The overview of a record</figcaption>
+<figcaption style="text-align:center">Figure 19.</figcaption>
 </figure>
 
 <figure id="Pic_20">
 <img src="images/Pic_20.png" alt="Tech">
-<figcaption style="text-align:center">Figure 20. Tech support. Click on the DEVICES MANAGEMENT button</figcaption>
+<figcaption style="text-align:center">Figure 20.</figcaption>
 </figure>
 
 <figure id="Pic_21">
 <img src="images/Pic_21.png" alt="Tech">
-<figcaption style="text-align:center">Figure 21. Tech support. The Devices Management tab</figcaption>
+<figcaption style="text-align:center">Figure 21.</figcaption>
 </figure>
 
 <figure id="Pic_22">
 <img src="images/Pic_22.png" alt="Tech">
-<figcaption style="text-align:center">Figure 22. Tech support. Click on the ID MANAGEMENT button</figcaption>
+<figcaption style="text-align:center">Figure 22.</figcaption>
 </figure>
 
 <figure id="Pic_23">
 <img src="images/Pic_23.png" alt="Tech">
-<figcaption style="text-align:center">Figure 23. Tech support. The ID MANAGEMENT tab</figcaption>
+<figcaption style="text-align:center">Figure 23.</figcaption>
 </figure>
 
 <figure id="Pic_24">
 <img src="images/Pic_24.png" alt="Tech">
-<figcaption style="text-align:center">Figure 24. Tech support. The log files</figcaption>
+<figcaption style="text-align:center">Figure 24.</figcaption>
 </figure>
