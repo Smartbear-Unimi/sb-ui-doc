@@ -38,8 +38,7 @@ Type a username for registration in the field under Enter your username, then cl
 <figcaption style="text-align:center"> </figcaption>
 </figure>
 
-To require access plese insert the following details under the respective fields in the registration form
-that appears (see [Figure 6]({{< ref "#Pic_5" >}} "Figure 6")):
+To require access plese insert the following details under the respective fields in the registration form:
 
 - First name under First Name
 - Last name under Last Name
@@ -56,11 +55,14 @@ that appears (see [Figure 6]({{< ref "#Pic_5" >}} "Figure 6")):
 
 After inserting the requested information click on the reCAPTCHA button then click on Privacy Policy. After completing the previous step click on Register.
 
-<figure id="Pic_30" class="centered-figure">
-<img src="npimages/Pic_30.png" alt="login">
+<figure id="image032" class="centered-figure">
+<img src="images/image032.png" alt="login">
 <figcaption style="text-align:center"></figcaption>
 </figure>
 
-
+<figure id="image034" class="centered-figure">
+<img src="images/image034.png" alt="login">
+<figcaption style="text-align:center"></figcaption>
+</figure>
 
 After the administrator receives the registration request, login to your mailbox: check you have received a message from the administrator with the link, then click on the link to complete the registration.
