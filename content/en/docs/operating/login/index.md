@@ -17,8 +17,8 @@ toc: true
 After completing the registration successfully, insert your username and password in the Login form then click on Sign in.
 
 
-<figure id="Pic_31" class="centered-figure">
-<img src="images/Pic_31.png" alt="login">
-<figcaption style="text-align:center">Figure 1. </figcaption>
+<figure id="Screenshot (6)" class="centered-figure">
+<img src="Images/Screenshot (6).png" alt="login">
+<figcaption style="text-align:center"></figcaption>
 </figure>
 
