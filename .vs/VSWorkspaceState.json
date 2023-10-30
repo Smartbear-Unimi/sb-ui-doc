@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\.github",
+    "\\.github\\workflows",
+    "\\assets",
+    "\\config",
+    "\\content",
+    "\\content\\en",
+    "\\content\\en\\docs",
+    "\\content\\en\\docs\\operating",
+    "\\content\\en\\docs\\operating\\baseline-assessment",
+    "\\content\\en\\docs\\operating\\patient-registration"
+  ],
+  "PreviewInSolutionExplorer": false
+}
