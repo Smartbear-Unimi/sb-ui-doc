@@ -155,9 +155,27 @@ The Medications tab is used to save The data concerning the medications are save
 15. Select a date range, which is the duration of the prescription on the calendar. (see Figure ) 
 16. Click on the REGISTER button to save the data, otherwise click on the CANCEL button to discard them (see Figure ). 
 
+<<<<<<< HEAD
+=======
+```mermaid
+graph TD;
+    Start(START)-->ClickPlusMed(1. Click on +MEDICATION <br>to open Medication Tab);
+    ClickPlusMed-->SelectMed(2. Click on Medication. <br> Select a value from the menu);
+    SelectMed-->TypeDose(3. Click on Dose and type a value,<br> or click on  + or -  to increase or decrease the value );
+    TypeDose-->SelectUnitMeasure(4. Type a value, then click on  Unit of Measure <br> and select a value);
+    SelectUnitMeasure-->TickPsychoactive(5. If the medication is psychoactive, <br>tick Psychoactive Medicine);
+    TickPsychoactive-->TypeFrequency(6. Click on Frequency. <br> Type a value);
+    TypeFrequency-->SelectPeriodUnit(7. Click on Period unit. <br> Select a value from the menu);
+    SelectPeriodUnit-->TypePeriod(8. Click on Period. <br>Type a value);
+    TypePeriod-->SelectWhen(9. Click on When. Select if the medication <br> is taken with meals or with bedtime);
+    SelectWhen-->SelectDosageDirection(10. Click on Dosage Direction. <br> Select a value from the menu);
+    SelectDosageDirection-->SelectDateRange(11. Select a date range, which is the duration <br> of the prescription on the calendar);
+    SelectDateRange-->SaveData(12. Click on REGISTER to save the data, <br> otherwise click on CANCEL to discard them);
+SaveData -->End(END)
+```
+>>>>>>> cda8353587d7d6849ab7655450a870161e6bea5e
 
-
-After registering a medication, it appears as a new record in the Medications tab. Also two new buttons appear, EDIT and DELETE, which allow respectively to modify and delete the data in a record (see Figure ).
+After registering a medication, it appears as a new record in the Medications tab. Also two new buttons appear, **EDIT** and **DELETE**, which allow respectively to modify and delete the data in a record (see Figure ).
 
 
 
