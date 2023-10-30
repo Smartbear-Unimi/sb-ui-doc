@@ -600,7 +600,32 @@ Follow the steps below to fill this tab:
 
 ## Mental Disorders
 
-Tick the Anxiety or Depression disorder condition in Medical History (see Figure ), then confirm the patient's profile (see sec. ) to activate the Mental Disorders tab. Click on MENTAL DISORDERS, to open the Mental Disorders tab. It features the following questionnaires: Single Item Sleep Quality Scale and GDS. To fill a questionnaire, click on +ADD to open the tab, select the responses and save the results. It is possible to open a curtain menu, which displays the responses. Also, the score is coloured according to the criticality: green is for good results, red is for critical results.
+Tick the Anxiety or Depression disorder condition in Medical History, then confirm the patient's profile to activate the Mental Disorders tab.
+
+<figure id="Pic 72" >
+<img src="Baseline Assessment Images/Pic 72.png" alt="Patient">
+<figcaption style="text-align:center"></figcaption>
+</figure>
+
+<figure id="Pic 73" >
+<img src="Baseline Assessment Images/Pic 73.png" alt="Patient">
+<figcaption style="text-align:center"></figcaption>
+</figure>
+
+
+Click on MENTAL DISORDERS, to open the Mental Disorders tab. It features the following questionnaires: Single Item Sleep Quality Scale and GDS. To fill a questionnaire, click on +ADD to open the tab, select the responses and save the results. It is possible to open a curtain menu, which displays the responses. Also, the score is coloured according to the criticality: green is for good results, red is for critical results.
+
+<figure id="Pic 74" >
+<img src="Baseline Assessment Images/Pic 74.png" alt="Patient">
+<figcaption style="text-align:center"></figcaption>
+</figure>
+
+<figure id="Pic 75" >
+<img src="Baseline Assessment Images/Pic 75.png" alt="Patient">
+<figcaption style="text-align:center"></figcaption>
+</figure>
+
+
 
 ## Cognitive Disorders
 
@@ -609,9 +634,34 @@ The Cognitive Disorders tab is activated in the following cases:
 1.	MoCA score is under 22
 2.	The user ticks Cognitive issue in Medical History.
 
+<figure id="Pic 77" >
+<img src="Baseline Assessment Images/Pic 77.png" alt="Patient">
+<figcaption style="text-align:center"></figcaption>
+</figure>
+
+
 First, confirm the patient's profile. Click on the COGNITIVE DISORDES button to open the Cognitive Disorders tab. To fill the GDS questionnaire, click on +ADD to open the tab, select the responses and save the results. It is possible to open a curtain menu, which displays the responses. Also, the score is coloured according to the criticality: green is for good results, red is for critical results.
 
+<figure id="Pic 78" >
+<img src="Baseline Assessment Images/Pic 78.png" alt="Patient">
+<figcaption style="text-align:center"></figcaption>
+</figure>
 
 ## Frailty
 
-Tick Weight Loss in Medical History, then confirm the patient's profile to activate the Frailty tab. Click on FRAILTY to open the Frailty tab  which includes the Edmonton Frailty Scale (EFS) questionnaire. To fill this questionnaire, click on +ADD to open the tab, select the responses and save the results (see section ).  Also, the score is coloured according to the criticality: green is for good results, red is for critical results.
+Tick Weight Loss in Medical History, then confirm the patient's profile to activate the Frailty tab. Click on FRAILTY to open the Frailty tab  which includes the Edmonton Frailty Scale (EFS) questionnaire. To fill this questionnaire, click on +ADD to open the tab, select the responses and save the results.  Also, the score is coloured according to the criticality: green is for good results, red is for critical results.
+
+<figure id="Pic 79" >
+<img src="Baseline Assessment Images/Pic 79.png" alt="Patient">
+<figcaption style="text-align:center"></figcaption>
+</figure>
+
+<figure id="Pic 80" >
+<img src="Baseline Assessment Images/Pic 80.png" alt="Patient">
+<figcaption style="text-align:center"></figcaption>
+</figure>
+
+<figure id="Pic 81" >
+<img src="Baseline Assessment Images/Pic 81.png" alt="Patient">
+<figcaption style="text-align:center"></figcaption>
+</figure>
