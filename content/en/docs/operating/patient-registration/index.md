@@ -16,7 +16,6 @@ toc: true
 
 ## Patient creation
 
-
 ```mermaid
 graph TD;
     Start(PATIENT <br>CREATION)-->
@@ -51,56 +50,102 @@ graph TD;
 linkStyle default interpolate basis
 ```
 
-After the patient is created, the patient’s record is generated, which includes the Overview (see section 4.3.2) and Demographics tabs (see section 4.3.3).
+Click on +PATIENT in the Patients page at the upper right corner (see sec. ) to open the Create patient form.
 
-<figure id="Pic_32" >
-<img src="images/Pic_32.png" alt="Patient">
+<figure id="image040" >
+<img src="Patient registration images/image040.png" alt="Patient">
+<figcaption style="text-align:center"></figcaption>
+</figure>
+
+<figure id="image041" class="centered-figure">
+<img src="Patient registration images/image041.png" alt="Patient">
+<figcaption style="text-align:center"></figcaption>
+</figure>
+Fill these data to complete the form:
+
+•	Click on Pilot, (e.g. “Testing”) then select a value from the menu. The Organization field is filled automatically 
+
+<figure id="image042" >
+<img src="Patient registration images/image042.png" alt="Patient">
+<figcaption style="text-align:center"></figcaption>
+</figure>
+
+<figure id="image043" >
+<img src="Patient registration images/image043.png" alt="Patient">
+<figcaption style="text-align:center"></figcaption>
+</figure>
+
+•	Click on SB Email and type the email address that has been assigned to the patient to set up the devices kit 
+
+<figure id="image044" >
+<img src="Patient registration images/image044.png" alt="Patient">
+<figcaption style="text-align:center"></figcaption>
+</figure>
+
+<figure id="image045" >
+<img src="Patient registration images/image045.png" alt="Patient">
+<figcaption style="text-align:center"></figcaption>
+</figure>
+
+•	Click on Date of participant consent and select a date from the calendar 
+
+<figure id="image046" >
+<img src="Patient registration images/image046.png" alt="Patient">
+<figcaption style="text-align:center"> </figcaption>
+</figure>
+
+<figure id="image047" >
+<img src="Patient registration images/image047.png" alt="Patient">
 <figcaption style="text-align:center">Figure 1. </figcaption>
 </figure>
 
-<figure id="Pic_33" class="centered-figure">
-<img src="images/Pic_33.png" alt="Patient">
-<figcaption style="text-align:center">Figure 2. </figcaption>
+•	Click on Enter a phone number and type the patient’s mobile number. The country is detected via the browser
+
+<figure id="image048" >
+<img src="Patient registration images/image048.png" alt="Patient">
+<figcaption style="text-align:center"></figcaption>
 </figure>
 
-
-
-<figure id="Pic_34" >
-<img src="images/Pic_34.png" alt="Patient">
-<figcaption style="text-align:center">Figure 3. </figcaption>
+<figure id="image049" >
+<img src="Patient registration images/image049.png" alt="Patient">
+<figcaption style="text-align:center"></figcaption>
 </figure>
 
+•	Click on Username of CCM if the CCM is registered in the platform select his/her name from the menu. If a patient is managed by more than one CCM, click on the + button and select the name if available. To delete a CCM, click on the – button 
 
-
-<figure id="Pic_35" >
-<img src="images/Pic_35.png" alt="Patient">
-<figcaption style="text-align:center">Figure 4. </figcaption>
+<figure id="image050" >
+<img src="Patient registration images/image050.png" alt="Patient">
+<figcaption style="text-align:center"></figcaption>
 </figure>
 
-
-
-<figure id="Pic_36" >
-<img src="images/Pic_36.png" alt="Patient">
-<figcaption style="text-align:center">Figure 5. </figcaption>
+<figure id="image051" >
+<img src="Patient registration images/image051.png" alt="Patient">
+<figcaption style="text-align:center"></figcaption>
 </figure>
 
+• If a patient is managed by more than one CCM, click on the + button and type the email address. To delete an External CCM, click on the - button.
 
-<figure id="Pic_37" >
-<img src="images/Pic_37.png" alt="Patient">
-<figcaption style="text-align:center">Figure 6. </figcaption>
+<figure id="image052" >
+<img src="Patient registration images/image052.png" alt="Patient">
+<figcaption style="text-align:center"> </figcaption>
 </figure>
 
-
-
-<figure id="Pic_38" class="centered-figure">
-<img src="images/Pic_38.png" alt="Patient">
-<figcaption style="text-align:center">Figure 7. </figcaption>
+<figure id="image053" >
+<img src="Patient registration images/image053.png" alt="Patient">
+<figcaption style="text-align:center"> </figcaption>
 </figure>
 
+•	If the CCM is not registered in the platform, click on External CCM, click on the label Email of External CCM and type the email address of the External CCM has to receive the notifications. 
 
+<figure id="image054" >
+<img src="Patient registration images/image054.png" alt="Patient">
+<figcaption style="text-align:center"> </figcaption>
 </figure>
 
-## Overview {#overview}
+<figure id="image055" >
+<img src="Patient registration images/image055.png" alt="Patient">
+<figcaption style="text-align:center"></figcaption>
+</figure>
 
 ```mermaid
 graph TD;
@@ -117,33 +162,52 @@ graph TD;
 linkStyle default interpolate basis
 ```
 
+If you have completed the form correctly click on CREATE PATIENT to save the data, otherwise, click on CANCEL to discard them .
 
-<figure id="Pic_40" >
-<img src="images/Pic_40.png" alt="Patient">
-<figcaption style="text-align:center">Figure 8.</figcaption>
+<figure id="image056" >
+<img src="Patient registration images/image056.png" alt="Patient">
+<figcaption style="text-align:center"></figcaption>
+</figure>
+
+After the patient is created, the patient’s record is generated, which includes the Overview (see section Overview) and Demographics tabs (see section Demographics).
+
+<figure id="image057" >
+<img src="Patient registration images/image057.png" alt="Patient">
+<figcaption style="text-align:center"></figcaption>
 </figure>
 
 
+## Overview {#overview}
+To fill the Overview tab, click on EDIT.
 
-
-<figure id="Pic_41" >
-<img src="images/Pic_41.png" alt="Patient">
-<figcaption style="text-align:center">Figure 9. </figcaption>
+<figure id="image058" >
+<img src="Patient registration images/image058.png" alt="Patient">
+<figcaption style="text-align:center"></figcaption>
 </figure>
 
-<figure id="Pic_42" >
-<img src="images/Pic_42.png" alt="Patient">
-<figcaption style="text-align:center">Figure 10. </figcaption>
+The Overview tab  allows the user to insert and modify the following data to be collected from the patient:
+
+•	SmartBear ID. It contains the patient’s ID and is filled automatically.
+•	Birthday Date. It is in the YYYY-MM format. Click on the Birthday Date and select the date from the calendar
+•	Age Group. It is filled automatically
+•	Email. It is filled automatically.
+
+<figure id="image059" >
+<img src="Patient registration images/image059.png" alt="Patient">
+<figcaption style="text-align:center"></figcaption>
 </figure>
 
-
-
-
-<figure id="Pic_43" >
-<img src="images/Pic_43.png" alt="Patient">
-<figcaption style="text-align:center">Figure 11. </figcaption>
+<figure id="image060" >
+<img src="Patient registration images/image060.png" alt="Patient">
+<figcaption style="text-align:center"></figcaption>
 </figure>
 
+If you have completed the form correctly click on SAVE to save the data, otherwise click on CANCEL to discard them (see Figure 60).
+
+<figure id="image061" >
+<img src="Patient registration images/image061.png" alt="Patient">
+<figcaption style="text-align:center"></figcaption>
+</figure>
 
 
 ## Demographics
@@ -172,87 +236,71 @@ linkStyle default interpolate basis
 <figure id="Pic_44" >
 <img src="images/Pic_44.png" alt="Patient">
 <figcaption style="text-align:center">Figure 12.</figcaption>
+
+Click on the DEMOGRAPHICS to open the Demographics tab.  
+
+<figure id="image062" >
+<img src="Patient registration images/image062.png" alt="Patient">
+<figcaption style="text-align:center"></figcaption>
 </figure>
 
-
-
-
-
-<figure id="Pic_45" >
-<img src="images/Pic_45.png" alt="Patient">
-<figcaption style="text-align:center">Figure 13.</figcaption>
+<figure id="image063" >
+<img src="Patient registration images/image063.png" alt="Patient">
+<figcaption style="text-align:center"></figcaption>
 </figure>
 
+To fill the tab, click on EDIT. In Demographics the user is allowed to insert and modify the following data to be collected from the patient:
 
+•	Biological Gender. It can be either a binary non-binary gender. The patient can also choose to NOT disclose this information. Click on Biological Gender and select a value from the menu.
+•	Education level. Click on Education Level and select a value from the menu
+•	Living situation. It provides a description of the patient’s living place (e.g. an apartment with access to an elevator). Click on Living Situation and select a value from the menu 
+•	Source of referral. It is the person or medium (e.g. social media) that referred the patient to SMART BEAR. Click on Source of Referral and select a value from the menu
+•	Ethnicity. This information is required to perform some analytics, and refers to large ethnic groups (e.g. caucasian, african). Click on Ethnicity and select a value from the menu
+•	If necessary, tick Uses stairs at home
+•	Family situation. This information refers to the presence of a family. Click on Lives with and select a value from the menu
+•	Type of accommodation. This information consists of further details with regards to the living situations. Click on Type of Accommodation and select a value from the menu.
 
-
-
-<figure id="Pic_46" >
-<img src="images/Pic_46.png" alt="Patient">
-<figcaption style="text-align:center">Figure 14.</figcaption>
+<figure id="image064" >
+<img src="Patient registration images/image064.png" alt="Patient">
+<figcaption style="text-align:center"></figcaption>
 </figure>
 
-
-
-
-
-<figure id="Pic_47" >
-<img src="images/Pic_47.png" alt="Patient">
-<figcaption style="text-align:center">Figure 15.</figcaption>
+<figure id="image065" >
+<img src="Patient registration images/image065.png" alt="Patient">
+<figcaption style="text-align:center"></figcaption>
 </figure>
 
-
-
-
-
-<figure id="Pic_48" >
-<img src="images/Pic_48.png" alt="Patient">
-<figcaption style="text-align:center">Figure 16.</figcaption>
+<figure id="image066" >
+<img src="Patient registration images/image066.png" alt="Patient">
+<figcaption style="text-align:center"></figcaption>
 </figure>
 
-
-
-
-
-<figure id="Pic_49 >
-<img src="images/Pic_49.png" alt="Patient">
-<figcaption style="text-align:center">Figure 17.</figcaption>
+<figure id="image067" >
+<img src="Patient registration images/image067.png" alt="Patient">
+<figcaption style="text-align:center"></figcaption>
 </figure>
 
-
-
-<figure id="Pic_50" >
-<img src="images/Pic_50.png" alt="Patient">
-<figcaption style="text-align:center">Figure 18.</figcaption>
+<figure id="image068" >
+<img src="Patient registration images/image068.png" alt="Patient">
+<figcaption style="text-align:center"></figcaption>
 </figure>
 
-
-
-
-
-<figure id="Pic_51" >
-<img src="images/Pic_51.png" alt="Patient">
-<figcaption style="text-align:center">Figure 19.</figcaption>
+<figure id="image069" >
+<img src="Patient registration images/image069.png" alt="Patient">
+<figcaption style="text-align:center"></figcaption>
 </figure>
 
-
-
-
-<figure id="Pic_52" >
-<img src="images/Pic_52.png" alt="Patient">
-<figcaption style="text-align:center">Figure 20.</figcaption>
+<figure id="image070" >
+<img src="Patient registration images/image070.png" alt="Patient">
+<figcaption style="text-align:center"></figcaption>
 </figure>
 
+If you have completed the tab correctly, click on the SAVE button to save the data, otherwise click on the CANCEL button to discard them.
 
-
-
-
-<figure id="Pic_53" >
-<img src="images/Pic_53.png" alt="Patient">
-<figcaption style="text-align:center">Figure 21.</figcaption>
+<figure id="image071" >
+<img src="Patient registration images/image071.png" alt="Patient">
+<figcaption style="text-align:center"></figcaption>
 </figure>
-
-
 
 
 
