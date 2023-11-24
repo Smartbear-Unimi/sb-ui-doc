@@ -12,6 +12,7 @@ menu:
     identifier: "patient-registration"
 weight: 140
 toc: true
+mermaid: true
 ---
 
 ## Patient creation
