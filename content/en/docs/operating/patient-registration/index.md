@@ -16,6 +16,40 @@ toc: true
 
 ## Patient creation
 
+```mermaid
+graph TD;
+    Start(PATIENT <br>CREATION)-->
+    ClickPlusMed(1. Click on **+PATIENT** in the Patients page <br> up to the corner to open the Create Patient form);
+    ClickPlusMed--See sec-->FillData(2. Fill the following data <br> to complete the form)
+    FillData-->Pilot(2.1 **Pilot:** Click on it and <br> select a value  from the menu)
+    Pilot-->SbEmail(2.2 **SB Email:** Click on it and type the patient's <br>  assigned email address  to set up the devices kit)
+    SbEmail-->DateOf(2.3 **Date of participant consent:** <br> Click on it and select a date from the calendar)
+    DateOf--Figure 1-->Phone(2.4 **Enter a phone number:** <br> Click on it and type the patient's mobile number. <br> The country is detected via the browser. )
+    Phone-->UserCCM(2.5 **Username of CCM:** <br> Click on  it and if the CCM  is registered <br> in the platform select the patient's name.)
+    UserCCM-->NotRegistered{Is the CCM <br> registered in the platform?}
+    NotRegistered--No-->External(**Email of ExternalCCM:** Click on the label and type <br> an email  address which has to receive notifications.)
+    NotRegistered--Yes-->MoreCCM{Is the patient managed <br> by more than on CCM?}
+	
+	
+	MoreCCM--Yes-->IfAddDelete{Add or Delete <br> a CCM?}
+    IfAddDelete--Add-->AddCCM(**+ button:** Click on it and select the name <br>if a patient is managed by more than one CCM.)
+    IfAddDelete--Delete-->DelCCM(**- button:** Click on it to delete a CCM.)
+
+	MoreCCM--No-->IsCompleted
+    
+
+	External-->IfAddDelete
+	IfAddDelete--No-->IsCompleted{Is the form completed <br> correctly?}
+
+	IsCompleted--Yes-->Create(**CREATE PATIENT:** Click on it to save data)
+	IsCompleted--No-->ToCancel{Do you want to cancel it?}
+	
+	ToCancel--Yes-->Cancel(**CANCEL:** Click on it to discard data.)
+	ToCancel--No-->FillData
+
+linkStyle default interpolate basis
+```
+
 Click on +PATIENT in the Patients page at the upper right corner (see sec. ) to open the Create patient form.
 
 <figure id="image040" >
@@ -113,6 +147,21 @@ Fill these data to complete the form:
 <figcaption style="text-align:center"></figcaption>
 </figure>
 
+```mermaid
+graph TD;
+    Start(OVERVIEW)--If you want insert and modify<br> data to be collected from the patient <br> follow these instructions:-->Edit(1.**EDIT:** Click on it to fill the Overview Tab.)
+    
+    Edit-->SbId(**SmartBear ID:** It is filled automatically. )
+    SbId-->Bday(**Birthday Date:** It is in the YYYY-MM format. <br> Click on it and select the birth date from the calendar.)
+    Bday-->AgeG(**Age Group:** It is filled automatically.)
+    AgeG-->Email(**Email:** It is filled automatically.)
+    Email-->IsCompleted{Is the form <br> completed correctly? <br> --See Figure 60--}
+
+	IsCompleted--Yes-->Save(**SAVE:** <br>Click on it to save data.)
+	IsCompleted--No-->Cancel(**CANCEL:** <br> Click on it to discard data.)
+linkStyle default interpolate basis
+```
+
 If you have completed the form correctly click on CREATE PATIENT to save the data, otherwise, click on CANCEL to discard them .
 
 <figure id="image056" >
@@ -126,6 +175,7 @@ After the patient is created, the patient’s record is generated, which include
 <img src="Patient registration images/image057.png" alt="Patient">
 <figcaption style="text-align:center"></figcaption>
 </figure>
+
 
 ## Overview {#overview}
 To fill the Overview tab, click on EDIT.
@@ -161,6 +211,31 @@ If you have completed the form correctly click on SAVE to save the data, otherwi
 
 
 ## Demographics
+
+```mermaid
+graph TD;
+	Start(DEMOGRAPHICS)--If you want insert and modify<br> data to be collected from the patient <br> follow these instructions:-->First(1. **DEMOGRAPHICS:** <br>Click on it to open Demographics tab.)
+	First-->BGender(**Biological Gender:** Click on it and select <br> one of the several genders from the menu.)
+    BGender-->EduLevel(**Education level:** Click on it and select <br> one education level from the menu.)
+    EduLevel-->LivSituation(**Living situation:** Click on it and select one of the <br> description  of the patient's living place from the menu.)
+    LivSituation-->SRef(**Source of referral:** Click on Source of Referral and select a person <br> or a medium, that referred the patient to SMART BEAR, from the menu.)
+    SRef--Medium -- e.g. social media -->Et(**Ethnicity:** Click on it and select ethnic groups from the menu.)
+    Et--Ethnicity required to perform some analytics-->AddDem(In **Additional demographics data:**)
+	AddDem-->AtHome(If necessary, tick **Uses stairs at home**.)
+	AddDem-->FamSit(**Family situation:** Click on it and select <br> **Lives Alone** or **Lives with family** from the menu.)
+	FamSit-->TypeAcc(**Type of accomodation:** Click on it and select a value <br> about patient's living situation from the menu)
+	TypeAcc-->IsCompleted{Is the form <br> completed correctly? <br> --See Figure 60--}
+
+	IsCompleted--Yes-->Save(**SAVE:** <br>Click on it to save data.)
+	IsCompleted--No-->Cancel(**CANCEL:** <br>Click on it to discard data.)
+	IsCompleted
+linkStyle default interpolate basis
+```
+
+
+<figure id="Pic_44" >
+<img src="images/Pic_44.png" alt="Patient">
+<figcaption style="text-align:center">Figure 12.</figcaption>
 
 Click on the DEMOGRAPHICS to open the Demographics tab.  
 

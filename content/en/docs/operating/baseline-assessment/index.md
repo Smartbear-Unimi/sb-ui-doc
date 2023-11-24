@@ -141,6 +141,44 @@ If you have completed the form correctly click on SAVE to save the data, otherwi
 
 ### Medications
 
+The Medications tab is shown in Figure 109. 
+The data concerning the medications are saved here, including the daily dose and intake frequency. Follow the steps below to fill it:  
+
+
+```mermaid
+graph TD;
+    Start(START)-->
+    ClickPlusMed(1. Click on +MEDICATION <br>to open Medication Tab);
+    ClickPlusMed--See figure 110-->Register[The Register medication tab appears]
+    Register--See figure -->SelectMed(2. Click on Medication <br> Select a value from the menu);
+    SelectMed--See figure 112-->Medication[Type the medication name];
+    Medication--See figure-->TypeDose(3. If the medication is psychoactive, <br> tick Psychoactive Medicine);
+    TypeDose-->SelectUnitMeasure(4. Click on Substance <br> Select the name of the active <br> substance form the menu, or type it);
+    SelectUnitMeasure-->TickPsychoactive(5. Click on Dosage form <br> Select a value from the menu );
+    TickPsychoactive-->TypeFrequency(6. Click on Dosage Direction <br> Select a value from the menu );
+    TypeFrequency-->SelectPeriodUnit(7. Click on Dose and type a value,<br> or Click on the buttons to increase or decrease the value);
+    DoseButton[<br> The dose amount must be complemented <br> with the Unit of Measure, and can have decimal digits]
+    SelectPeriodUnit-->DoseButton[The dose amount must be complemented <br> with the Unit of Measure, and can have decimal digits]
+    DoseButton-->TypePeriod(8. Click on Unit of Measure);
+    TypePeriod--See figure-->SelectVal[Select a value from the menu];
+    SelectVal--See figure-->SelectWhen(9. Click on Frequency <br> Type a value);
+    SelectWhen-->AmountFreq[The amount must be complemented <br> with the Period unit]
+    AmountFreq--See Errore L'origine riferimento non è stata trovata-->SelectDosageDirection(10. Click on Period unit);
+    SelectDosageDirection--See figure-->ValFromMenu[Select a value from the menu]
+    ValFromMenu--See figure-->SelectDateRange(11. Click on Period <br> Type a value);
+    SelectDateRange--See figure-->OnWhen(12.  Click on When. <br>);
+    OnWhen--See figure-->When[Select one or more <br> values from the menu];
+    When-- See Figure-->Day(13. Click on Days of the week)
+    Day--See figure-->ValDay[Select one or more <br> values from the menu]
+    ValDay--See figure-->MoreDosages{14. Do you want to <br> set more dosages?}-->
+   Yes-->Plus[Click on + and follow the <br> steps from 6 to 10 again]-->TypeFrequency
+    MoreDosages--->No-->DateRange(15. Select a date range, which is the duration <br> of the prescription on the calendar.)
+    DateRange --See figure-->RegisterFinal(16. Click on the REGISTER button to save the data, <br> otherwise Click on the CANCEL button to discard them)
+RegisterFinal--See figure-->End(END)
+```
+
+After registering a medication, it appears as a new record in the Medications tab. Also two new buttons appear, **EDIT** and **DELETE**, which allow respectively to modify and delete the data in a record (see Figure ).
+
 The data concerning the medications are saved here, including the daily dose and intake frequency. 
 
 <figure id="Pic 15" >
