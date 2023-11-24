@@ -12,6 +12,7 @@ menu:
     identifier: "baseline-assessment"
 weight: 160
 toc: true
+mermaid: true
 ---
 
 ## Intro
