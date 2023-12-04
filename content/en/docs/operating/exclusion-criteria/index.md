@@ -69,7 +69,10 @@ Follow the steps below to fill the MoCA questionnaire:
 1.	Click on ADD to open questionnaire description 
 2.	Click on NEXT to open the questionnaire, to open the questionnaire, where the questions and the response options are provided 
 3.	Click on the responses given by the user to each question. The score is calculated automatically at the bottom of the tab as it is shown in and the threshold value for diagnosing a Cognitive Disorder is reported 
-4.	Click on SAVE. 
+4.	Click on SAVE.
+
+**Note: the patient must obtain a score => 18 to be considered eligible. If the score is lower, the dashboard will generate a message for you to consider excluding the patient.**
+**If the score is => 18 and <= 26, the patient is a candidate to be monitored for Cognitive Disorders**
 
 After saving the responses, the MoCA score appears in the Assessment tab.
 
@@ -119,3 +122,5 @@ An alternative mechanism to accept a patient is to go back to the Patients page 
 <img src="images/Pic_67.png" alt="Patient">
 <figcaption style="text-align:center"> Step 2</figcaption>
 </figure>
+
+The algorithm provided to assess the exclusion criteria is shown in the flowchart here (link).
