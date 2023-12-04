@@ -14,10 +14,35 @@ weight: 150
 toc: true
 ---
 
-## Recruitment process
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<style>
+#flowchart {
+  display: none;
+}
+</style>
+<script>
+function toggleFlowchart() {
+  var x = document.getElementById("flowchart");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+</head>
+<body>
+<button onclick="toggleFlowchart()">Recruitment Process Flowchart</button>
 
-```mermaid
+<div id="flowchart" style="display: none;">
 
+## RECRUITMENT PROCESS
+**Patient profiling & Risk of exclusion**
+
+```mermaid  
 graph TB
 subgraph Risk of exclusion
 AStep1((Step 1: <br>Exclusion Criteria))
@@ -33,14 +58,22 @@ GStep1b{MoCA <br> Score > 18?}
 
 GStep1a--YES-->YesStep1a(Do MoCA <br>questionnaire)
 GStep1a--NO-->NoStep1a(Risk of<br> exclusion)
+NoStep1a-->Exclude1a(Exclude)
+NoStep1a-->NoExclude1a(Go Ahead)
+
+Exclude1a-->AStep2
+NoExclude1a-->AStep2
 
 GStep1b--YES-->YesStep1b(Assess <br>Cognitive <br>Disorders)
 GStep1b--NO-->NoStep1b(Risk of<br> exclusion)
+NoStep1b-->Exclude1b(Exclude)
+NoStep1b-->NoExclude1b(Go Ahead)
+
+Exclude1b-->AStep2
+NoExclude1b-->AStep2
 
 YesStep1a-->AStep2
-NoStep1a-->AStep2
 YesStep1b-->AStep2
-NoStep1b-->AStep2
 
 AStep2((Step 2))
 GStep2{TRUE?}
@@ -69,12 +102,22 @@ GStep4{IADL <= 2?}
 GStep3-->YesStep3(Risk of<br> exclusion)
 GStep3-->NoStep3(No action)
 
+YesStep3-->Exclude3(Exclude)
+YesStep3-->NoExclude3(Go Ahead)
+
+Exclude3-->AStep5
+NoExclude3-->AStep5
+
 GStep4-->YesStep4(Risk of<br> exclusion)
 GStep4-->NoStep4(No action)
 
-YesStep3-->AStep5 
+YesStep4-->Exclude4(Exclude)
+YesStep4-->NoExclude4(Go Ahead)
+
+Exclude4-->AStep5
+NoExclude4-->AStep5
+
 NoStep3-->AStep5 
-YesStep4-->AStep5 
 NoStep4-->AStep5
 
 AStep5((Step 5:<br>Patient Profiling))
@@ -109,7 +152,12 @@ BStep6--Insert GDS-->CStep6{GDS >= 12?}
 CStep6--YES-->YesStep6(Risk of <br> exclusion)
 CStep6--NO-->NoStep6(No action)
 
-YesStep6-->AStep7
+YesStep6-->Exclude6(Exclude)
+YesStep6-->NoExclude6(Go Ahead)
+
+Exclude6-->AStep7
+NoExclude6-->AStep7
+
 NoStep6-->AStep7
 
 AStep7((Step 7:<br> Cognitive Disorders<br>Assessment))
@@ -118,7 +166,12 @@ BStep7--Insert GDS-->CStep7{GDS >= 12?}
 CStep7--YES-->YesStep7(Risk of <br> exclusion)
 CStep7--NO-->NoStep7(No action)
 
-YesStep7-->AStep8
+YesStep7-->Exclude7(Exclude)
+YesStep7-->NoExclude7(Go Ahead)
+
+Exclude7-->AStep8
+NoExclude7-->AStep8
+
 NoStep7-->AStep8
 
 AStep8((Step 8: <br>Frailty))
@@ -126,6 +179,9 @@ AStep8-->BStep8(Click on Frailty<br>then on Questionnaires)
 BStep8--Insert EFS-->CStep8{12<=EFS<=17}
 CStep8--YES-->YesStep8(Risk of <br> exclusion)
 CStep8--NO-->NoStep8(No action)
+
+YesStep8-->Exclude8(Exclude)
+YesStep8-->NoExclude8(Go Ahead)
 
 %% set linkStyle
 linkStyle default interpolate linear
@@ -174,16 +230,25 @@ ProfilingGStep1c{Profiling MoCA <br> Score > 26?}
 ProfilingGStep1a--YES-->ProfilingYesStep1a(Do MoCA <br>questionnaire)
 ProfilingGStep1a--NO-->ProfilingNoStep1a(Risk of<br> exclusion)
 
+ProfilingNoStep1a-->Exclude1aa(Exclude)
+ProfilingNoStep1a-->NoExclude1aa(Go Ahead)
+
 ProfilingGStep1b--YES-->ProfilingYesStep1b(Assess <br>Cognitive <br>Disorders)
 ProfilingGStep1b--NO-->ProfilingNoStep1b(Risk of<br> exclusion)
+
+ProfilingNoStep1b-->Exclude1bb(Exclude)
+ProfilingNoStep1b-->NoExclude1bb(Go Ahead)
 
 ProfilingGStep1c--YES-->ProfilingNoActionStep1c(No action)
 ProfilingGStep1c--NO-->ProfilingActStep1c(Activate Cognitive <br> Disorders tab,<br> then go to step 8)
 
+Exclude1aa-->ProfilingAStep2
+NoExclude1aa-->ProfilingAStep2
+Exclude1bb-->ProfilingAStep2
+NoExclude1bb-->ProfilingAStep2
+
 ProfilingYesStep1a-->ProfilingAStep2
-ProfilingNoStep1a-->ProfilingAStep2
 ProfilingYesStep1b-->ProfilingAStep2
-ProfilingNoStep1b-->ProfilingAStep2
 ProfilingNoActionStep1c-->ProfilingAStep2
 ProfilingActStep1c-->ProfilingAStep2
 
@@ -214,7 +279,12 @@ ProfilingYesStep2--Depression Disorder <br> Anxiety Disorder-->ProfilingDisorder
 ProfilingNoStep2-->ProfilingNoActStep2(No action)
 
 ProfilingNoActStep2-->ProfilingAStep3((Step 3: <br> Life Habits))
-ProfilingRiskStep2-->ProfilingAStep3
+
+ProfilingRiskStep2-->RiskExclude2(Exclude)
+ProfilingRiskStep2-->RiskNoExclude2(Go Ahead)
+RiskExclude2-->ProfilingAStep3
+RiskNoExclude2-->ProfilingAStep3
+
 ProfilingHearingLoss-->ProfilingAStep3
 ProfilingHearingAids-->ProfilingAStep3
 ProfilingCognitiveIssue-->ProfilingAStep3
@@ -236,6 +306,12 @@ ProfilingBStep5--Insert IADL-->ProfilingIADLStep5{IADL<=2}
 
 ProfilingRiskStep5a(Risk of<br>exclusion)
 ProfilingRiskStep5b(Risk of<br>exclusion)
+ProfilingRiskStep5a-->RiskExclude5a(Exclude)
+ProfilingRiskStep5b-->RiskExclude5b(Exclude)
+ProfilingRiskStep5a-->RiskNoExclude5a(Go Ahead)
+ProfilingRiskStep5b-->RiskNoExclude5b(Go Ahead)
+
+
 ProfilingNoActStep5a(No action<br>Go to step 9)
 ProfilingNoActStep5b(No action<br>Go to step 9)
 
@@ -244,8 +320,10 @@ ProfilingIADLStep5--YES-->ProfilingRiskStep5b
 ProfilingGDSStep5--NO-->ProfilingNoActStep5a
 ProfilingIADLStep5--NO-->ProfilingNoActStep5b
 
-ProfilingRiskStep5a-->ProfilingAStep6
-ProfilingRiskStep5b-->ProfilingAStep6
+RiskExclude5a-->ProfilingAStep6
+RiskNoExclude5a-->ProfilingAStep6
+RiskExclude5b-->ProfilingAStep6
+RiskNoExclude5b-->ProfilingAStep6
 ProfilingNoActStep5a-->ProfilingAStep6
 ProfilingNoActStep5b-->ProfilingAStep6
 
@@ -255,7 +333,11 @@ ProfilingBStep6--Insert GDS-->ProfilingCStep6{GDS>=12?}
 ProfilingCStep6--YES-->ProfilingYesStep6(Risk of<br>exclusion)
 ProfilingCStep6--NO-->ProfilingNoStep6(No action<br>Go to step 9)
 
-ProfilingYesStep6-->ProfilingAStep7
+ProfilingYesStep6-->RiskExclude6(Exclude)
+ProfilingYesStep6-->RiskNoExclude6(Go Ahead)
+
+RiskExclude6-->ProfilingAStep7
+RiskNoExclude6-->ProfilingAStep7
 ProfilingNoStep6-->ProfilingAStep7
 
 ProfilingAStep7((Step 7:<br>Cognitive Disorders))
@@ -264,7 +346,11 @@ ProfilingBStep7--Insert GDS-->ProfilingCStep7{GDS>=12?}
 ProfilingCStep7--YES-->ProfilingYesStep7(Risk of<br>exclusion)
 ProfilingCStep7--NO-->ProfilingNoStep7(No action<br>Go to step 9)
 
-ProfilingYesStep7-->ProfilingAStep8
+ProfilingYesStep7-->RiskExclude7(Exclude)
+ProfilingYesStep7-->RiskNoExclude7(Go Ahead)
+
+RiskExclude7-->ProfilingAStep8
+RiskNoExclude7-->ProfilingAStep8
 ProfilingNoStep7-->ProfilingAStep8
 
 ProfilingAStep8((Step 8:<br>Frailty))
@@ -277,8 +363,13 @@ ProfilingCStep8a--NO-->ProfilingNoStep8a(Go to Step 8b)
 ProfilingCStep8b--YES-->ProfilingYesStep8b(Risk of<br>exclusion)
 ProfilingCStep8b--NO-->ProfilingNoStep8b(No action <br>Go to step 9)
 
+ProfilingYesStep8b-->RiskExclusion8b(Exclude)
+ProfilingYesStep8b-->RiskNoExclusion8b(Go Ahead)
+
+RiskExclusion8b-->ProfilingAStep9
+RiskNoExclusion8b-->ProfilingAStep9
+
 ProfilingYesStep8a-->ProfilingAStep9
-ProfilingYesStep8b-->ProfilingAStep9
 ProfilingNoStep8a-->ProfilingAStep9
 ProfilingNoStep8b-->ProfilingAStep9
 
@@ -315,5 +406,8 @@ style ProfilingAStep8 fill:#255, stroke:#FFFFFF,stroke-width:2px, color:#000000;
 style ProfilingAStep9 fill:#255, stroke:#FFFFFF,stroke-width:2px, color:#000000;
 
 end
-
 ```
+
+</div>
+
+</body> </html>
