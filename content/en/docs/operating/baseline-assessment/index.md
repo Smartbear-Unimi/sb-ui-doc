@@ -24,19 +24,18 @@ After verifying the exclusion criteria are matched, two new buttons will appear 
 
 To conduct the Baseline Assessment, click on SHOW to re-open the Assessment created to verify the exclusion criteria. The following tabs are provided:
 
-•	MEDICAL HISTORY which opens the Medical History tab. This tab is active for all patients and the data concerning medical history (e.g. comorbidities, physical examinations) are saved here (see Medical History). 
-•	HEARING LOSS which opens the Hearing Loss tab. This tab must be activated with the patient profiling functionality and data concerning the specific Hearing Loss assessment are saved here (see Hearing Loss).
-•	BALANCE DISORDERS which opens the Balance Disorders tab. This tab must be activated with the patient profiling functionality and data concerning the specific Balance assessment are saved here (see Balance Disorders)
-•	CARDIOVASCULAR which opens the Cardiovascular tab. This tab must be activated with the patient profiling functionality and data concerning the specific Cardiovascular Diseases assessment are saved here (see Cardiovascular) 
-•	MENTAL DISORDERS which opens the Mental Disorders tab. This tab must be activated with the patient profiling functionality and data concerning the specific Mental Disorders assessment are saved here (see Mental Disorders)
-•	COGNITIVE DISORDERS which opens the Cognitive Disorders tab. This tab must be activated with the patient profiling functionality and data concerning the specific Cognitive Disorders assessment are saved here (see Cognitive Disorders) 
-•	FRAILTY which opens the Frailty tab. This tab must be activated with the patient profiling functionality and data concerning the specific Frailty assessment are saved here (see Frailty ).
-
+•	MEDICAL HISTORY which opens the Medical History tab. This tab is active for all patients and the data concerning medical history (e.g. comorbidities, physical examinations) are saved here (see [Medical History](#medical_history)). 
+•	HEARING LOSS which opens the Hearing Loss tab. This tab must be activated with the patient profiling functionality and data concerning the specific Hearing Loss assessment are saved here (see [Hearing Loss](#hearing_loss)).
+•	BALANCE DISORDERS which opens the Balance Disorders tab. This tab must be activated with the patient profiling functionality and data concerning the specific Balance assessment are saved here (see [Balance Disorder](#balance_disorder)).
+•	CARDIOVASCULAR which opens the Cardiovascular tab. This tab must be activated with the patient profiling functionality and data concerning the specific Cardiovascular Diseases assessment are saved here (see [Cardio Vascular](#cardio_vascular)).
+•	MENTAL DISORDERS which opens the Mental Disorders tab. This tab must be activated with the patient profiling functionality and data concerning the specific Mental Disorders assessment are saved here (see [Mental Disorders](#mental_disorders)).
+•	COGNITIVE DISORDERS which opens the Cognitive Disorders tab. This tab must be activated with the patient profiling functionality and data concerning the specific Cognitive Disorders assessment are saved here (see [Cognitive Disorders](#cognitive_disorders)).
+•	FRAILTY which opens the Frailty tab. This tab must be activated with the patient profiling functionality and data concerning the specific Frailty assessment are saved here (see [Frailty](#frailty)).
 
 ## Medical History
 
 
-### General Info
+### General Info {#general_info}
 
 The General Info tab is shown in Figure . 
 
@@ -437,11 +436,11 @@ During the Baseline Assessment, a profiling functionality is available for the u
 
 **Note: this tab is provided to confirm the ascertained conditions or disable one or more tabs, except the Cardiovascular diseases which must be confirmed here to open the related tab**.
 
-The Patient profiling algorithm and the risk of exclusion factors are illustrated in a flowchart here (link).
+The Patient profiling algorithm and the risk of exclusion factors are illustrated in a flowchart [here](https://github.com/Smartbear-Unimi/sb-ui-doc/blob/12-exclusion-criteria/content/en/docs/operating/exclusion-criteria/Flowchart.md).
 
 
 
-## Hearing Loss
+## Hearing Loss {#hearing_loss}
 
 Tick the Hearing Loss condition, or uses hearing aids in the tab Medical History, then confirm the patient's profile to activate the Hearing Loss tab. Click on the HEARING LOSS button to open the tab. 
 
@@ -500,7 +499,7 @@ If you have completed the form correctly click on SAVE to save the data, otherwi
 <figcaption style="text-align:center"></figcaption>
 </figure>
 
-## Balance Disorder
+## Balance Disorder {#balance_disorder}
 
 To activate the Balance Disorders tab, select a value under Balance Disorders in Medical History, then confirm the patient's profile. Click on BALANCE DISORDER, to open the tab. It features the following questionnaires: Fall Efficacy Scale International, Activities Specific Balance Confidence Scale (ABC), Functional Gait Assessment (FGA), Mini-Balance Evaluation System Test (Mini-BEST), Rapid Assessment of Physical Activity (RAPA). To fill a questionnaire, click on +ADD to open the tab, select the responses and save the results. It is possible to open a curtain menu, which displays the responses. Also, the score is coloured according to the criticality: green is for good results, red is for critical results.
 
@@ -521,7 +520,7 @@ If you have completed the form correctly click on SAVE to save the data, otherwi
 <figcaption style="text-align:center"></figcaption>
 </figure>
 
-## Cardio Vascular
+## Cardio Vascular {#cardio_vascular}
 
 Tick the Cardiovascular condition in Medical History, then confirm the patient's profile to activate the Cardiovascular tab. Click on CARDIOVASCULAR to open the Cardiovascular tab. 
 
@@ -648,7 +647,7 @@ Follow the steps below to fill this tab:
 </figure>
 
 
-## Mental Disorders
+## Mental Disorders {#mental_disorders}
 
 Tick the Anxiety or Depression disorder condition in Medical History, then confirm the patient's profile to activate the Mental Disorders tab.
 
@@ -677,7 +676,7 @@ Click on MENTAL DISORDERS, to open the Mental Disorders tab. It features the fol
 
 
 
-## Cognitive Disorders
+## Cognitive Disorders {#cognitive_disorders}
 
 The Cognitive Disorders tab is activated in the following cases: 
 
@@ -697,7 +696,7 @@ First, confirm the patient's profile. Click on the COGNITIVE DISORDES button to 
 <figcaption style="text-align:center"></figcaption>
 </figure>
 
-## Frailty
+## Frailty {#frailty}
 
 Tick Weight Loss in Medical History, then confirm the patient's profile to activate the Frailty tab. Click on FRAILTY to open the Frailty tab  which includes the Edmonton Frailty Scale (EFS) questionnaire. To fill this questionnaire, click on +ADD to open the tab, select the responses and save the results.  Also, the score is coloured according to the criticality: green is for good results, red is for critical results.
 
