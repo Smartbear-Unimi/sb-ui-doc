@@ -12,6 +12,7 @@ menu:
     identifier: "baseline-assessment"
 weight: 160
 toc: true
+mermaid: true
 ---
 
 ## Intro
@@ -21,21 +22,20 @@ After verifying the exclusion criteria are matched, two new buttons will appear 
 •	DEVICES MANAGEMENT which opens the Devices tab. This tab allows the user to view, insert and modify the information about the devices associated to a patient.  
 •	ID MANAGEMENT which opens the ID Management tab appears. This tab allows the user to view, insert and modify the IDs that are assigned to a patient in the context of the synergies with other projects, e.g. HOLOBalance and (only for the PoP) Smart4Health (see ).
 
-To conduct the Baseline Assessment, click on SHOW to re-open the Assessment created to verify the exclusion criteria. The following buttons will appear:
+To conduct the Baseline Assessment, click on SHOW to re-open the Assessment created to verify the exclusion criteria. The following tabs are provided:
 
-•	MEDICAL HISTORY which opens the Medical History tab. This tab is active for all patients and the data concerning medical history (e.g. comorbidities, physical examinations) are saved here (see Medical History). 
-•	HEARING LOSS which opens the Hearing Loss tab. This tab must be activated with the patient profiling functionality and data concerning the specific Hearing Loss assessment are saved here (see Hearing Loss).
-•	BALANCE DISORDERS which opens the Balance Disorders tab. This tab must be activated with the patient profiling functionality and data concerning the specific Balance assessment are saved here (see Balance Disorders)
-•	CARDIOVASCULAR which opens the Cardiovascular tab. This tab must be activated with the patient profiling functionality and data concerning the specific Cardiovascular Diseases assessment are saved here (see Cardiovascular) 
-•	MENTAL DISORDERS which opens the Mental Disorders tab. This tab must be activated with the patient profiling functionality and data concerning the specific Mental Disorders assessment are saved here (see Mental Disorders)
-•	COGNITIVE DISORDERS which opens the Cognitive Disorders tab. This tab must be activated with the patient profiling functionality and data concerning the specific Cognitive Disorders assessment are saved here (see Cognitive Disorders) 
-•	FRAILTY which opens the Frailty tab. This tab must be activated with the patient profiling functionality and data concerning the specific Frailty assessment are saved here (see Frailty ).
-
+•	MEDICAL HISTORY which opens the Medical History tab. This tab is active for all patients and the data concerning medical history (e.g. comorbidities, physical examinations) are saved here (see [Medical History](#medical_history)). 
+•	HEARING LOSS which opens the Hearing Loss tab. This tab must be activated with the patient profiling functionality and data concerning the specific Hearing Loss assessment are saved here (see [Hearing Loss](#hearing_loss)).
+•	BALANCE DISORDERS which opens the Balance Disorders tab. This tab must be activated with the patient profiling functionality and data concerning the specific Balance assessment are saved here (see [Balance Disorder](#balance_disorder)).
+•	CARDIOVASCULAR which opens the Cardiovascular tab. This tab must be activated with the patient profiling functionality and data concerning the specific Cardiovascular Diseases assessment are saved here (see [Cardio Vascular](#cardio_vascular)).
+•	MENTAL DISORDERS which opens the Mental Disorders tab. This tab must be activated with the patient profiling functionality and data concerning the specific Mental Disorders assessment are saved here (see [Mental Disorders](#mental_disorders)).
+•	COGNITIVE DISORDERS which opens the Cognitive Disorders tab. This tab must be activated with the patient profiling functionality and data concerning the specific Cognitive Disorders assessment are saved here (see [Cognitive Disorders](#cognitive_disorders)).
+•	FRAILTY which opens the Frailty tab. This tab must be activated with the patient profiling functionality and data concerning the specific Frailty assessment are saved here (see [Frailty](#frailty)).
 
 ## Medical History
 
 
-### General Info
+### General Info {#general_info}
 
 The General Info tab is shown in Figure . 
 
@@ -67,7 +67,7 @@ Follow the steps below to fill it:
 <figcaption style="text-align:center"></figcaption>
 </figure>
 
-
+**Note: if you tick "History of substances abuse" or "History of brain injury", the dashboard will generate an alert for you to consider excluding the patient.**.
 
 ### Life Habits
 To fill the tab click on EDIT.
@@ -107,7 +107,7 @@ The Life Habits allows the user to insert and modify data on life Habits to be c
 <figcaption style="text-align:center"></figcaption>
 </figure>
  
-
+**Note: if the number of falls is =>1, the Balance Disorders tab will be activated.**
 
 ### Physical Examinations
 To fill the tab, click on EDIT.
@@ -139,46 +139,12 @@ If you have completed the form correctly click on SAVE to save the data, otherwi
 <figcaption style="text-align:center"></figcaption>
 </figure>
 
+**Note: if you forget to fill this tab thoroughly, the mobile app will not work properly. Specifically, a patient will not be able to use the weight scale and the diet menu.**
+
 ### Medications
 
 The Medications tab is shown in Figure 109. 
-The data concerning the medications are saved here, including the daily dose and intake frequency. Follow the steps below to fill it:  
-
-
-```mermaid
-graph TD;
-    Start(START)-->
-    ClickPlusMed(1. Click on +MEDICATION <br>to open Medication Tab);
-    ClickPlusMed--See figure 110-->Register[The Register medication tab appears]
-    Register--See figure -->SelectMed(2. Click on Medication <br> Select a value from the menu);
-    SelectMed--See figure 112-->Medication[Type the medication name];
-    Medication--See figure-->TypeDose(3. If the medication is psychoactive, <br> tick Psychoactive Medicine);
-    TypeDose-->SelectUnitMeasure(4. Click on Substance <br> Select the name of the active <br> substance form the menu, or type it);
-    SelectUnitMeasure-->TickPsychoactive(5. Click on Dosage form <br> Select a value from the menu );
-    TickPsychoactive-->TypeFrequency(6. Click on Dosage Direction <br> Select a value from the menu );
-    TypeFrequency-->SelectPeriodUnit(7. Click on Dose and type a value,<br> or Click on the buttons to increase or decrease the value);
-    DoseButton[<br> The dose amount must be complemented <br> with the Unit of Measure, and can have decimal digits]
-    SelectPeriodUnit-->DoseButton[The dose amount must be complemented <br> with the Unit of Measure, and can have decimal digits]
-    DoseButton-->TypePeriod(8. Click on Unit of Measure);
-    TypePeriod--See figure-->SelectVal[Select a value from the menu];
-    SelectVal--See figure-->SelectWhen(9. Click on Frequency <br> Type a value);
-    SelectWhen-->AmountFreq[The amount must be complemented <br> with the Period unit]
-    AmountFreq--See Errore L'origine riferimento non è stata trovata-->SelectDosageDirection(10. Click on Period unit);
-    SelectDosageDirection--See figure-->ValFromMenu[Select a value from the menu]
-    ValFromMenu--See figure-->SelectDateRange(11. Click on Period <br> Type a value);
-    SelectDateRange--See figure-->OnWhen(12.  Click on When. <br>);
-    OnWhen--See figure-->When[Select one or more <br> values from the menu];
-    When-- See Figure-->Day(13. Click on Days of the week)
-    Day--See figure-->ValDay[Select one or more <br> values from the menu]
-    ValDay--See figure-->MoreDosages{14. Do you want to <br> set more dosages?}-->
-   Yes-->Plus[Click on + and follow the <br> steps from 6 to 10 again]-->TypeFrequency
-    MoreDosages--->No-->DateRange(15. Select a date range, which is the duration <br> of the prescription on the calendar.)
-    DateRange --See figure-->RegisterFinal(16. Click on the REGISTER button to save the data, <br> otherwise Click on the CANCEL button to discard them)
-RegisterFinal--See figure-->End(END)
-```
-
-After registering a medication, it appears as a new record in the Medications tab. Also two new buttons appear, **EDIT** and **DELETE**, which allow respectively to modify and delete the data in a record (see Figure ).
-
+The data concerning the medications are saved here, including the daily dose and intake frequency. 
 The data concerning the medications are saved here, including the daily dose and intake frequency. 
 
 <figure id="Pic 15" >
@@ -310,6 +276,45 @@ After registering a medication, it appears as a new record in the Medications ta
 <figcaption style="text-align:center"></figcaption>
 </figure>
 
+**Note: if you forget to insert the dosage, the patient will not receive the notifications to remind him take the medications.**
+
+The steps to follow in the medication tab are also shown in the flowchart here below"
+
+```mermaid
+graph TD;
+    Start(START)-->
+    ClickPlusMed(1. Click on +MEDICATION <br>to open Medication Tab);
+    ClickPlusMed--See figure 110-->Register[The Register medication tab appears]
+    Register--See figure -->SelectMed(2. Click on Medication <br> Select a value from the menu);
+    SelectMed--See figure 112-->Medication[Type the medication name];
+    Medication--See figure-->TypeDose(3. If the medication is psychoactive, <br> tick Psychoactive Medicine);
+    TypeDose-->SelectUnitMeasure(4. Click on Substance <br> Select the name of the active <br> substance form the menu, or type it);
+    SelectUnitMeasure-->TickPsychoactive(5. Click on Dosage form <br> Select a value from the menu );
+    TickPsychoactive-->TypeFrequency(6. Click on Dosage Direction <br> Select a value from the menu );
+    TypeFrequency-->SelectPeriodUnit(7. Click on Dose and type a value,<br> or Click on the buttons to increase or decrease the value);
+    DoseButton[<br> The dose amount must be complemented <br> with the Unit of Measure, and can have decimal digits]
+    SelectPeriodUnit-->DoseButton[The dose amount must be complemented <br> with the Unit of Measure, and can have decimal digits]
+    DoseButton-->TypePeriod(8. Click on Unit of Measure);
+    TypePeriod--See figure-->SelectVal[Select a value from the menu];
+    SelectVal--See figure-->SelectWhen(9. Click on Frequency <br> Type a value);
+    SelectWhen-->AmountFreq[The amount must be complemented <br> with the Period unit]
+    AmountFreq--See Errore L'origine riferimento non è stata trovata-->SelectDosageDirection(10. Click on Period unit);
+    SelectDosageDirection--See figure-->ValFromMenu[Select a value from the menu]
+    ValFromMenu--See figure-->SelectDateRange(11. Click on Period <br> Type a value);
+    SelectDateRange--See figure-->OnWhen(12.  Click on When. <br>);
+    OnWhen--See figure-->When[Select one or more <br> values from the menu];
+    When-- See Figure-->Day(13. Click on Days of the week)
+    Day--See figure-->ValDay[Select one or more <br> values from the menu]
+    ValDay--See figure-->MoreDosages{14. Do you want to <br> set more dosages?}-->
+   Yes-->Plus[Click on + and follow the <br> steps from 6 to 10 again]-->TypeFrequency
+    MoreDosages--->No-->DateRange(15. Select a date range, which is the duration <br> of the prescription on the calendar.)
+    DateRange --See figure-->RegisterFinal(16. Click on the REGISTER button to save the data, <br> otherwise Click on the CANCEL button to discard them)
+RegisterFinal--See figure-->End(END)
+```
+
+After registering a medication, it appears as a new record in the Medications tab. Also two new buttons appear, **EDIT** and **DELETE**, which allow respectively to modify and delete the data in a record (see Figure ).
+
+
 
 ### Diet Supplements 
 
@@ -411,6 +416,9 @@ To fill a questionnaire, click on +ADD to open the tab, select the responses and
 <figcaption style="text-align:center"></figcaption>
 </figure>
 
+**Note: the score obtained in some questionnaire can impact on the patient profiling and, in some cases, can be a risk of exclusion factor.**
+**If the GDS score is >= 12, the dashboard will generate an alert for you to consider excluding the patient.**
+**If the IADL score is <=2, the dashboard will generate an alert for you to consider excluding the patient.**
 
 ## Patient profiling
 
@@ -426,9 +434,13 @@ During the Baseline Assessment, a profiling functionality is available for the u
 <figcaption style="text-align:center"></figcaption>
 </figure>
 
+**Note: this tab is provided to confirm the ascertained conditions or disable one or more tabs, except the Cardiovascular diseases which must be confirmed here to open the related tab**.
+
+The Patient profiling algorithm and the risk of exclusion factors are illustrated in a flowchart [here](https://github.com/Smartbear-Unimi/sb-ui-doc/blob/12-exclusion-criteria/content/en/docs/operating/exclusion-criteria/Flowchart.md).
 
 
-## Hearing Loss
+
+## Hearing Loss {#hearing_loss}
 
 Tick the Hearing Loss condition, or uses hearing aids in the tab Medical History, then confirm the patient's profile to activate the Hearing Loss tab. Click on the HEARING LOSS button to open the tab. 
 
@@ -459,8 +471,7 @@ o	Pure tone audiometry. Clik on the label and type a value in Pa
 o	Otoscopy. Click on the label, then select a Abnormal or Normal from the menu.
 2. Questionnaires. It contains the MoCA and the GHABP questionnaires. To fill a questionnaire, click on +ADD to open the tab, select the responses and save the results (see section ). It is possible to open a curtain menu, which displays the responses. Also, the score is coloured according to the criticality: green is for good results, red is for critical results.
 
-
-
+**Note: if you tick "Hearing Aids user" under General info of Medical History, the Hearing Loss tab will not be activated.**
 
 ### General Info
 
@@ -488,7 +499,7 @@ If you have completed the form correctly click on SAVE to save the data, otherwi
 <figcaption style="text-align:center"></figcaption>
 </figure>
 
-## Balance Disorder
+## Balance Disorder {#balance_disorder}
 
 To activate the Balance Disorders tab, select a value under Balance Disorders in Medical History, then confirm the patient's profile. Click on BALANCE DISORDER, to open the tab. It features the following questionnaires: Fall Efficacy Scale International, Activities Specific Balance Confidence Scale (ABC), Functional Gait Assessment (FGA), Mini-Balance Evaluation System Test (Mini-BEST), Rapid Assessment of Physical Activity (RAPA). To fill a questionnaire, click on +ADD to open the tab, select the responses and save the results. It is possible to open a curtain menu, which displays the responses. Also, the score is coloured according to the criticality: green is for good results, red is for critical results.
 
@@ -509,7 +520,7 @@ If you have completed the form correctly click on SAVE to save the data, otherwi
 <figcaption style="text-align:center"></figcaption>
 </figure>
 
-## Cardio Vascular
+## Cardio Vascular {#cardio_vascular}
 
 Tick the Cardiovascular condition in Medical History, then confirm the patient's profile to activate the Cardiovascular tab. Click on CARDIOVASCULAR to open the Cardiovascular tab. 
 
@@ -636,7 +647,7 @@ Follow the steps below to fill this tab:
 </figure>
 
 
-## Mental Disorders
+## Mental Disorders {#mental_disorders}
 
 Tick the Anxiety or Depression disorder condition in Medical History, then confirm the patient's profile to activate the Mental Disorders tab.
 
@@ -665,7 +676,7 @@ Click on MENTAL DISORDERS, to open the Mental Disorders tab. It features the fol
 
 
 
-## Cognitive Disorders
+## Cognitive Disorders {#cognitive_disorders}
 
 The Cognitive Disorders tab is activated in the following cases: 
 
@@ -685,7 +696,7 @@ First, confirm the patient's profile. Click on the COGNITIVE DISORDES button to 
 <figcaption style="text-align:center"></figcaption>
 </figure>
 
-## Frailty
+## Frailty {#frailty}
 
 Tick Weight Loss in Medical History, then confirm the patient's profile to activate the Frailty tab. Click on FRAILTY to open the Frailty tab  which includes the Edmonton Frailty Scale (EFS) questionnaire. To fill this questionnaire, click on +ADD to open the tab, select the responses and save the results.  Also, the score is coloured according to the criticality: green is for good results, red is for critical results.
 
@@ -703,3 +714,7 @@ Tick Weight Loss in Medical History, then confirm the patient's profile to activ
 <img src="Baseline Assessment Images/Pic 81.png" alt="Patient">
 <figcaption style="text-align:center"></figcaption>
 </figure>
+
+**Note: the EFS score can impact on the patient profiling or be a risk of exclusion factor.**
+**If the EFS score is <=5, the Frailty tab is deactivated.**
+**If the EFS score is => 12 and <=17, the dashboard will generate an alert for you to consider excluding the patient.**

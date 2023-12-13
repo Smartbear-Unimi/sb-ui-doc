@@ -12,6 +12,7 @@ menu:
     identifier: "exclusion-criteria"
 weight: 150
 toc: true
+mermaid: true
 ---
 
 <!DOCTYPE html>
