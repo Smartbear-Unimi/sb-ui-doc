@@ -18,11 +18,25 @@ toc: true
 
 Rule-based interventions for Cardiovascular diseases can be created in the Interventions tab. Follow the steps below to create an Intervention:
 
-1.	Click on +INTERVENTION (see Figure ) to open the Interventions tab (Figure )
-2.	Click on Extreme Low Value and Extreme High Value under Systolic Blood Pressure and type the values 
-3.	Click on Optimal Low Value and Optimal High Value under Systolic Blood Pressure and type the values 
-4.	Click on Threshold value under Systolic Blood Pressure and type the value that triggers the Intervention (see Figure ) 
-5.	Follow steps 2, 3, 4 again for Diastolic Blood Pressure values (see Figure)
-6.	Click on SAVE to save the data, otherwise click on  CANCEL to discard them  (see Figure ).
+1.	Click on +INTERVENTION (See Figure 1) to open the Interventions tab (See Figure 2)
+
+<figure id="Pic_1" >
+<img src="..\interventions\Images\Pic_1.png" alt="Figure 1">
+<figcaption style="text-align:center"></figcaption>
+</figure>
+
+<figure id="Pic_2" >
+<img src="..\interventions\Images\Pic_2.png" alt="Figure 2">
+<figcaption style="text-align:center"></figcaption>
+</figure>
+
+2.	Under Systolic Blood Pressure, click on Extreme Low Value and Extreme High Value and type the values
+3.	Under Systolic Blood Pressure, click on Optimal Low Value and Optimal High Value and type the values 
+4.	Under Systolic Blood Pressure, click on Threshold value and type the value that triggers the Intervention 
+    (see Figure ) 
+5.	Follow steps 2, 3, 4 for Diastolic Blood Pressure values (see Figure)
+6.	Click on SAVE to save the data, otherwise click on CANCEL to discard them  (see Figure ).
 
 The new Intervention appears as a new record in the Interventions tab.
+
+**Note: Interventions alerts will be sent to patients as notifications.**
