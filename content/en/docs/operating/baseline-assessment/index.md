@@ -228,7 +228,14 @@ Follow the steps below to insert a medication record:
 
 11. Click on Frequency. Type a value. The amount must be complemented with the Period unit 
 12. Click on Period unit.  Select a value from the menu 
-13. Click on Period. Type a value 
+13. Click on Period. Type a value
+
+**Example 1: a patient has to take 1 dose per day. Insert the following data:
+Frequency: 1; Period unit: day; Period: 1.**
+
+**Example 2: a patient has to take his medicine every 8 hours. Insert the following data:
+Frequency: 1; Period unit: hour; Period: 8.**
+
 
 <figure id="Pic 27" >
 <img src="Baseline Assessment Images/Pic 27.png" alt="Patient">
