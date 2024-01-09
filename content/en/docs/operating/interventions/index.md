@@ -13,30 +13,33 @@ menu:
 weight: 180
 toc: true
 ---
+Interventions are functionalities that support the delivery of personalized alerts to a patient, based on the parameters thresholds to be set. Rule-based interventions are available, which means the user can set the thresholds manually.
+## Intervention creation
 
-## Management
+Follow the steps below to create an Intervention:
 
-Rule-based interventions for Cardiovascular diseases can be created in the Interventions tab. Follow the steps below to create an Intervention:
+1.  In a patient's record, click on INTERVENTIONS to open the interventions tab
 
-1.	Click on +INTERVENTION (See Figure 1) to open the Interventions tab (See Figure 2)
+<!--- This is an HTML comment in Markdown -->
+<!--- Pic_1, Pic_2-->
 
-<figure id="Pic_1" >
-<img src="..\interventions\Images\Pic_1.png" alt="Figure 1">
-<figcaption style="text-align:center"></figcaption>
-</figure>
 
-<figure id="Pic_2" >
-<img src="..\interventions\Images\Pic_2.png" alt="Figure 2">
-<figcaption style="text-align:center"></figcaption>
-</figure>
 
-2.	Under Systolic Blood Pressure, click on Extreme Low Value and Extreme High Value and type the values
-3.	Under Systolic Blood Pressure, click on Optimal Low Value and Optimal High Value and type the values 
-4.	Under Systolic Blood Pressure, click on Threshold value and type the value that triggers the Intervention 
-    (see Figure ) 
-5.	Follow steps 2, 3, 4 for Diastolic Blood Pressure values (see Figure)
-6.	Click on SAVE to save the data, otherwise click on CANCEL to discard them  (see Figure ).
+2.	Click on +INTERVENTION, to open the Create Intervention tab
+
+<!--- Pic_3, Pic_5-->
+
+3.	Click on "Intervention type", and select an option from the menu
+
+<!--- Pic_4, Pic_6-->
+
+4.	Set the required parameters, based on the parameter to be targeted. Here below three examples are shown
+<!--- Pic_7, Pic_8, Pic_9--> 
+5.	Click on SAVE to save the data, otherwise click on CANCEL to discard them
+
+<!--- Pic_10-->
 
 The new Intervention appears as a new record in the Interventions tab.
+<!--- Unfortunately I cannot take this pictures, because the work is still in progress on the mechanism-->
 
 **Note: Interventions alerts will be sent to patients as notifications.**
