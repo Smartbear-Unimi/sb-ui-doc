@@ -286,6 +286,29 @@ After registering a medication, it appears as a new record in the Medications ta
 **Note: if you forget to insert the dosage, the patient will not receive the notifications to remind him take the medications.**
 
 The steps to follow in the medication tab are also shown in the flowchart here below"
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#flowchart {
+  display: none;
+}
+</style>
+<script>
+function toggleFlowchart() {
+  var x = document.getElementById("flowchart");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+</head>
+<body>
+<button onclick="toggleFlowchart()">Medications Flowchart</button>
+
+<div id="flowchart" style="display: none;">
 
 ```mermaid
 graph TD;
@@ -320,7 +343,8 @@ RegisterFinal--See figure-->End(END)
 ```
 
 After registering a medication, it appears as a new record in the Medications tab. Also two new buttons appear, **EDIT** and **DELETE**, which allow respectively to modify and delete the data in a record (see Figure ).
-
+</div>
+</body></html>
 
 
 ### Diet Supplements 
