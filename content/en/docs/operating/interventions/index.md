@@ -21,7 +21,6 @@ Follow the steps below to create an Intervention:
 1.  In a patient's record, click on INTERVENTIONS to open the interventions tab
 
 <!--- This is an HTML comment in Markdown -->
-<!--- Pic_1, Pic_2-->
 
 <figure id="Pic_1" >
 <img src="..\interventions\Intervention pictures\Pic_1.png" alt="Figure 1">
@@ -63,17 +62,17 @@ Follow the steps below to create an Intervention:
 <img src="..\interventions\Intervention pictures\Pic_7.png" alt="Figure 7">
 <figcaption style="text-align:center"></figcaption>
 </figure>
-
+<!--- Add caption -->
 <figure id="Pic_8" >
 <img src="..\interventions\Intervention pictures\Pic_8.png" alt="Figure 8">
 <figcaption style="text-align:center"></figcaption>
 </figure>
-
+<!--- Add caption -->
 <figure id="Pic_9" >
 <img src="..\interventions\Intervention pictures\Pic_9.png" alt="Figure 9">
 <figcaption style="text-align:center"></figcaption>
 </figure>
-
+<!--- Add caption -->
 5.	Click on SAVE to save the data, otherwise click on CANCEL to discard them
 
 <figure id="Pic_10" >
