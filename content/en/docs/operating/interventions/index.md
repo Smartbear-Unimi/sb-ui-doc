@@ -60,17 +60,20 @@ Follow the steps below to create an Intervention:
 4.	Set the required parameters, based on the parameter to be targeted. Here below three examples are shown
 <figure id="Pic_7" >
 <img src="..\interventions\Intervention pictures\Pic_7.png" alt="Figure 7">
-<figcaption style="text-align:center"></figcaption>
+<figcaption style="text-align:center">Example #1. Target parameter: Blood Pressure.</figcaption>
+<figcaption style="text-align:center">  Set the right values for both Systolic Blood Pressure and Diastolic Blood Pressure.</figcaption>
 </figure>
-<!--- Add caption -->
+<!--- Add caption --> 
 <figure id="Pic_8" >
 <img src="..\interventions\Intervention pictures\Pic_8.png" alt="Figure 8">
-<figcaption style="text-align:center"></figcaption>
+<figcaption style="text-align:center">Example #2. Target parameter: BMI.</figcaption>
+<figcaption style="text-align:center">Set the patient's Body Mass Index value.</figcaption>
 </figure>
 <!--- Add caption -->
 <figure id="Pic_9" >
 <img src="..\interventions\Intervention pictures\Pic_9.png" alt="Figure 9">
-<figcaption style="text-align:center"></figcaption>
+<figcaption style="text-align:center">Example #3. Target parameter: Hear Rate.</figcaption>
+<figcaption style="text-align:center">Set values of: Hear Rate Extreme Low, Hear Rate Extreme High, Hear Rate Optimal Low, Hear Rate Optimal High. </figcaption>
 </figure>
 <!--- Add caption -->
 5.	Click on SAVE to save the data, otherwise click on CANCEL to discard them
