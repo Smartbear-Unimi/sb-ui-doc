@@ -1,3 +1,4 @@
+---
 title: "Patient flowchart"
 description: "Exclusion Criteria for enrollement"
 lead: ""
@@ -39,10 +40,30 @@ function toggleFlowchart() {
 
 <div id="flowchart" style="display: none;">
 
-#RISK OF EXCLUSION
+## PROFILING PROCESS
+**Patient profiling & Risk of exclusion**
 
 ```mermaid  
 graph TB
+
+
+
+%% Change the color of the link 
+AStep1<==>Link1<==>ProfilingAStep1 
+AStep3<==>Link2<==>ProfilingAStep5
+AStep5<==>Link3<==>ProfilingAStep2
+AStep6<==>Link4<==>ProfilingAStep6
+AStep7<==>Link5<==>ProfilingAStep7
+AStep8<==>Link6<==>ProfilingAStep8
+
+Link1((=))
+Link2((=))
+Link3((=))
+Link4((=))
+Link5((=))
+Link6((=))
+
+
 
 subgraph Patient Profiling
 ProfilingAStep1((Step 1: <br>Exclusion Criteria))
@@ -235,7 +256,8 @@ style ProfilingAStep7 fill:#255, stroke:#FFFFFF,stroke-width:2px, color:#000000;
 style ProfilingAStep8 fill:#255, stroke:#FFFFFF,stroke-width:2px, color:#000000;
 style ProfilingAStep9 fill:#255, stroke:#FFFFFF,stroke-width:2px, color:#000000;
 
-
+end
+```
 
 </div>
 
