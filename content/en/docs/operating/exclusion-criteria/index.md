@@ -123,4 +123,4 @@ An alternative mechanism to accept a patient is to go back to the Patients page 
 <figcaption style="text-align:center"> Step 2</figcaption>
 </figure>
 
-The algorithm provided to assess the exclusion criteria is shown in the flowchart [here](https://github.com/Smartbear-Unimi/sb-ui-doc/blob/Recruitment-flowchart/content/en/docs/operating/exclusion-criteria/Exclusion_flowchart/_exclusion.md).
+The algorithm provided to assess the exclusion criteria is shown in the flowchart [here](https://github.com/Smartbear-Unimi/sb-ui-doc/content/en/docs/operating/exclusion-criteria/Exclusion flowchart/_exclusion.md).
