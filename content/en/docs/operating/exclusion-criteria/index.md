@@ -123,4 +123,4 @@ An alternative mechanism to accept a patient is to go back to the Patients page 
 <figcaption style="text-align:center"> Step 2</figcaption>
 </figure>
 
-The algorithm provided to assess the exclusion criteria is shown in the flowchart [here](content/en/docs/operating/exclusion-criteria/exclusion-flowchart/_exclusion.md).
+The algorithm provided to assess the exclusion criteria is shown in the flowchart [here](content/en/docs/operating/exclusion-criteria/exclusion-flowchart/index.md).
