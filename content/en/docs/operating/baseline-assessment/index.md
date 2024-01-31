@@ -420,8 +420,8 @@ To fill a questionnaire, click on +ADD to open the tab, select the responses and
 **If the GDS score is >= 12, the dashboard will generate an alert for you to consider excluding the patient.**
 **If the IADL score is <=2, the dashboard will generate an alert for you to consider excluding the patient.**
 
-## Patient profiling
 
+<<<<<<< HEAD
 During the Baseline Assessment, a profiling functionality is available for the users to confirm which comorbidities will be monitored. There is an orange button in the lower right corner which opens a form, where the proposed profile of the patient is shown: select/unselect the comorbidities to be monitored, then click on ACCEPT. Consequently, the specific assessment tabs will be activated according to the selection.
 
 <figure id="Pic 44a" >
@@ -718,3 +718,5 @@ Tick Weight Loss in Medical History, then confirm the patient's profile to activ
 **Note: the EFS score can impact on the patient profiling or be a risk of exclusion factor.**
 **If the EFS score is <=5, the Frailty tab is deactivated.**
 **If the EFS score is => 12 and <=17, the dashboard will generate an alert for you to consider excluding the patient.**
+=======
+>>>>>>> 15bcbe718c1deaeb49f4430c8fdbff16ffa90e10
