@@ -3,7 +3,7 @@ description: "Exclusion Criteria for enrollement"
 lead: ""
 date: 2023-03-11T12:29:14+01:00
 lastmod: 2023-03-11T12:29:14+01:00
-draft: true
+draft: false
 images: []
 menu:
   docs:
