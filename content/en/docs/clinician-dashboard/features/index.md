@@ -131,7 +131,7 @@ to the assisted patients if the user is an external CCM. More details on the Inb
 </figure>
 
 
-<figure id="Pic_13">
+<br><figure id="Pic_13">
 <img src="images/Pic_13.png" alt="notebook" width="800px">
 <figcaption style="text-align:center">Figure 13. </figcaption>
 </figure>
@@ -202,6 +202,6 @@ the overview interface for a patient (see [Figure 17]({{< ref "#Pic_17" >}} "Fig
 </figure>
 
 <br><figure id="Pic_24">
-<img src="images/Pic_24.png" alt="Tech">
+<img src="images/Pic_24.png" alt="Tech" width="800px">
 <figcaption style="text-align:center">Figure 24.</figcaption>
 </figure>
