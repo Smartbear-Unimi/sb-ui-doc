@@ -201,7 +201,7 @@ the overview interface for a patient (see [Figure 17]({{< ref "#Pic_17" >}} "Fig
 </figure>
 </figure>
 
-<figure id="Pic_24">
+<br><figure id="Pic_24">
 <img src="images/Pic_24.png" alt="Tech">
 <figcaption style="text-align:center">Figure 24.</figcaption>
 </figure>
