@@ -84,7 +84,7 @@ Each patients has a tab including his/her data that is shown in [Figure 7]({{< r
 <figcaption style="text-align:center">Figure 7. </figcaption>
 </figure>
 
-
+<!---
 ## Notebooks Page {#notebooks}
 
 Click on the Notebooks button. The Notebooks page appears (see [Figure 8]({{< ref "#Pic_8" >}} "Figure 8") and [Figure 9]({{< ref "#Pic_9" >}} "Figure 9")). The Notebooks page
@@ -108,7 +108,7 @@ updated at any time (see [Figure 10]({{< ref "#Pic_10" >}} "Figure 10")). The cr
 <figcaption style="text-align:center">Figure 10. </figcaption>
 </figure>
 
-
+-->
 ## Inbox Page {#inbox}
 
 Click on the INBOX button in the Home page (see [Figure 11]({{< ref "#Pic_11" >}} "Figure 11")). The Inbox page appears that is divided into two
