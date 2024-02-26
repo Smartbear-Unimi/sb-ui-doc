@@ -19,8 +19,8 @@ mermaid: true
 
 After verifying the exclusion criteria are matched, two new buttons will appear in the patient’s record:
 
-•	DEVICES MANAGEMENT which opens the Devices tab. This tab allows the user to view, insert and modify the information about the devices associated to a patient.  
-•	ID MANAGEMENT which opens the ID Management tab appears. This tab allows the user to view, insert and modify the IDs that are assigned to a patient in the context of the synergies with other projects, e.g. HOLOBalance and (only for the PoP) Smart4Health (see ).
+•	DEVICES MANAGEMENT which opens the Devices tab. This tab allows the user to view, insert and modify the information about the devices associated to a patient (see [Devices Management] (operating/patient-management/index.md/#device_management)).  
+•	ID MANAGEMENT which opens the ID Management tab appears. This tab allows the user to view, insert and modify the IDs that are assigned to a patient in the context of the synergies with other projects, e.g. HOLOBalance and (only for the PoP) Smart4Health (see [Id management] (operating/patient-management/index.md/#id_management)).
 
 To conduct the Baseline Assessment, click on SHOW to re-open the Assessment created to verify the exclusion criteria. The following tabs are provided:
 
