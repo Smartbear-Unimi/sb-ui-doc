@@ -22,6 +22,8 @@ After verifying the exclusion criteria are matched, two new buttons will appear 
 •	DEVICES MANAGEMENT which opens the Devices tab. This tab allows the user to view, insert and modify the information about the devices associated to a patient (see [Devices Management] (operating/patient-management/index.md/#device_management)).  
 •	ID MANAGEMENT which opens the ID Management tab appears. This tab allows the user to view, insert and modify the IDs that are assigned to a patient in the context of the synergies with other projects, e.g. HOLOBalance and (only for the PoP) Smart4Health (see [Id management] (operating/patient-management/index.md/#id_management)).
 
+See [Patient Management]({{< ref "/docs/operating/patient-management/index.md" >}} "Patient management")
+
 To conduct the Baseline Assessment, click on SHOW to re-open the Assessment created to verify the exclusion criteria. The following tabs are provided:
 
 •	MEDICAL HISTORY which opens the Medical History tab. This tab is active for all patients and the data concerning medical history (e.g. comorbidities, physical examinations) are saved here (see [Medical History](#medical_history)). 
