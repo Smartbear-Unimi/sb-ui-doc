@@ -45,21 +45,21 @@ After saving the response, the Dexterity score appears in the Assessment tab.
 
 <br><figure id="Pic_57" >
 <img src="images/Pic_57.png" alt="Patient" width="800px" style="align:center">
-<figcaption style="text-align:center">Step 1 </figcaption>
+<figcaption style="text-align:center">Dexterity: Step 1 </figcaption>
 </figure>
 
 
 
 <br><figure id="Pic_59" >
-<img src="images/Pic_59.png" alt="Patient" width="400px" style="align:center">
-<figcaption style="text-align:center"> Step 2 </figcaption>
+<img src="images/Pic_59.png" alt="Patient" width="800px" style="align:center">
+<figcaption style="text-align:center">Dexterity: Step 2 </figcaption>
 </figure>
 
 
 
 <br><figure id="Pic_60" >
 <img src="images/Pic_60.png" alt="Patient" width="400px" style="align:center">
-<figcaption style="text-align:center"> Step 3 </figcaption>
+<figcaption style="text-align:center">Dexterity: Step 3 </figcaption>
 </figure>
 
 ### Montreal Cognitive Assessment (MoCA)
@@ -79,25 +79,25 @@ After saving the responses, the MoCA score appears in the Assessment tab.
 
 <br><figure id="Pic_60a" >
 <img src="images/Pic_60a.png" alt="Patient" width="800px" style="align:center">
-<figcaption style="text-align:center">Step 1</figcaption>
+<figcaption style="text-align:center">MoCA: Step 1</figcaption>
 </figure>
 
 
 <br><figure id="Pic_61" >
 <img src="images/Pic_63.png" alt="Patient" width="400px" style="align:center">
-<figcaption style="text-align:center"> Step 2 </figcaption>
+<figcaption style="text-align:center">MoCA: Step 2 </figcaption>
 </figure>
 
 
 <br><figure id="Pic_63" >
 <img src="images/Pic_63.png" alt="Patient" width="400px" style="align:center">
-<figcaption style="text-align:center">Step 3</figcaption>
+<figcaption style="text-align:center">MoCA: Step 3</figcaption>
 </figure>
 
 
 <br><figure id="Pic_64" >
 <img src="images/Pic_64.png" alt="Patient" width="400px" style="align:center">
-<figcaption style="text-align:center"> Step 4 </figcaption>
+<figcaption style="text-align:center">MoCA: Step 4 </figcaption>
 </figure>
 
 
