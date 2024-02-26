@@ -342,47 +342,52 @@ The Diet Supplements tab is shown in the picture below. Data concerning diet sup
 <figcaption style="text-align:center">Diet Supplements: step 2</figcaption>
 </figure>
 
-<figure id="Pic 37" >
-<img src="Baseline Assessment Images/Screenshot (1091).png" alt="Patient">
-<figcaption style="text-align:center"></figcaption>
+<br><figure id="DS_3" >
+<img src="Baseline Assessment Images/DS_3.png" alt="Patient" width="800px" style="align:center">
+<figcaption style="text-align:center">Diet Supplements: step 3</figcaption>
 </figure>
 
-<figure id="Pic 38" >
-<img src="Baseline Assessment Images/Screenshot (1092).png" alt="Patient">
-<figcaption style="text-align:center"></figcaption>
+<br><figure id="DS_4" >
+<img src="Baseline Assessment Images/DS_4.png" alt="Patient" width="800px" style="align:center">
+<figcaption style="text-align:center">Diet Supplements: step 4</figcaption>
 </figure>
 
-<figure id="Pic 39" >
-<img src="Baseline Assessment Images/Screenshot (1093).png" alt="Patient">
-<figcaption style="text-align:center"></figcaption>
+<br><figure id="DS_5" >
+<img src="Baseline Assessment Images/DS_5.png" alt="Patient" width="800px" style="align:center">
+<figcaption style="text-align:center">Diet Supplements: steps 5 and 6</figcaption>
 </figure>
 
-<figure id="Pic 40" >
-<img src="Baseline Assessment Images/Screenshot (1094).png" alt="Patient">
-<figcaption style="text-align:center"></figcaption>
+<br><figure id="DS_freq" >
+<img src="Baseline Assessment Images/DS_freq.png" alt="Patient" width="800px" style="align:center">
+<figcaption style="text-align:center">Diet Supplements: steps 7, 8, 9</figcaption>
 </figure>
 
-<figure id="Pic 40" >
-<img src="Baseline Assessment Images/Screenshot (1095).png" alt="Patient">
-<figcaption style="text-align:center"></figcaption>
+<br><figure id="DS_6" >
+<img src="Baseline Assessment Images/DS_6.png" alt="Patient" width="800px" style="align:center">
+<figcaption style="text-align:center">Diet Supplements: step 10</figcaption>
 </figure>
 
-<figure id="Pic 41" >
-<img src="Baseline Assessment Images/Screenshot (1096).png" alt="Patient">
-<figcaption style="text-align:center"></figcaption>
+<br><figure id="Pic 41" >
+<img src="Baseline Assessment Images/DS_7.png" alt="Patient" width="800px" style="align:center">
+<figcaption style="text-align:center">Diet Supplements: step 11</figcaption>
 </figure>
 
-<figure id="Pic 42" >
-<img src="Baseline Assessment Images/Screenshot (1097).png" alt="Patient">
-<figcaption style="text-align:center"></figcaption>
+<br><figure id="DS_8" >
+<img src="Baseline Assessment Images/DS_8.png" alt="Patient" width="800px" style="align:center">
+<figcaption style="text-align:center">Diet Supplements: step 13</figcaption>
 </figure>
 
-<figure id="Pic 43" >
-<img src="Baseline Assessment Images/Screenshot (1097_a).png" alt="Patient">
-<figcaption style="text-align:center"></figcaption>
+<br><figure id="DS_9" >
+<img src="Baseline Assessment Images/DS_9.png" alt="Patient" width="800px" style="align:center">
+<figcaption style="text-align:center">Diet supplements: step 14</figcaption>
 </figure>
 
-After the registration, the diet supplement appears as a record in the Diet Supplements tab. Also two new buttons appear, EDIT and DELETE, which allow respectively to modify and delete the data in a record.
+<br> After the registration, the diet supplement appears as a record in the Diet Supplements tab. Also two new buttons appear, EDIT and DELETE, which allow respectively to modify and delete the data in a record.
+
+<br><figure id="DS_10" >
+<img src="Baseline Assessment Images/DS_10.png" alt="Patient" width="800px" style="align:center">
+<figcaption style="text-align:center">Diet supplements tab with the new record</figcaption>
+</figure>
 
 ### Questionnaires
 
@@ -391,7 +396,7 @@ This tab provides the questionnaires that must be administered to all the patien
 To fill a questionnaire, click on +ADD to open the tab, select the responses and save the results (see section ). It is possible to open a curtain menu, which displays the responses. Also, the score is coloured according to the criticality: green is for good results, red is for critical results.
 
 <figure id="Pic 43a" >
-<img src="Baseline Assessment Images/Pic 43.png" alt="Patient">
+<img src="Baseline Assessment Images/Pic 43.png" alt="Patient" >
 <figcaption style="text-align:center"></figcaption>
 </figure>
 
