@@ -76,7 +76,7 @@ The other available options for status are the following:
 •	RISK OF EXCLUSION. In this case the exclusion is recommended, generally because the Medical History or the questionnaire scores highlight some issue. 
 
 
-## Device Management {#device_management#}
+## Device Management {#device_management}
 
 Click on DEVICE MANAGEMENT in a patient's record to open the Devices tab. 
 
@@ -153,7 +153,7 @@ To modify a device, click on EDIT to open the Modify Device form. Click on MODIF
 
 
 
-## External Id Management {#id_management#}
+## External Id Management {#id_management}
 
 Click on ID MANAGEMENT to open the ID Management tab. 
 
