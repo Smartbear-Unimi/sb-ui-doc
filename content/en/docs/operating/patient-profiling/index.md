@@ -62,7 +62,7 @@ o	Pure tone audiometry. Clik on the label and type a value in Pa
 o	Otoscopy. Click on the label, then select a Abnormal or Normal from the menu.
 2. Questionnaires. It contains the MoCA and the GHABP questionnaires. To fill a questionnaire, click on +ADD to open the tab, select the responses and save the results (see section ). It is possible to open a curtain menu, which displays the responses. Also, the score is coloured according to the criticality: green is for good results, red is for critical results.
 
-
+**Note: if you tick "Hearing Aids user" under General info of Medical History, the Hearing Loss tab will not be activated.**
 
 
 ### General Info
@@ -306,6 +306,10 @@ Tick Weight Loss in Medical History, then confirm the patient's profile to activ
 <img src="Patient profiling pictures/Pic 81.png" alt="Patient">
 <figcaption style="text-align:center"></figcaption>
 </figure>
+
+**Note: the EFS score can impact on the patient profiling or be a risk of exclusion factor.**
+**If the EFS score is <=5, the Frailty tab is deactivated.**
+**If the EFS score is => 12 and <=17, the dashboard will generate an alert for you to consider excluding the patient.**
 
 ## Device allocation
 To assign the devices to a patient, please follow the instructions at Patient management [link]
