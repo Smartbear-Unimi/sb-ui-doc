@@ -57,7 +57,7 @@ In order to create a GDPR request, open the GDPR page (see sec. ) and follow the
 </figure>
 
 <br><figure id="Pic 7" >
-<img src="GDPR images/Pic 7.png" alt="Patient" width="800px" style="align:center">
+<img src="GDPR images/Pic 7.png" alt="Patient" width="400px" style="align:center">
 <figcaption style="text-align:center">GDPR request list</figcaption>
 </figure>
 
