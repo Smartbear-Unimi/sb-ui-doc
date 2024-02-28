@@ -158,7 +158,7 @@ Click on ID MANAGEMENT to open the ID Management tab.
 
 <br><figure id="Pic 20" >
 <img src="Patient management images/Pic 20.png" alt="Patient" width="800px" style="align:center">
-<figcaption style="text-align:center">ID Management: clicl</figcaption>
+<figcaption style="text-align:center">ID Management: click</figcaption>
 </figure>
 
 <br><figure id="Pic 21" >
