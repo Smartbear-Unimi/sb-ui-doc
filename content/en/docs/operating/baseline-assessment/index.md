@@ -420,8 +420,8 @@ To fill a questionnaire, click on +ADD to open the tab, select the responses and
 **If the GDS score is >= 12, the dashboard will generate an alert for you to consider excluding the patient.**
 **If the IADL score is <=2, the dashboard will generate an alert for you to consider excluding the patient.**
 
-## Patient profiling
 
+<<<<<<< HEAD
 During the Baseline Assessment, a profiling functionality is available for the users to confirm which comorbidities will be monitored. There is an orange button in the lower right corner which opens a form, where the proposed profile of the patient is shown: select/unselect the comorbidities to be monitored, then click on ACCEPT. Consequently, the specific assessment tabs will be activated according to the selection.
 
 <figure id="Pic 44a" >
@@ -436,10 +436,10 @@ During the Baseline Assessment, a profiling functionality is available for the u
 
 **Note: this tab is provided to confirm the ascertained conditions or disable one or more tabs, except the Cardiovascular diseases which must be confirmed here to open the related tab**.
 
-The Patient profiling algorithm and the risk of exclusion factors are illustrated in a flowchart [here](https://github.com/Smartbear-Unimi/sb-ui-doc/blob/12-exclusion-criteria/content/en/docs/operating/exclusion-criteria/Flowchart.md).
+The Patient profiling algorithm and the device allocation are described in more detail at the [Patient profiling]({{< ref "docs/operating/patient-profiling/index.md" >}} "Patient profiling") page.
 
 
-
+<!--
 ## Hearing Loss {#hearing_loss}
 
 Tick the Hearing Loss condition, or uses hearing aids in the tab Medical History, then confirm the patient's profile to activate the Hearing Loss tab. Click on the HEARING LOSS button to open the tab. 
@@ -718,3 +718,7 @@ Tick Weight Loss in Medical History, then confirm the patient's profile to activ
 **Note: the EFS score can impact on the patient profiling or be a risk of exclusion factor.**
 **If the EFS score is <=5, the Frailty tab is deactivated.**
 **If the EFS score is => 12 and <=17, the dashboard will generate an alert for you to consider excluding the patient.**
+-->
+
+
+
