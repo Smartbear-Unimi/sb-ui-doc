@@ -62,6 +62,6 @@ In order to create a GDPR request, open the GDPR page (see sec. ) and follow the
 </figure>
 
 
-The new GDPR request appears as a new record in the GDPR Requests tab, click on SHOW to visualize it.
+<br>The new GDPR request appears as a new record in the GDPR Requests tab, click on SHOW to visualize it.
 
 
