@@ -22,14 +22,14 @@ In order to the include or exclude a patient from SMART BEAR, start the clinical
 2.	Click on SHOW and the Exclusion Criteria tab appears, otherwise click on DELETE to cancel the Assessment.
 
 
-<figure id="Pic_1a" >
-<img src="images/Pic_1a.PNG" alt="Patient">
+<br><figure id="Pic_1a" >
+<img src="images/Pic_1a.PNG" alt="Patient" width="800px" style="align:center">
 <figcaption style="text-align:center">Step 1</figcaption>
 </figure>
 
 
-<figure id="Pic_1" >
-<img src="images/Pic_1.PNG" alt="Patient">
+<br><figure id="Pic_1" >
+<img src="images/Pic_1.PNG" alt="Patient" width="800px" style="align:center">
 <figcaption style="text-align:center">Step 2.</figcaption>
 </figure>
 
@@ -43,30 +43,30 @@ Follow the steps below to fill the Dexterity question:
 After saving the response, the Dexterity score appears in the Assessment tab.
 
 
-<figure id="Pic_57" >
-<img src="images/Pic_57.png" alt="Patient">
-<figcaption style="text-align:center">Step 1 </figcaption>
+<br><figure id="Pic_57" >
+<img src="images/Pic_57.png" alt="Patient" width="800px" style="align:center">
+<figcaption style="text-align:center">Dexterity: Step 1 </figcaption>
 </figure>
 
 
 
-<figure id="Pic_59" >
-<img src="images/Pic_59.png" alt="Patient">
-<figcaption style="text-align:center"> Step 2 </figcaption>
+<br><figure id="Pic_59" >
+<img src="images/Pic_59.png" alt="Patient" width="800px" style="align:center">
+<figcaption style="text-align:center">Dexterity: Step 2 </figcaption>
 </figure>
 
 
 
-<figure id="Pic_60" >
-<img src="images/Pic_60.png" alt="Patient">
-<figcaption style="text-align:center"> Step 3 </figcaption>
+<br><figure id="Pic_60" >
+<img src="images/Pic_60.png" alt="Patient" width="400px" style="align:center">
+<figcaption style="text-align:center">Dexterity: Step 3 </figcaption>
 </figure>
 
 ### Montreal Cognitive Assessment (MoCA)
 
 Follow the steps below to fill the MoCA questionnaire:
 
-1.	Click on ADD to open questionnaire description 
+1.	Click on +ADD to open questionnaire description 
 2.	Click on NEXT to open the questionnaire, to open the questionnaire, where the questions and the response options are provided 
 3.	Click on the responses given by the user to each question. The score is calculated automatically at the bottom of the tab as it is shown in and the threshold value for diagnosing a Cognitive Disorder is reported 
 4.	Click on SAVE.
@@ -77,27 +77,27 @@ Follow the steps below to fill the MoCA questionnaire:
 After saving the responses, the MoCA score appears in the Assessment tab.
 
 
-<figure id="Pic_60a" >
-<img src="images/Pic_60a.png" alt="Patient">
-<figcaption style="text-align:center">Step 1</figcaption>
+<br><figure id="Pic_60a" >
+<img src="images/Pic_60a.png" alt="Patient" width="800px" style="align:center">
+<figcaption style="text-align:center">MoCA: Step 1</figcaption>
 </figure>
 
 
-<figure id="Pic_61" >
-<img src="images/Pic_63.png" alt="Patient">
-<figcaption style="text-align:center"> Step 2 </figcaption>
+<br><figure id="Pic_61" >
+<img src="images/Pic_63.png" alt="Patient" width="400px" style="align:center">
+<figcaption style="text-align:center">MoCA: Step 2 </figcaption>
 </figure>
 
 
-<figure id="Pic_63" >
-<img src="images/Pic_63.png" alt="Patient">
-<figcaption style="text-align:center">Step 3</figcaption>
+<br><figure id="Pic_63" >
+<img src="images/Pic_63.png" alt="Patient" width="400px" style="align:center">
+<figcaption style="text-align:center">MoCA: Step 3</figcaption>
 </figure>
 
 
-<figure id="Pic_64" >
-<img src="images/Pic_64.png" alt="Patient">
-<figcaption style="text-align:center"> Step 4 </figcaption>
+<br><figure id="Pic_64" >
+<img src="images/Pic_64.png" alt="Patient" width="400px" style="align:center">
+<figcaption style="text-align:center">MoCA: Step 4 </figcaption>
 </figure>
 
 
@@ -111,15 +111,15 @@ After completing the Dexterity and the MoCA, the following cases can happen:
 
 An alternative mechanism to accept a patient is to go back to the Patients page and click on EDIT and change the patient’s status to ACTIVE. 
 
-<figure id="Pic_66" >
-<img src="images/Pic_66.png" alt="Patient">
+<br><figure id="Pic_66" >
+<img src="images/Pic_66.png" alt="Patient" width="800px" style="align:center">
 <figcaption style="text-align:center"> Step 1 </figcaption>
 </figure>
 
 
 
-<figure id="Pic_67" >
-<img src="images/Pic_67.png" alt="Patient">
+<br><figure id="Pic_67" >
+<img src="images/Pic_67.png" alt="Patient" width="800px" style="align:center">
 <figcaption style="text-align:center"> Step 2</figcaption>
 </figure>
 

@@ -26,4 +26,42 @@ In order to create a GDPR request, open the GDPR page (see sec. ) and follow the
 6.	If necessary, type a description in the field Description
 7.	Click on SAVE (see Figure ).
 
-The new GDPR request appears as a new record in the GDPR Requests tab, click on SHOW to visualize it.
+<br><figure id="Pic 1" >
+<img src="GDPR images/Pic 1.png" alt="Patient" width="800px" style="align:center">
+<figcaption style="text-align:center">GDPR request: step 1</figcaption>
+</figure>
+
+<br><figure id="Pic 2" >
+<img src="GDPR images/Pic 2.png" alt="Patient" width="400px" style="align:center">
+<figcaption style="text-align:center">GDPR request: step 2</figcaption>
+</figure>
+
+<br><figure id="Pic 3" >
+<img src="GDPR images/Pic 3.png" alt="Patient" width="400px" style="align:center">
+<figcaption style="text-align:center">GDPR request: step 3</figcaption>
+</figure>
+
+<br><figure id="Pic 4" >
+<img src="GDPR images/Pic 4.png" alt="Patient" width="400px" style="align:center">
+<figcaption style="text-align:center">GDPR request: step 4</figcaption>
+</figure>
+
+<br><figure id="Pic 5" >
+<img src="GDPR images/Pic 1.png" alt="Patient" width="400px" style="align:center">
+<figcaption style="text-align:center">GDPR request: step 5</figcaption>
+</figure>
+
+<br><figure id="Pic 6" >
+<img src="GDPR images/Pic 6.png" alt="Patient" width="400px" style="align:center">
+<figcaption style="text-align:center">GDPR request: step 6</figcaption>
+</figure>
+
+<br><figure id="Pic 7" >
+<img src="GDPR images/Pic 7.png" alt="Patient" width="400px" style="align:center">
+<figcaption style="text-align:center">GDPR request list</figcaption>
+</figure>
+
+
+<br>The new GDPR request appears as a new record in the GDPR Requests tab, click on SHOW to visualize it.
+
+
