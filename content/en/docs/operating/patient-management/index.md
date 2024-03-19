@@ -14,6 +14,8 @@ weight: 170
 toc: true
 ---
 
+# Patient Management
+ 
 ## Search
 
 To search a patient in the Patient page the user can:

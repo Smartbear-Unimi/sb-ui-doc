@@ -308,4 +308,4 @@ Tick Weight Loss in Medical History, then confirm the patient's profile to activ
 </figure>
 
 ## Device allocation
-To assign the devices to a patient, please follow the instructions at Patient management [link] 
+To assign the devices to a patient, please follow the instructions at Patient management [Patient-management]({{< ref "/docs/operating/patient-management/index.md" >}} "Patient Management "). 
