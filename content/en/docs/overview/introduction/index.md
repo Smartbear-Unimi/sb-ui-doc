@@ -35,14 +35,17 @@ diet supplements
 5. Device allocation
 
 The Dashboard also provides functionalities to monitor the patients conditions, based on clinical data from
-SMART BEAR, and also from the HOLOBalance and Smart4Health training.
+SMART BEAR, the HOLOBalance and Smart4Health training.
 
+For a general outline of the Dashboard and its functionalities, read [General]({{< ref "/docs/clinician-dashboard/understanding/index.md" >}} "Outline").
+
+<!--
 ## Esempio di come mettere link
 
 - In questo modo puoi mettere un riferimento a un'altra pagina all'interno del sito: [FAQ]({{< ref "/docs/help/faq.md" >}} "FAQ")
 - Questo invece è un esempio di link esterno dove c'è la doc di HUGO [LINK ESTERNO](https://gohugo.io/content-management/cross-references/)
 
-<!-- Devo vedere come mettere dei riferimenti alle immagini, ma ci si può lavorare successivamente -->
+Devo vedere come mettere dei riferimenti alle immagini, ma ci si può lavorare successivamente 
 
 ## Esempio di come mettere immagini
 
@@ -53,3 +56,4 @@ SMART BEAR, and also from the HOLOBalance and Smart4Health training.
 ### Inserimento tramite Markdown
 
 ![Image](images/red-panda.jpg "Cute image of a Red panda")
+-->
