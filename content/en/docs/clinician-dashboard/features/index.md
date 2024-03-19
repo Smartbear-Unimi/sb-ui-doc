@@ -16,14 +16,14 @@ an overview of the statistics related to the managed patients see [Figure 2]({{<
 
 
 <br><figure id="Pic_1" >
-<img src="images/Pic_1.png" alt="Home" width="800px">
+<img src="images/Pic_1.png" alt="Home" width="800px" style="align:center">
 <figcaption style="text-align:center">Figure 1. </figcaption>
 </figure>
 
 
 
 <br><figure id="Pic_2">
-<img src="images/Pic_2.png" alt="Home" width="800px">
+<img src="images/Pic_2.png" alt="Home" width="800px" style="align:center">
 <figcaption style="text-align:center">Figure 2. </figcaption>
 </figure>
 
@@ -44,13 +44,13 @@ from the dropdown menu (see [Figure 3]({{< ref "#Pic_3" >}} "Figure 3") and [Fig
 
 
 <br><figure id="Pic_3">
-<img src="images/Pic_3.png" alt="Home" width="800px">
+<img src="images/Pic_3.png" alt="Home" width="800px" style="align:center">
 <figcaption style="text-align:center">Figure 3. </figcaption>
 </figure>
 
 
 
-<br><figure id="Pic_4" class="centered-figure">
+<br><figure id="Pic_4" class="centered-figure" style="align:center">
 <img src="images/Pic_4.png" alt="Home">
 <figcaption style="text-align:center">Figure 4. </figcaption>
 </figure>
@@ -84,7 +84,7 @@ Each patients has a tab including his/her data that is shown in [Figure 7]({{< r
 <figcaption style="text-align:center">Figure 7. </figcaption>
 </figure>
 
-<!---
+
 ## Notebooks Page {#notebooks}
 
 Click on the Notebooks button. The Notebooks page appears (see [Figure 8]({{< ref "#Pic_8" >}} "Figure 8") and [Figure 9]({{< ref "#Pic_9" >}} "Figure 9")). The Notebooks page
@@ -108,7 +108,6 @@ updated at any time (see [Figure 10]({{< ref "#Pic_10" >}} "Figure 10")). The cr
 <figcaption style="text-align:center">Figure 10. </figcaption>
 </figure>
 
--->
 ## Inbox Page {#inbox}
 
 Click on the INBOX button in the Home page (see [Figure 11]({{< ref "#Pic_11" >}} "Figure 11")). The Inbox page appears that is divided into two
