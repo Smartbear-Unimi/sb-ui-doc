@@ -84,7 +84,7 @@ Each patients has a tab including his/her data that is shown in [Figure 7]({{< r
 <figcaption style="text-align:center">Figure 7. </figcaption>
 </figure>
 
-
+<!--
 ## Notebooks Page {#notebooks}
 
 Click on the Notebooks button. The Notebooks page appears (see [Figure 8]({{< ref "#Pic_8" >}} "Figure 8") and [Figure 9]({{< ref "#Pic_9" >}} "Figure 9")). The Notebooks page
@@ -107,100 +107,100 @@ updated at any time (see [Figure 10]({{< ref "#Pic_10" >}} "Figure 10")). The cr
 <img src="images/Pic_10.png" alt="notebook" width="800px">
 <figcaption style="text-align:center">Figure 10. </figcaption>
 </figure>
-
+-->
 ## Inbox Page {#inbox}
 
-Click on the INBOX button in the Home page (see [Figure 11]({{< ref "#Pic_11" >}} "Figure 11")). The Inbox page appears that is divided into two
+Click on the INBOX button in the Home page (see [Figure 8]({{< ref "#Pic_11" >}} "Figure 8")). The Inbox page appears that is divided into two
 different tabs:
 
-- The Notifications tab that is shown in [Figure 12]({{< ref "#Pic_12" >}} "Figure 12"). Here all the notifications are visualized that are sent
+- The Notifications tab that is shown in [Figure 9]({{< ref "#Pic_12" >}} "Figure 9"). Here all the notifications are visualized that are sent
 to the assisted patients
-- The Subscriptions tab that is shown in [Figure 13]({{< ref "#Pic_13" >}} "Figure 13"). Here all the notifications are visualized that are sent
+- The Subscriptions tab that is shown in [Figure 10]({{< ref "#Pic_13" >}} "Figure 10"). Here all the notifications are visualized that are sent
 to the assisted patients if the user is an external CCM. More details on the Inbox page are available in [Inbox]({{< ref "/docs/operating/inbox/index.md" >}} "Inbox").
 
 <br><figure id="Pic_11">
 <img src="images/Pic_11.png" alt="notebook" width="800px">
-<figcaption style="text-align:center">Figure 11. </figcaption>
+<figcaption style="text-align:center">Figure 8. </figcaption>
 </figure>
 
 
 <br><figure id="Pic_12">
 <img src="images/Pic_12.png" alt="notebook" width="800px">
-<figcaption style="text-align:center">Figure 12. </figcaption>
+<figcaption style="text-align:center">Figure 9. </figcaption>
 </figure>
 
 
 <br><figure id="Pic_13">
 <img src="images/Pic_13.png" alt="notebook" width="800px">
-<figcaption style="text-align:center">Figure 13. </figcaption>
+<figcaption style="text-align:center">Figure 10. </figcaption>
 </figure>
 
 
 ## GDPR Page {#gdpr}
 
-Click on the GDPR button and the GDPR Requests page appears (see [Figure 14]({{< ref "#Pic_14" >}} "Figure 14") and [Figure 15]({{< ref "#Pic_15" >}} "Figure 15")). The GDPR
+Click on the GDPR button and the GDPR Requests page appears (see [Figure 11]({{< ref "#Pic_14" >}} "Figure 11") and [Figure 12]({{< ref "#Pic_15" >}} "Figure 12")). The GDPR
 page allows the user to create requests regarding GDPR rights and visualize them (see [GDPR]({{< ref "/docs/operating/gdpr/index.md" >}} "Inbox")).
 
 <br><figure id="Pic_14">
 <img src="images/Pic_14.png" alt="gdpr" width="800px">
-<figcaption style="text-align:center">Figure 14.</figcaption>
+<figcaption style="text-align:center">Figure 11.</figcaption>
 </figure>
 
 
 <br><figure id="Pic_15">
 <img src="images/Pic_15.png" alt="gdpr" width="800px">
-<figcaption style="text-align:center">Figure 15. </figcaption>
+<figcaption style="text-align:center">Figure 12. </figcaption>
 </figure>
 
 
 ## Tech Support {#tech}
 
 The Tech Support page provides functionalites to clinical and technical personnel for monitoring the ways the
-devices function. Click on the Tech Support button to open this page (see [Figure 16]({{< ref "#Pic_16" >}} "Figure 16")), then click on the SHOW button to open
-the overview interface for a patient (see [Figure 17]({{< ref "#Pic_17" >}} "Figure 17"), [Figure 18]({{< ref "#Pic_18" >}} "Figure 18"), [Figure 19]({{< ref "#Pic_19" >}} "Figure 19")). From these tabs, you can also click on the DEVICES MANAGEMENT and ID MANAGEMENT buttons to check the pairings, the time when the last transmission took place,(see [Figure 20]({{< ref "#Pic_20" >}} "Figure 20"), [Figure 21]({{< ref "#Pic_21" >}} "Figure 21"), [Figure 22]({{< ref "#Pic_22" >}} "Figure 22"), [Figure 23]({{< ref "#Pic_23" >}} "Figure 23")). The log files are also available, which include the list of transmissions to check if some of these are not valid and try to understand where a problem has occurred (see [Figure 24]({{< ref "#Pic_24" >}} "Figure 24")).
+devices function. Click on the Tech Support button to open this page (see [Figure 13]({{< ref "#Pic_16" >}} "Figure 13")), then click on the SHOW button to open
+the overview interface for a patient (see [Figure 14]({{< ref "#Pic_17" >}} "Figure 14"), [Figure 15]({{< ref "#Pic_18" >}} "Figure 15"), [Figure 16]({{< ref "#Pic_19" >}} "Figure 16")). From these tabs, you can also click on the DEVICES MANAGEMENT and ID MANAGEMENT buttons to check the pairings, the time when the last transmission took place,(see [Figure 17]({{< ref "#Pic_20" >}} "Figure 17"), [Figure 18]({{< ref "#Pic_21" >}} "Figure 18"), [Figure 19]({{< ref "#Pic_18" >}} "Figure 19"), [Figure 20]({{< ref "#Pic_23" >}} "Figure 20")). The log files are also available, which include the list of transmissions to check if some of these are not valid and try to understand where a problem has occurred (see [Figure 21]({{< ref "#Pic_24" >}} "Figure 21")).
 
 <br><figure id="Pic_16">
 <img src="images/Pic_16.png" alt="Tech" width="800px">
-<figcaption style="text-align:center">Figure 16. </figcaption>
+<figcaption style="text-align:center">Figure 13. </figcaption>
 </figure>
 
 <br><figure id="Pic_17">
 <img src="images/Pic_17.png" alt="Tech" width="800px">
-<figcaption style="text-align:center">Figure 17. </figcaption>
+<figcaption style="text-align:center">Figure 14. </figcaption>
 </figure>
 
 <br><figure id="Pic_18">
 <img src="images/Pic_18.png" alt="Tech" width="800px">
-<figcaption style="text-align:center">Figure 18. </figcaption>
+<figcaption style="text-align:center">Figure 15. </figcaption>
 </figure>
 
 <br><figure id="Pic_19">
 <img src="images/Pic_19.png" alt="Tech" width="800px">
-<figcaption style="text-align:center">Figure 19.</figcaption>
+<figcaption style="text-align:center">Figure 16.</figcaption>
 </figure>
 
 <br><figure id="Pic_20">
 <img src="images/Pic_20.png" alt="Tech" width="800px">
-<figcaption style="text-align:center">Figure 20.</figcaption>
+<figcaption style="text-align:center">Figure 17.</figcaption>
 </figure>
 
 <br><figure id="Pic_21">
 <img src="images/Pic_21.png" alt="Tech" width="800px">
-<figcaption style="text-align:center">Figure 21.</figcaption>
+<figcaption style="text-align:center">Figure 18.</figcaption>
 </figure>
 
 <br><figure id="Pic_22">
 <img src="images/Pic_22.png" alt="Tech" width="800px">
-<figcaption style="text-align:center">Figure 22.</figcaption>
+<figcaption style="text-align:center">Figure 19.</figcaption>
 </figure>
 
 <br><figure id="Pic_23">
 <img src="images/Pic_23.png" alt="Tech" width="800px">
-<figcaption style="text-align:center">Figure 23.</figcaption>
+<figcaption style="text-align:center">Figure 20.</figcaption>
 </figure>
 </figure>
 
 <br><figure id="Pic_24">
 <img src="images/Pic_24.png" alt="Tech" width="800px">
-<figcaption style="text-align:center">Figure 24.</figcaption>
+<figcaption style="text-align:center">Figure 21.</figcaption>
 </figure>
