@@ -1,5 +1,5 @@
 ---
-title: "patient-profiling"
+title: "Patient profiling"
 description: "Description of the patient profiling"
 lead: ""
 date: 2023-03-11T12:29:30+01:00
@@ -15,7 +15,7 @@ toc: true
 mermaid: true
 ---
 
-## Patient profiling
+# Patient profiling
 
 During the Baseline Assessment, a profiling functionality is available for the users to confirm which comorbidities will be monitored. There is an orange button in the lower right corner which opens a form, where the proposed profile of the patient is shown: select/unselect the comorbidities to be monitored, then click on ACCEPT. Consequently, the specific assessment tabs will be activated according to the selection.
 

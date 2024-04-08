@@ -118,6 +118,8 @@ to the assisted patients
 - The Subscriptions tab that is shown in [Figure 10]({{< ref "#Pic_13" >}} "Figure 10"). Here all the notifications are visualized that are sent
 to the assisted patients if the user is an external CCM. More details on the Inbox page are available in [Inbox]({{< ref "/docs/operating/inbox/index.md" >}} "Inbox").
 
+**Note: if you decide to not receive notifications from a patient, deactivate the subsctiption**
+
 <br><figure id="Pic_11">
 <img src="images/Pic_11.png" alt="notebook" width="800px">
 <figcaption style="text-align:center">Figure 8. </figcaption>

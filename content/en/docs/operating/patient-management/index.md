@@ -103,7 +103,7 @@ Click on DEVICE MANAGEMENT in a patient's record to open the Devices tab.
 Follow the steps below to assign a device to a patient:
 
 1.	Click on +DEVICE to open Assign Device form. 
-2.	Click the Unique ID and type the device ID 
+2.	Click the Unique ID and type the device ID (example: for the smartphone, you can insert IMEI)
 3.	Click on the Status, and select a value from the menu 
 4.	Click on Category type, and select a value from the menu 
 5.	Click on the Number and type the number 
@@ -134,8 +134,9 @@ Follow the steps below to assign a device to a patient:
 <figcaption style="text-align:center">Assign Device: steps 5 and 6 </figcaption>
 </figure>
 
+**Note: to ensure all data are transmitted correctly, insert all the devices that are assigned to a patient**
 
-<br><To modify a device, click on EDIT to open the Modify Device form. Click on MODIFY DEVICE to save the changes, otherwise click on CANCEL to discard the modifications.
+To modify a device, click on EDIT to open the Modify Device form. Click on MODIFY DEVICE to save the changes, otherwise click on CANCEL to discard the modifications.
 
 <br><figure id="Pic 17a" >
 <img src="Patient management images/Pic 17a.png" alt="Patient" width="800px" style="align:center">
@@ -274,7 +275,7 @@ Click on the CLINICAL DATA button in a patient’s record and 3 tabs appear:
 </figure>
 
 
-
+<!--
 ## Interventions Management
 
 The Interventions are personalized messages that are delivered to a patient, according to the recorded value of his/her clinical data, and target specific comorbidities. The interventions are triggered based on thresholds, which are set by hand. The work is ongoing on Machine Learning algorithms that will suggest values to adjust the thresholds, based on the pattern a data time series has been following during the monitoring.
@@ -320,3 +321,4 @@ Set the following parameters, then click on SAVE.
 <figcaption style="text-align:center">Step 4 </figcaption>
 </figure>
 
+-->
