@@ -16,4 +16,8 @@ toc: true
 
 ## Management of notifications and subscriptions
 
-In order to manage the Notifications and Subscriptions, click on INBOX (see sec. ). In the subscription tab, click on the button under SUBSCRIBED to activate or deactivate the messages from a patient (see Figure ).
+In order to manage the Notifications and Subscriptions, click on INBOX. In the subscription tab, click on the button under SUBSCRIBED to activate or deactivate the messages from a patient.
+
+<br><figure id="Pic_1" >
+<img src="Pictures/Subscriptions.png" alt="Manage subscription" width="800px" style="align:center">
+</figure>
