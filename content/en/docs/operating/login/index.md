@@ -23,8 +23,7 @@ After completing the registration successfully, insert your username and passwor
 </figure>
 
 
-
-<br><figure id="Screenshot (1166)" class="centered-figure">
+<figure id="Screenshot (1166)" class="centered-figure">
 <img src="Images/Screenshot (1166).png" alt="login" width="800px" style="align:center">
 <figcaption style="text-align:center">Figure 2</figcaption>
 </figure>

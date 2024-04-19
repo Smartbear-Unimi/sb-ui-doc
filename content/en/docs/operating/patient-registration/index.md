@@ -17,7 +17,7 @@ mermaid: true
 
 ## Patient creation
 
-Click on +PATIENT in the Patients page at the upper right corner (see sec. ) to open the Create patient form.<br>
+Click on +PATIENT in the Patients page at the upper right corner to open the Create patient form.<br>
 
 <br><figure id="image040" >
 <img src="Patient registration images/image040.png" alt="Patient" width="800px" style="align:center">
@@ -32,13 +32,6 @@ Click on +PATIENT in the Patients page at the upper right corner (see sec. ) to 
 Fill these data to complete the form:
 
 1.	Click on Pilot, (e.g. “Testing”) then select a value from the menu. The Organization field is filled automatically 
-2.	Click on SB Email and type the email address that has been assigned to the patient as an account to set up the devices kit.
-3.	Click on Date of participant consent and select a date from the calendar.
-4.	Click on Enter a phone number and type the patient’s mobile number. The country is detected via the browser
-5.	Click on Username of CCM if the CCM is registered in the platform select his/her name from the menu. 
-6.	If a patient is managed by more than one CCM, click on the + (add) button and type the email address. To delete an External CCM, click on the - (remove) button
-7.	If the CCM is not registered in the platform, click on External CCM, click on the label Email of External CCM and type the email address of the External CCM has to receive the notifications.
-8.	If you have completed the form correctly click on CREATE PATIENT to save the data, otherwise, click on CANCEL to discard them.
 
 <br><figure id="image042" >
 <img src="Patient registration images/image042.png" alt="Patient" width="400px" style="align:center">
@@ -50,7 +43,9 @@ Fill these data to complete the form:
 <figcaption style="text-align:center"></figcaption>
 </figure>
 
+<br>
 
+2.	Click on SB Email and type the email address that has been assigned to the patient as an account to set up the devices kit.
 
 <br><figure id="image044" >
 <img src="Patient registration images/image044.png" alt="Patient" width="400px" style="align:center">
@@ -62,59 +57,68 @@ Fill these data to complete the form:
 <figcaption style="text-align:center"></figcaption>
 </figure>
 
+<br>
+
+3.	Click on Date of participant consent and select a date from the calendar.
 
 <br><figure id="image046" >
 <img src="Patient registration images/image046.png" alt="Patient" width="400px" style="align:center">
-<figcaption style="text-align:center"> </figcaption>
+<figcaption style="text-align:center"></figcaption>
 </figure>
 
-<br><figure id="image047" >
+<figure id="image047" >
 <img src="Patient registration images/image047.png" alt="Patient" width="400px" style="align:center">
-<figcaption style="text-align:center">Figure 1. </figcaption>
+<figcaption style="text-align:center"></figcaption>
 </figure>
 
+<br>
 
+4.	Click on Enter a phone number and type the patient’s mobile number. The country is detected via the browser
 
 <br><figure id="image048" >
 <img src="Patient registration images/image048.png" alt="Patient" width="400px" style="align:center">
 <figcaption style="text-align:center"></figcaption>
 </figure>
 
-<br><figure id="image049" >
+<figure id="image049" >
 <img src="Patient registration images/image049.png" alt="Patient" width="400px" style="align:center">
 <figcaption style="text-align:center"></figcaption>
 </figure>
+
+<br>
+
+5.	Click on Username of CCM if the CCM is registered in the platform select his/her name from the menu. 
 
 <br><figure id="image050" >
 <img src="Patient registration images/image050.png" alt="Patient" width="400px" style="align:center">
 <figcaption style="text-align:center"></figcaption>
 </figure>
 
-<br><figure id="image051" >
+<figure id="image051" >
 <img src="Patient registration images/image051.png" alt="Patient" width="400px" style="align:center">
 <figcaption style="text-align:center"></figcaption>
 </figure>
 
+<br>
+
+6.	If a patient is managed by more than one CCM, click on the + (add) button and select the name the email address. To delete an External CCM, click on the - (remove) button
 
 <br><figure id="image052" >
 <img src="Patient registration images/image052.png" alt="Patient" width="400px" style="align:center">
 <figcaption style="text-align:center"> </figcaption>
 </figure>
 
-<br><figure id="image053" >
+<figure id="image053" >
 <img src="Patient registration images/image053.png" alt="Patient" width="400px" style="align:center">
 <figcaption style="text-align:center"> </figcaption>
 </figure>
 
-<figure id="image054" >
-<img src="Patient registration images/image054.png" alt="Patient"width="400px" style="align:center">
-<figcaption style="text-align:center"> </figcaption>
-</figure><br>
+<br>
 
-<br><figure id="image055" >
-<img src="Patient registration images/image055.png" alt="Patient" width="400px" style="align:center">
-<figcaption style="text-align:center"></figcaption>
-</figure>
+<!--
+7.	If the CCM is not registered in the platform, click on External CCM, click on the label Email of External CCM and type the email address of the External CCM has to receive the notifications.
+-->
+7.	If you have completed the form correctly click on CREATE PATIENT to save the data, otherwise, click on CANCEL to discard them.
 
 
 <br><figure id="image056" >
@@ -122,7 +126,7 @@ Fill these data to complete the form:
 <figcaption style="text-align:center"></figcaption>
 </figure>
 
-After the patient is created, the patient’s record is generated, which includes the Overview (see section Overview) and Demographics tabs (see section Demographics).
+After the patient is created, the patient’s record is generated, which includes the Overview and Demographics tabs.
 
 <br><figure id="image057">
 <img src="Patient registration images/image057.png" alt="Patient" width="800px" style="align:center">
@@ -150,12 +154,13 @@ The Overview tab  allows the user to insert and modify the following data to be 
 <figcaption style="text-align:center"></figcaption>
 </figure>
 
-<br><figure id="image060" >
+<br><<figure id="image060" >
 <img src="Patient registration images/image060.png" alt="Patient" width="800px" style="align:center">
 <figcaption style="text-align:center"></figcaption>
 </figure>
 
-If you have completed the form correctly click on SAVE to save the data, otherwise click on CANCEL to discard them (see Figure 60).
+<br>
+If you have completed the form correctly click on SAVE to save the data, otherwise click on CANCEL to discard them.
 
 <br><figure id="image061" >
 <img src="Patient registration images/image061.png" alt="Patient" width="800px" style="align:center">
@@ -164,11 +169,6 @@ If you have completed the form correctly click on SAVE to save the data, otherwi
 
 
 ## Demographics
-
-<br><figure id="Pic_44" >
-<img src="images/Pic_44.png" alt="Patient" width="800px" style="align:center">
-<figcaption style="text-align:center"></figcaption>
-</figure>
 
 Click on the DEMOGRAPHICS to open the Demographics tab.  
 
@@ -182,48 +182,76 @@ Click on the DEMOGRAPHICS to open the Demographics tab.
 <figcaption style="text-align:center"></figcaption>
 </figure>
 
+<br>
+
 To fill the tab, click on EDIT. In Demographics the user is allowed to insert and modify the following data to be collected from the patient:<br>
 
+<br><figure id="image063_1" >
+<img src="Patient registration images/image063_1.png" alt="Patient" width="800px" style="align:center">
+<figcaption style="text-align:center"></figcaption>
+</figure>
+
+<br>
+
 •	Biological Gender. It can be either a binary non-binary gender. The patient can also choose to NOT disclose this information. Click on Biological Gender and select a value from the menu.
-•	Education level. Click on Education Level and select a value from the menu
-•	Living situation. It provides a description of the patient’s living place (e.g. an apartment with access to an elevator). Click on Living Situation and select a value from the menu 
-•	Source of referral. It is the person or medium (e.g. social media) that referred the patient to SMART BEAR. Click on Source of Referral and select a value from the menu
-•	Ethnicity. This information is required to perform some analytics, and refers to large ethnic groups (e.g. caucasian, african). Click on Ethnicity and select a value from the menu
-•	If necessary, tick Uses stairs at home
-•	Family situation. This information refers to the presence of a family. Click on Lives with and select a value from the menu
-•	Type of accommodation. This information consists of further details with regards to the living situations. Click on Type of Accommodation and select a value from the menu.
 
 <br><figure id="image064" >
 <img src="Patient registration images/image064.png" alt="Patient" width="800px" style="align:center">
 <figcaption style="text-align:center"></figcaption>
 </figure>
 
+<br>
+
+•	Education level. Click on Education Level and select a value from the menu
+
 <br><figure id="image065" >
 <img src="Patient registration images/image065.png" alt="Patient" width="800px" style="align:center">
 <figcaption style="text-align:center"></figcaption>
 </figure>
+
+<br>
+
+•	Living situation. It provides a description of the patient’s living place (e.g. an apartment with access to an elevator). Click on Living Situation and select a value from the menu 
 
 <br><figure id="image066" >
 <img src="Patient registration images/image066.png" alt="Patient" width="800px" style="align:center">
 <figcaption style="text-align:center"></figcaption>
 </figure>
 
+<br>
+
+•	Source of referral. It is the person or medium (e.g. social media) that referred the patient to SMART BEAR. Click on Source of Referral and select a value from the menu
+
 <br><figure id="image067" >
 <img src="Patient registration images/image067.png" alt="Patient" width="800px" style="align:center">
 <figcaption style="text-align:center"></figcaption>
 </figure>
+
+<br>
+
+•	Ethnicity. This information is required to perform some analytics, and refers to large ethnic groups (e.g. caucasian, african). Click on Ethnicity and select a value from the menu
 
 <br><figure id="image068" >
 <img src="Patient registration images/image068.png" alt="Patient" width="800px" style="align:center">
 <figcaption style="text-align:center"></figcaption>
 </figure>
 
+<br>
+
+•	If necessary, tick "Uses stairs at home"
+
+•	Family situation. This information refers to the presence of a family. Click on Lives with and select a value from the menu
+
 <br><figure id="image069" >
 <img src="Patient registration images/image069.png" alt="Patient" width="800px" style="align:center">
 <figcaption style="text-align:center"></figcaption>
 </figure>
 
-<br><figure id="image070" >
+<br>
+
+•	Type of accommodation. This information consists of further details with regards to the living situations. Click on Type of Accommodation and select a value from the menu.
+
+<figure id="image070" >
 <img src="Patient registration images/image070.png" alt="Patient" width="800px" style="align:center">
 <figcaption style="text-align:center"></figcaption>
 </figure>
