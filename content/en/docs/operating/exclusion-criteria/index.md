@@ -50,7 +50,7 @@ After saving the response, the Dexterity score appears in the Assessment tab.
 
 
 
-<br><figure id="Pic_59" >
+<figure id="Pic_59" >
 <img src="images/Pic_59.png" alt="Patient" width="800px" style="align:center">
 <figcaption style="text-align:center">Dexterity: Step 2 </figcaption>
 </figure>
@@ -83,7 +83,7 @@ After saving the responses, the MoCA score appears in the Assessment tab.
 </figure>
 
 
-<br><figure id="Pic_61" >
+<figure id="Pic_61" >
 <img src="images/Pic_63.png" alt="Patient" width="400px" style="align:center">
 <figcaption style="text-align:center">MoCA: Step 2 </figcaption>
 </figure>
@@ -95,21 +95,22 @@ After saving the responses, the MoCA score appears in the Assessment tab.
 </figure>
 
 
-<br><figure id="Pic_64" >
+<figure id="Pic_64" >
 <img src="images/Pic_64.png" alt="Patient" width="400px" style="align:center">
 <figcaption style="text-align:center">MoCA: Step 4 </figcaption>
 </figure>
 
 
 
-### Acceptation
+### Acceptance
 
 After completing the Dexterity and the MoCA, the following cases can happen:
 1.	If the patient matches the exclusion criteria, a green popup appears, click on ACCEPT to accept the patient, otherwise click on CANCEL. If the patient is NOT accepted, all data related to him/her must be deleted according to GDPR. 
 2.	If the patient does NOT match the exclusion criteria, an orange popup appears, which shows a warning message. In this case click on DON’T EXCLUDE to accept the patient anyway, otherwise click on EXCLUDE. If the patient is NOT accepted, all data related to him/her must be deleted according to GDPR.
 
 
-An alternative mechanism to accept a patient is to go back to the Patients page and click on EDIT and change the patient’s status to ACTIVE. 
+An alternative mechanism to accept a patient is to go back to the Patients page and click on EDIT and change the patient’s status to ACTIVE (see [Patient management](content/en/docs/operating/patient-management/#edit-a-patient)).
+
 
 <br><figure id="Pic_66" >
 <img src="images/Pic_66.png" alt="Patient" width="800px" style="align:center">
@@ -123,4 +124,6 @@ An alternative mechanism to accept a patient is to go back to the Patients page 
 <figcaption style="text-align:center"> Step 2</figcaption>
 </figure>
 
+<!--
 The algorithm provided to assess the exclusion criteria is shown in the flowchart [here](content/en/docs/operating/exclusion-criteria/exclusion-flowchart/index.md).
+-->
