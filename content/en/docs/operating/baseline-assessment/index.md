@@ -68,6 +68,27 @@ Follow the steps below to fill the General Info:
 
 <br>**Note: if you tick "History of substances abuse" or "History of brain injury", the dashboard will generate an alert for you to consider excluding the patient.**.
 
+### Patient's profile selection
+
+During the Baseline Assessment, a profiling functionality is available for the users to confirm which comorbidities will be monitored. There is an orange button in the lower right corner which opens a form, where the proposed profile of the patient is shown: select/unselect the comorbidities to be monitored, then click on ACCEPT. Consequently, the specific assessment tabs will be activated according to the selection.
+
+<br><figure id="Pic 44a" >
+<img src="Patient profiling pictures/Pic 44a.png" alt="Patient" width="800px" style="align:center">
+<figcaption style="text-align:center"></figcaption>
+</figure>
+
+<br><figure id="Pic 45" >
+<img src="Patient profiling pictures/Pic 45.png" alt="Patient" width="400px" style="align:center">
+<figcaption style="text-align:center"> </figcaption>
+</figure>
+
+<br><figure id="Pic 45" >
+<img src="Patient profiling pictures/Pic 45.png" alt="Patient" width="400px" style="align:center">
+<figcaption style="text-align:center"> </figcaption>
+</figure>
+
+**Note: without the profile selections, some tabs may not work properly.**
+
 ### Life Habits
 To fill the  Life Habits click on EDIT.
 
