@@ -15,23 +15,37 @@ toc: true
 mermaid: true
 ---
 
+<!--
 # Patient profiling
 
 During the Baseline Assessment, a profiling functionality is available for the users to confirm which comorbidities will be monitored. There is an orange button in the lower right corner which opens a form, where the proposed profile of the patient is shown: select/unselect the comorbidities to be monitored, then click on ACCEPT. Consequently, the specific assessment tabs will be activated according to the selection.
 
 <br><figure id="Pic 44a" >
 <img src="Patient profiling pictures/Pic 44a.png" alt="Patient" width="800px" style="align:center">
-<figcaption style="text-align:center">Patient profiling: click on the round orange button</figcaption>
+<figcaption style="text-align:center"></figcaption>
 </figure>
 
 <br><figure id="Pic 45" >
 <img src="Patient profiling pictures/Pic 45.png" alt="Patient" width="400px" style="align:center">
-<figcaption style="text-align:center"> Patient profiling: confirm the comorbidities to monitoe</figcaption>
+<figcaption style="text-align:center"> </figcaption>
 </figure>
 
+<br><figure id="Pic 45a" >
+<img src="Patient profiling pictures/Pic 45a.png" alt="Patient" width="400px" style="align:center">
+<figcaption style="text-align:center"> </figcaption>
+</figure>
+-->
 
+According to the Medical History, the following profiles can be selected:
 
-## Hearing Loss
+•	[Hearing Loss](#hearing_loss)
+•	[Balance Disorder](#balance_disorder)
+•	[Cardio Vascular](#cardio_vascular)
+•	[Mental Disorders](#mental_disorders)
+•	[Cognitive Disorders](#cognitive_disorders)
+•	[Frailty](#frailty).
+
+## Hearing Loss {#hearing_loss}
 
 Tick the Hearing Loss condition, or uses hearing aids in the tab Medical History, then confirm the patient's profile to activate the Hearing Loss tab. Click on the HEARING LOSS button to open the tab. 
 
@@ -91,7 +105,7 @@ Follow the steps below to fill the General Info tab:
 <figcaption style="text-align:center">Hearing Loss, General Info: step 4</figcaption>
 </figure>
 
-## Balance Disorder
+## Balance Disorder {#balance_disorder}
 
 To activate the Balance Disorders tab, select a value under Balance Disorders in Medical History, then confirm the patient's profile. Click on BALANCE DISORDER, to open the tab. It features the following questionnaires: Fall Efficacy Scale International, Activities Specific Balance Confidence Scale (ABC), Functional Gait Assessment (FGA), Mini-Balance Evaluation System Test (Mini-BEST), Rapid Assessment of Physical Activity (RAPA). To fill a questionnaire, click on +ADD to open the tab, select the responses and save the results. It is possible to open a curtain menu, which displays the responses. Also, the score is coloured according to the criticality: green is for good results, red is for critical results.
 
@@ -112,7 +126,7 @@ To activate the Balance Disorders tab, select a value under Balance Disorders in
 <figcaption style="text-align:center">Balance Disorders tab</figcaption>
 </figure>
 
-## Cardio Vascular
+## Cardio Vascular {#cardio_vascular}
 
 Tick the Cardiovascular condition in Medical History, then confirm the patient's profile to activate the Cardiovascular tab. Click on CARDIOVASCULAR to open the Cardiovascular tab. 
 
@@ -239,7 +253,7 @@ Follow the steps below to fill this tab:
 </figure>
 
 
-## Mental Disorders
+## Mental Disorders {#mental_disorders}
 
 Tick the Anxiety or Depression disorder condition in Medical History, then confirm the patient's profile to activate the Mental Disorders tab.
 
@@ -268,7 +282,7 @@ Tick the Anxiety or Depression disorder condition in Medical History, then confi
 
 
 
-## Cognitive Disorders
+## Cognitive Disorders {#cognitive_disorders}
 
 The Cognitive Disorders tab is activated in the following cases: 
 
@@ -288,7 +302,7 @@ The Cognitive Disorders tab is activated in the following cases:
 <figcaption style="text-align:center">Cognitive Issue tab</figcaption>
 </figure>
 
-## Frailty
+## Frailty {#frailty}
 
 Tick Weight Loss in Medical History, then confirm the patient's profile to activate the Frailty tab. Click on FRAILTY to open the Frailty tab  which includes the Edmonton Frailty Scale (EFS) questionnaire. To fill this questionnaire, click on +ADD to open the tab, select the responses and save the results.  Also, the score is coloured according to the criticality: green is for good results, red is for critical results.
 

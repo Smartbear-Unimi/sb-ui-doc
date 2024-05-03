@@ -22,15 +22,16 @@ After verifying the exclusion criteria are matched, two new buttons will appear 
 •	DEVICES MANAGEMENT which opens the Devices tab. This tab allows the user to view, insert and modify the information about the devices associated to a patient.  
 •	ID MANAGEMENT which opens the ID Management tab appears. This tab allows the user to view, insert and modify the IDs that are assigned to a patient in the context of the synergies with other projects, e.g. HOLOBalance and (only for the PoP) Smart4Health (see ).
 
-To conduct the Baseline Assessment, click on SHOW to re-open the Assessment created to verify the exclusion criteria. The following tabs are provided:
+To conduct the Baseline Assessment, click on SHOW to re-open the Assessment created for checking the exclusion criteria and fill the Medical History tab. 
 
-•	MEDICAL HISTORY which opens the Medical History tab. This tab is active for all patients and the data concerning medical history (e.g. comorbidities, physical examinations) are saved here (see [Medical History](#medical_history)). 
+<!--
 •	HEARING LOSS which opens the Hearing Loss tab. This tab must be activated with the patient profiling functionality and data concerning the specific Hearing Loss assessment are saved here (see [Hearing Loss](#hearing_loss)).
 •	BALANCE DISORDERS which opens the Balance Disorders tab. This tab must be activated with the patient profiling functionality and data concerning the specific Balance assessment are saved here (see [Balance Disorder](#balance_disorder)).
 •	CARDIOVASCULAR which opens the Cardiovascular tab. This tab must be activated with the patient profiling functionality and data concerning the specific Cardiovascular Diseases assessment are saved here (see [Cardio Vascular](#cardio_vascular)).
 •	MENTAL DISORDERS which opens the Mental Disorders tab. This tab must be activated with the patient profiling functionality and data concerning the specific Mental Disorders assessment are saved here (see [Mental Disorders](#mental_disorders)).
 •	COGNITIVE DISORDERS which opens the Cognitive Disorders tab. This tab must be activated with the patient profiling functionality and data concerning the specific Cognitive Disorders assessment are saved here (see [Cognitive Disorders](#cognitive_disorders)).
 •	FRAILTY which opens the Frailty tab. This tab must be activated with the patient profiling functionality and data concerning the specific Frailty assessment are saved here (see [Frailty](#frailty)).
+-->
 
 ## Medical History
 
@@ -66,28 +67,32 @@ Follow the steps below to fill the General Info:
 </figure>
 
 
-<br>**Note: if you tick "History of substances abuse" or "History of brain injury", the dashboard will generate an alert for you to consider excluding the patient.**.
+<br>
+
+**Note: if you tick "History of substances abuse" or "History of brain injury", the dashboard will generate an alert for you to consider excluding the patient.**.
 
 ### Patient's profile selection
 
 During the Baseline Assessment, a profiling functionality is available for the users to confirm which comorbidities will be monitored. There is an orange button in the lower right corner which opens a form, where the proposed profile of the patient is shown: select/unselect the comorbidities to be monitored, then click on ACCEPT. Consequently, the specific assessment tabs will be activated according to the selection.
 
 <br><figure id="Pic 44a" >
-<img src="Patient profiling pictures/Pic 44a.png" alt="Patient" width="800px" style="align:center">
+<img src="Baseline Assessment Images/Pic 44a.png" alt="Patient" width="800px" style="align:center">
 <figcaption style="text-align:center"></figcaption>
 </figure>
 
 <br><figure id="Pic 45" >
-<img src="Patient profiling pictures/Pic 45.png" alt="Patient" width="400px" style="align:center">
+<img src="Baseline Assessment Images/Pic 45.png" alt="Patient" width="400px" style="align:center">
 <figcaption style="text-align:center"> </figcaption>
 </figure>
 
-<br><figure id="Pic 45" >
-<img src="Patient profiling pictures/Pic 45.png" alt="Patient" width="400px" style="align:center">
+<figure id="Pic 45a" >
+<img src="Baseline Assessment Images/Pic 45a.png" alt="Patient" width="400px" style="align:center">
 <figcaption style="text-align:center"> </figcaption>
 </figure>
 
-**Note: without the profile selections, some tabs may not work properly.**
+Please read the [Patient profiling]({{< ref "/docs/operating/patient-profiling/index.md" >}} "Patient profiling") page for more details about the profile-specific assessments.
+
+**Note: without the profile selection, some tabs may not be activated.**
 
 ### Life Habits
 To fill the  Life Habits click on EDIT.
@@ -145,7 +150,7 @@ The Physical Examinations tab allows the user to insert and view the following d
 •	Hip circumference. Click on the label and type a value in cm.
 •	Body Mass Index. Click on the label and type a value in kg/m2
 •	Heart rate. Click on the label and type a value in beat/min.
-•	Blood Pressure Misurations. The pressure measurements are reported here, including systolic and diastolic blood pressure, both supine and standing. First, select the arm on which the pressure was taken from the menu ( then click on the labels and type the values in mmHg.
+•	Blood Pressure Misurations. The pressure measurements are reported here, including systolic and diastolic blood pressure, both supine and standing. First, select the arm on which the pressure was taken from the menu then click on the labels and type the values in mmHg.
 
 <br><figure id="Pic 14" >
 <img src="Baseline Assessment Images/Pic 14.png" alt="Patient" width="800px" style="align:center">
@@ -192,7 +197,9 @@ The Medications tab is shown below. The data concerning the medications are reco
 16. Select a date range, which is the duration of the prescription on the calendar. 
 17. Click on the REGISTER button to save the data, otherwise click on the CANCEL button to discard them.
  
-<br>**Example of dosage: if a patient takes a pill twice a day every 12 hours, set Frequency=1, Period unit=hours, Period=12.**
+<br>
+
+**Example of dosage: if a patient takes a once a day, set Frequency=1, Period unit=day, Period=1**
    
 <br><figure id="Pic 16" >
 <img src="Baseline Assessment Images/Pic 16.png" alt="Patient" width="800px" style="align:center">
@@ -282,7 +289,9 @@ The Medications tab is shown below. The data concerning the medications are reco
 <figcaption style="text-align:center">A patient's medication record</figcaption>
 </figure>
 
-<br>**Note: if you forget to insert the dosage, the patient will not receive the notifications to remind him take the medications.**
+<br>
+
+**Note: if you forget to insert information such as dosage or days of the week, the patient will not receive the related notifications.**
 
 The steps to follow in the medication tab are also shown in the flowchart here below"
 
@@ -318,7 +327,7 @@ graph TD;
 RegisterFinal--See figure-->End(END)
 ```
 
-After registering a medication, it appears as a new record in the Medications tab. Also two new buttons appear, **EDIT** and **DELETE**, which allow respectively to modify and delete the data in a record (see Figure ).
+After registering a medication, it appears as a new record in the Medications tab. Also two new buttons appear, **EDIT** and **DELETE**, which allow respectively to modify and delete the data in a record.
 
 
 
