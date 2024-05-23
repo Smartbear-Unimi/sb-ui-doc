@@ -105,7 +105,7 @@ Follow the steps below to assign a device to a patient:
 1.	Click on +DEVICE to open Assign Device form. 
 2.	Click the Unique ID and type the device ID (example: for the smartphone, you can insert IMEI)
 3.	Click on the Status, and select a value from the menu 
-4.	Click on Category type, and select a value from the menu 
+4.	Click on Category type, and select a value from the menu (**the available types will depend on the selected profiles**)
 5.	Click on the Number and type the number 
 6.	Click on CREATE DEVICE to save the data, otherwise click on the CANCEL button to discard them.
 
@@ -134,7 +134,7 @@ Follow the steps below to assign a device to a patient:
 <figcaption style="text-align:center">Assign Device: steps 5 and 6 </figcaption>
 </figure>
 
-**Note: to ensure all data are transmitted correctly, insert all the devices that are assigned to a patient**
+**Note: to ensure all data are transmitted correctly to the SB cloud, insert all the devices that are assigned to a patient**
 
 To modify a device, click on EDIT to open the Modify Device form. Click on MODIFY DEVICE to save the changes, otherwise click on CANCEL to discard the modifications.
 
