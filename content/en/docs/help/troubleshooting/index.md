@@ -13,18 +13,34 @@ weight: 220
 toc: true
 ---
 
-## Login
+# Troubleshooting
 
-If you cannot login, follow these steps:
+## 1. Why can I not login?
 
-1. Check the information is correct
-2. Check the registration has been completed (see sec. 4.1).
+In case you cannot login, click on "Forgotten password" to set a new one. Also, verify you have completed the registration.
 
-## The comorbidity tabs are disabled
 
-The comorbidity specific tabs can be activated by ticking the comorbidities in Medical History (see sec. 4.5.1).
+## 2. Why are the comorbidity tabs disabled?
+
+The comorbidity-specific tabs can be activated by ticking the comorbidities in Medical History.
 
 Also a shortcut is featured to select the conditions:
 
-1. Click on the orange button at the lower right corner of the tab (see Figure 275)
-2. A tab appears. Tick the conditions and click on ACCEPT (see Figure 276).
+1. Click on the orange button at the lower right corner of the tab
+2. A tab appears. Tick the conditions and click on ACCEPT.
+
+## 3. Why can i not activate the Cardiovascular tab?
+
+Click on the orange button in the lower right corner of the Medical History tab. A form opens, select "Cardiovascular", then click on ACCEPT.
+
+## 4. Why is the patient not notified about medication timing?
+
+Please check you have correctly inserted the days and time frames for the patient to take his medications.
+
+## 5. Why do I see the No Info alert for a patient in the Tech Support page?
+
+Please check the following items:
+
+1. The patient has turned on the Internet connection;
+2. The IMEI in the App settings is correct
+3. The IMEI in the App settings corresponds to the one you enter in the dashboard.
