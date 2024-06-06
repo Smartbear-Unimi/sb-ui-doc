@@ -284,10 +284,7 @@ Tick the Anxiety or Depression disorder condition in Medical History, then confi
 
 ## Cognitive Disorders {#cognitive_disorders}
 
-The Cognitive Disorders tab is activated in the following cases: 
-
-1.	MoCA score is under 22
-2.	The user ticks Cognitive issue in Medical History.
+The Cognitive Disorders tab is activated if MoCA score is below 26.
 
 <br><figure id="Pic 77" >
 <img src="Patient profiling pictures/Pic 77.png" alt="Patient" width="800px" style="align:center">
