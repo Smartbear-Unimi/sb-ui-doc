@@ -217,7 +217,7 @@ The Medications tab is shown below. The data concerning the medications are reco
 </figure>
 
 <br><figure id="Pic 19" >
-<img src="Baseline Assessment Images/Pic 19.png" alt="Patient" width="800px" style="align:center">
+<img src="Baseline Assessment Images/Pic 19.png" alt="Patient" width="400px" style="align:center">
 <figcaption style="text-align:center">Medications: step 3</figcaption>
 </figure>
 
@@ -227,17 +227,17 @@ The Medications tab is shown below. The data concerning the medications are reco
 </figure>
 
 <br><figure id="Pic 21" >
-<img src="Baseline Assessment Images/Pic 21.png" alt="Patient" width="800px" style="align:center">
+<img src="Baseline Assessment Images/Pic 21.png" alt="Patient" width="400px" style="align:center">
 <figcaption style="text-align:center">Medications: step 5</figcaption>
 </figure>
 
 <br><figure id="Pic 23" >
-<img src="Baseline Assessment Images/Pic 23.png" alt="Patient" width="800px" style="align:center">
+<img src="Baseline Assessment Images/Pic 23.png" alt="Patient" width="400px" style="align:center">
 <figcaption style="text-align:center">Medications: step 6</figcaption>
 </figure>
 
 <br><figure id="Pic 24" >
-<img src="Baseline Assessment Images/Pic 24.png" alt="Patient" width="800px" style="align:center">
+<img src="Baseline Assessment Images/Pic 24.png" alt="Patient" width="400px" style="align:center">
 <figcaption style="text-align:center">Medications: step 7</figcaption>
 </figure>
 
@@ -247,22 +247,22 @@ The Medications tab is shown below. The data concerning the medications are reco
 </figure>
 
 <br><figure id="Pic 26" >
-<img src="Baseline Assessment Images/Pic 26.png" alt="Patient" width="800px" style="align:center">
+<img src="Baseline Assessment Images/Pic 26.png" alt="Patient" width="400px" style="align:center">
 <figcaption style="text-align:center">Medications: step 9</figcaption>
 </figure>
 
 <br><figure id="Pic 27" >
-<img src="Baseline Assessment Images/Pic 27.png" alt="Patient" width="800px" style="align:center">
+<img src="Baseline Assessment Images/Pic 27.png" alt="Patient" width="400px" style="align:center">
 <figcaption style="text-align:center">Medications: step 10 and 11</figcaption>
 </figure>
 
 <br><figure id="Pic 28" >
-<img src="Baseline Assessment Images/Pic 28.png" alt="Patient" width="800px" style="align:center">
+<img src="Baseline Assessment Images/Pic 28.png" alt="Patient" width="400px" style="align:center">
 <figcaption style="text-align:center">Medications: step 12</figcaption>
 </figure>
 
 <br><figure id="Pic 29" >
-<img src="Baseline Assessment Images/Pic 29.png" alt="Patient" width="800px" style="align:center">
+<img src="Baseline Assessment Images/Pic 29.png" alt="Patient" width="400px" style="align:center">
 <figcaption style="text-align:center">Medications: step 13 and 14</figcaption>
 </figure>
 
@@ -272,12 +272,12 @@ The Medications tab is shown below. The data concerning the medications are reco
 </figure>
 
 <br><figure id="Pic 31" >
-<img src="Baseline Assessment Images/Pic 31.png" alt="Patient" width="800px" style="align:center">
+<img src="Baseline Assessment Images/Pic 31.png" alt="Patient" width="400px" style="align:center">
 <figcaption style="text-align:center">Medications: step 16</figcaption>
 </figure>
 
 <br><figure id="Pic 31a" >
-<img src="Baseline Assessment Images/Pic 31a.png" alt="Patient" width="800px" style="align:center">
+<img src="Baseline Assessment Images/Pic 31a.png" alt="Patient" width="4npm00px" style="align:center">
 <figcaption style="text-align:center">Medications: step 17</figcaption>
 </figure>
 
@@ -293,39 +293,6 @@ The Medications tab is shown below. The data concerning the medications are reco
 
 **Note: if you forget to insert information such as dosage or days of the week, the patient will not receive the related notifications.**
 
-The steps to follow in the medication tab are also shown in the flowchart here below"
-
-```mermaid
-graph TD;
-    Start(START)-->
-    ClickPlusMed(1. Click on +MEDICATION <br>to open Medication Tab);
-    ClickPlusMed--See figure 110-->Register[The Register medication tab appears]
-    Register--See figure -->SelectMed(2. Click on Medication <br> Select a value from the menu);
-    SelectMed--See figure 112-->Medication[Type the medication name];
-    Medication--See figure-->TypeDose(3. If the medication is psychoactive, <br> tick Psychoactive Medicine);
-    TypeDose-->SelectUnitMeasure(4. Click on Substance <br> Select the name of the active <br> substance form the menu, or type it);
-    SelectUnitMeasure-->TickPsychoactive(5. Click on Dosage form <br> Select a value from the menu );
-    TickPsychoactive-->TypeFrequency(6. Click on Dosage Direction <br> Select a value from the menu );
-    TypeFrequency-->SelectPeriodUnit(7. Click on Dose and type a value,<br> or Click on the buttons to increase or decrease the value);
-    DoseButton[<br> The dose amount must be complemented <br> with the Unit of Measure, and can have decimal digits]
-    SelectPeriodUnit-->DoseButton[The dose amount must be complemented <br> with the Unit of Measure, and can have decimal digits]
-    DoseButton-->TypePeriod(8. Click on Unit of Measure);
-    TypePeriod--See figure-->SelectVal[Select a value from the menu];
-    SelectVal--See figure-->SelectWhen(9. Click on Frequency <br> Type a value);
-    SelectWhen-->AmountFreq[The amount must be complemented <br> with the Period unit]
-    AmountFreq--See Errore L'origine riferimento non è stata trovata-->SelectDosageDirection(10. Click on Period unit);
-    SelectDosageDirection--See figure-->ValFromMenu[Select a value from the menu]
-    ValFromMenu--See figure-->SelectDateRange(11. Click on Period <br> Type a value);
-    SelectDateRange--See figure-->OnWhen(12.  Click on When. <br>);
-    OnWhen--See figure-->When[Select one or more <br> values from the menu];
-    When-- See Figure-->Day(13. Click on Days of the week)
-    Day--See figure-->ValDay[Select one or more <br> values from the menu]
-    ValDay--See figure-->MoreDosages{14. Do you want to <br> set more dosages?}-->
-   Yes-->Plus[Click on + and follow the <br> steps from 6 to 10 again]-->TypeFrequency
-    MoreDosages--->No-->DateRange(15. Select a date range, which is the duration <br> of the prescription on the calendar.)
-    DateRange --See figure-->RegisterFinal(16. Click on the REGISTER button to save the data, <br> otherwise Click on the CANCEL button to discard them)
-RegisterFinal--See figure-->End(END)
-```
 
 After registering a medication, it appears as a new record in the Medications tab. Also two new buttons appear, **EDIT** and **DELETE**, which allow respectively to modify and delete the data in a record.
 
@@ -425,7 +392,7 @@ This tab provides the questionnaires that must be administered to all the patien
 
 To fill a questionnaire, click on +ADD to open the tab, select the responses and save the results (see section ). It is possible to open a curtain menu, which displays the responses. Also, the score is coloured according to the criticality: green is for good results, red is for critical results.
 
-<figure id="Pic 43a" >
+<br><figure id="Pic 43a" >
 <img src="Baseline Assessment Images/Pic 43.png" alt="Patient" >
 <figcaption style="text-align:center"></figcaption>
 </figure>
