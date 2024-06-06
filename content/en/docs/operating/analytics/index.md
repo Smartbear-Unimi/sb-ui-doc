@@ -13,7 +13,9 @@ menu:
 weight: 190
 toc: true
 ---
+Work in progress!
 
+<!--
 ## Notebook creation
 
 Analytics are statistical tools that are the output of data analysis. 
@@ -92,5 +94,5 @@ Follow the steps below to create Analytics:
 <img src="Analytics images/Pic 9.png" alt="Patient">
 <figcaption style="text-align:center">Steps 5 and 6</figcaption>
 </figure>
-
+-->
 
