@@ -12,7 +12,7 @@ weight: 110
 ## Home Page {#home}
 
 The Home page is shown in [Figure 1]({{< ref "#Pic_1" >}} "Figure 1") and is the first element showing up to the user. The Home page displays
-an overview of the statistics related to the managed patients see [Figure 2]({{< ref "#Pic_2" >}} "Figure 2").
+an overview of the statistics related to the managed patients.
 
 
 <br><figure id="Pic_1" >
@@ -22,23 +22,23 @@ an overview of the statistics related to the managed patients see [Figure 2]({{<
 
 
 
+<br>A sidebar is visible on the left, see [Figure 2]({{< ref "#Pic_2" >}} "Figure 2"):
+
+- Home. It redirects to the [Home]({{< ref "#home" >}} "Home page") page.
+- Patients. It redirects to the [Patients]({{< ref "#patients" >}} "Patients page") page.
+- Inbox. It redirects to the [Inbox]({{< ref "#inbox" >}} "Inbox page") page.
+- GDPR. It redirects to the [GDPR]({{< ref "#gdpr" >}} "GDPR page") page.
+- Tech Support. It redirects to the [Tech]({{< ref "#tech" >}} "Tech support page") page.
+
 <br><figure id="Pic_2">
 <img src="images/Pic_2.png" alt="Home" width="800px" style="align:center">
 <figcaption style="text-align:center">Figure 2. </figcaption>
 </figure>
 
 
+<!-- Notebooks. It redirects to the [Notebooks]({{< ref "#notebooks" >}} "Notebooks page") page.-->
 
-<br>A sidebar is visible on the left, It contains the following buttons:
-
-- Home. It redirects to the [Home]({{< ref "#home" >}} "Home page") page.
-- Patients. It redirects to the [Patients]({{< ref "#patients" >}} "Patients page") page.
-- Notebooks. It redirects to the [Notebooks]({{< ref "#notebooks" >}} "Notebooks page") page.
-- Inbox. It redirects to the [Inbox]({{< ref "#inbox" >}} "Inbox page") page.
-- GDPR. It redirects to the [GDPR]({{< ref "#gdpr" >}} "GDPR page") page.
-- Tech Support. It redirects to the [Tech]({{< ref "#tech" >}} "Tech support page") page.
-
-A button is featured at the upper right corner to change the language: click on the button and select a language
+<br>A button is available at the upper right corner to change the language: click on the button and select a language
 from the dropdown menu (see [Figure 3]({{< ref "#Pic_3" >}} "Figure 3") and [Figure 4]({{< ref "#Pic_4" >}} "Figure 4")).
 
 
