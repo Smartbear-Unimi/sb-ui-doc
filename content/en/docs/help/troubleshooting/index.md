@@ -44,3 +44,10 @@ Please check the following items:
 1. The patient has turned on the Internet connection;
 2. The IMEI in the App settings is correct
 3. The IMEI in the App settings corresponds to the one you enter in the dashboard.
+
+## 6. Why can I not insert a patient's birth date in the record?
+
+The birthdate of a patient is saved in the following format: YYYY-MM in the Overview tab, for instance if a patient was born on October 1, 1958, you can either:
+
+1. Select 1958 and October from the calendar OR
+2. Type 1958-10.
