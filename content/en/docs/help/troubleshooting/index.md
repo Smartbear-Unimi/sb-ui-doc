@@ -49,5 +49,5 @@ Please check the following items:
 
 The birthdate of a patient is saved in the following format: YYYY-MM in the Overview tab, for instance if a patient was born on October 1, 1958, you can either:
 
-1. Select 1958 and October from the calendar
+1. Select 1958 and October from the calendar OR
 2. Type 1958-10.
