@@ -51,3 +51,11 @@ The birthdate of a patient is saved in the following format: YYYY-MM in the Over
 
 1. Select 1958 and October from the calendar OR
 2. Type 1958-10.
+
+## 7. Why am I seeing the No Info alert in a patient's Tech support tab?
+
+The No Info alert is visualized when a patient has not yet taken any measurements, or his/her device kit is not connected to the internet. In order to solve this issue, check the following with the patient:
+
+1. The patient's ID and IMEI of the smartphone are correct in the app
+2. Internet connection is active on the smartphone
+3. The patient can take measurements

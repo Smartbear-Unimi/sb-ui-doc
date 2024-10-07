@@ -1,3 +1,21 @@
+---
+title: "Device Management"
+description: "Description of the adverse events tab"
+lead: ""
+draft: false
+images: []
+menu:
+  docs:
+    parent: "operating"
+    identifier: "device-management"
+toc: true
+mermaid: true
+
+---
+
+
+
+
 # Device Management
 
 Click on DEVICE MANAGEMENT in a patient's record to open the Devices tab. 
@@ -80,13 +98,51 @@ To modify a device, click on EDIT to open the Modify Device form. Click on MODIF
 
 
 The Tech Support page provides functionalites to clinical and technical personnel for monitoring the ways the
-devices function. Click on the Tech Support button to open this page , then click on the SHOW button to open
-the overview interface for a patient. A set of symbols detects the severity of the inactivity time, more in detail:
-
-From these tabs, you can also click on the DEVICES MANAGEMENT and ID MANAGEMENT buttons to check the pairings, the time when the last transmission took place.
-
+devices function. Click on the Tech Support button to open the page, where the inactivity time of all the monitored patients is displayed. 
 
 <br><figure id="Pic 19" >
 <img src="images/Home-tech.png" alt="Patient" width="400px" style="align:center">
-<figcaption style="text-align:center">Modify Device: click to accept a the changes</figcaption>
+<figcaption style="text-align:center"></figcaption>
 </figure>
+
+<br><figure id="Pic 19" >
+<img src="images/Tech support.png" alt="Patient" width="400px" style="align:center">
+<figcaption style="text-align:center"></figcaption>
+</figure>
+
+If you need to dive into details of a patient's inactivity click on the SHOW button to open the OVERVIEW interface, where the inactivity time of each device is shown.
+
+<br><figure id="Pic 19" >
+<img src="images/Tech support - show.png" alt="Patient" width="400px" style="align:center">
+<figcaption style="text-align:center"></figcaption>
+</figure>
+
+<br><figure id="Pic 19" >
+<img src="images/Screenshot (1334).png" alt="Patient" width="400px" style="align:center">
+<figcaption style="text-align:center"></figcaption>
+</figure>
+
+A set of symbols detects the severity of the inactivity time, more in detail:
+
+1. Green: less than three days inactive
+2. Yellow: between three and 12 days inactive
+3. Red: more then than 12 days inactive
+
+Also, the No Info alert appears when the platform has not yet received data from one or all the devices a patient has received.
+
+Each device record features a SHOW button to click for visualizing the data metrics.
+
+<br><figure id="Pic 19" >
+<img src="images/Screenshot (1334) - show.png" alt="Patient" width="400px" style="align:center">
+<figcaption style="text-align:center"></figcaption>
+</figure>
+
+<br><figure id="Pic 19" >
+<img src="images/Screenshot (1335).png" alt="Patient" width="400px" style="align:center">
+<figcaption style="text-align:center"></figcaption>
+</figure>
+
+
+From these tabs, you can also click on the DEVICES MANAGEMENT and ID MANAGEMENT buttons, which redirect to the respective pages.
+
+
