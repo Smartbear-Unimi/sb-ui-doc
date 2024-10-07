@@ -158,8 +158,8 @@ page allows the user to create requests regarding GDPR rights and visualize them
 ## Tech Support {#tech}
 
 The Tech Support page provides functionalites to clinical and technical personnel for monitoring the ways the
-devices function. Click on the Tech Support button to open this page (see [Figure 13]({{< ref "#Pic_16" >}} "Figure 13")), then click on the SHOW button to open
-the overview interface for a patient (see [Figure 14]({{< ref "#Pic_17" >}} "Figure 14"), [Figure 15]({{< ref "#Pic_18" >}} "Figure 15"), [Figure 16]({{< ref "#Pic_19" >}} "Figure 16")). From these tabs, you can also click on the DEVICES MANAGEMENT and ID MANAGEMENT buttons to check the pairings, the time when the last transmission took place,(see [Figure 17]({{< ref "#Pic_20" >}} "Figure 17"), [Figure 18]({{< ref "#Pic_21" >}} "Figure 18"), [Figure 19]({{< ref "#Pic_18" >}} "Figure 19"), [Figure 20]({{< ref "#Pic_23" >}} "Figure 20")). The log files are also available, which include the list of transmissions to check if some of these are not valid and try to understand where a problem has occurred (see [Figure 21]({{< ref "#Pic_24" >}} "Figure 21")).
+devices function and the inactivity time patients have been showing. Click on the Tech Support button to open this page (see [Figure 13]({{< ref "#Pic_16" >}} "Figure 13")), then click on the SHOW button to open
+the overview interface for a patient (see [Figure 14]({{< ref "#Pic_17" >}} "Figure 14"), [Figure 15]({{< ref "#Pic_18" >}} "Figure 15"), [Figure 16]({{< ref "#Pic_19" >}} "Figure 16")). From these tabs, you can also click on the DEVICES MANAGEMENT and ID MANAGEMENT buttons to check the pairings, the time when the last transmission took place,(see [Figure 17]({{< ref "#Pic_20" >}} "Figure 17"), [Figure 18]({{< ref "#Pic_21" >}} "Figure 18"), [Figure 19]({{< ref "#Pic_18" >}} "Figure 19"). (see [Device Management]({{< ref "/docs/operating/device-management/index.md" >}} "Inbox"))
 
 <br><figure id="Pic_16">
 <img src="images/Pic_16.png" alt="Tech" width="800px">
@@ -181,28 +181,3 @@ the overview interface for a patient (see [Figure 14]({{< ref "#Pic_17" >}} "Fig
 <figcaption style="text-align:center">Figure 16.</figcaption>
 </figure>
 
-<br><figure id="Pic_20">
-<img src="images/Pic_20.png" alt="Tech" width="800px">
-<figcaption style="text-align:center">Figure 17.</figcaption>
-</figure>
-
-<br><figure id="Pic_21">
-<img src="images/Pic_21.png" alt="Tech" width="800px">
-<figcaption style="text-align:center">Figure 18.</figcaption>
-</figure>
-
-<br><figure id="Pic_22">
-<img src="images/Pic_22.png" alt="Tech" width="800px">
-<figcaption style="text-align:center">Figure 19.</figcaption>
-</figure>
-
-<br><figure id="Pic_23">
-<img src="images/Pic_23.png" alt="Tech" width="800px">
-<figcaption style="text-align:center">Figure 20.</figcaption>
-</figure>
-</figure>
-
-<br><figure id="Pic_24">
-<img src="images/Pic_24.png" alt="Tech" width="800px">
-<figcaption style="text-align:center">Figure 21.</figcaption>
-</figure>
