@@ -13,10 +13,11 @@ mermaid: true
 
 ---
 
+# Device management
 
 
 
-# Device Management
+
 
 Click on DEVICE MANAGEMENT in a patient's record to open the Devices tab. 
 
@@ -101,24 +102,24 @@ The Tech Support page provides functionalites to clinical and technical personne
 devices function. Click on the Tech Support button to open the page, where the inactivity time of all the monitored patients is displayed. 
 
 <br><figure id="Pic 19" >
-<img src="images/Home-tech.png" alt="Patient" width="400px" style="align:center">
+<img src="images/Home-tech.png" alt="Patient" width="800px" style="align:center">
 <figcaption style="text-align:center"></figcaption>
 </figure>
 
 <br><figure id="Pic 19" >
-<img src="images/Tech support.png" alt="Patient" width="400px" style="align:center">
+<img src="images/Tech support.png" alt="Patient" width="800px" style="align:center">
 <figcaption style="text-align:center"></figcaption>
 </figure>
 
 If you need to dive into details of a patient's inactivity click on the SHOW button to open the OVERVIEW interface, where the inactivity time of each device is shown.
 
 <br><figure id="Pic 19" >
-<img src="images/Tech support - show.png" alt="Patient" width="400px" style="align:center">
+<img src="images/Tech support - show.png" alt="Patient" width="800px" style="align:center">
 <figcaption style="text-align:center"></figcaption>
 </figure>
 
 <br><figure id="Pic 19" >
-<img src="images/Screenshot (1334).png" alt="Patient" width="400px" style="align:center">
+<img src="images/Screenshot (1334).png" alt="Patient" width="800px" style="align:center">
 <figcaption style="text-align:center"></figcaption>
 </figure>
 
@@ -133,12 +134,12 @@ Also, the No Info alert appears when the platform has not yet received data from
 Each device record features a SHOW button to click for visualizing the data metrics.
 
 <br><figure id="Pic 19" >
-<img src="images/Screenshot (1334) - show.png" alt="Patient" width="400px" style="align:center">
+<img src="images/Screenshot (1334) - show.png" alt="Patient" width="800px" style="align:center">
 <figcaption style="text-align:center"></figcaption>
 </figure>
 
 <br><figure id="Pic 19" >
-<img src="images/Screenshot (1335).png" alt="Patient" width="400px" style="align:center">
+<img src="images/Screenshot (1335).png" alt="Patient" width="800px" style="align:center">
 <figcaption style="text-align:center"></figcaption>
 </figure>
 
